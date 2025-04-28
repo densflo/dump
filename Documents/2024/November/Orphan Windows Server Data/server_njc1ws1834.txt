@@ -1,0 +1,324 @@
+==================================================
+SERVER INFORMATION REPORT FOR njc1ws1834
+==================================================
+
+SERVER DETAILS
+--------------
+Hostname:           NJC1WS1834
+Operating System:   Microsoft Windows Server 2019 Datacenter
+OS Version:         10.0.17763
+Manufacturer:       VMware, Inc.
+Model:              VMware Virtual Platform
+Serial Number:      VMware-42 38 2c d2 ae fb 03 d8-49 83 05 d6 85 59 36 a2
+Domain:             corp.ad.tullib.com
+Total Memory:       8.00 GB
+
+==================================================
+USER PROFILES
+==================================================
+Username:       Administrator
+Profile Path:   C:\Users\Administrator
+Last Used:      2024-10-26 15:00:50
+
+Username:       CORP DA 2
+Profile Path:   C:\Users\CORP DA 2
+Last Used:      2024-10-26 15:00:50
+
+Username:       CORP PMS
+Profile Path:   C:\Users\CORP PMS
+Last Used:      2024-11-20 15:49:42
+
+Username:       jlaurilla-a
+Profile Path:   C:\Users\jlaurilla-a
+Last Used:      2024-10-26 15:00:50
+
+Username:       ahector-a
+Profile Path:   C:\Users\ahector-a
+Last Used:      2024-10-26 15:00:50
+
+Username:       cboyt-a
+Profile Path:   C:\Users\cboyt-a
+Last Used:      2024-10-26 15:00:50
+
+Username:       NetworkService
+Profile Path:   C:\Windows\ServiceProfiles\NetworkService
+Last Used:      2024-11-20 15:49:42
+
+Username:       LocalService
+Profile Path:   C:\Windows\ServiceProfiles\LocalService
+Last Used:      2024-11-20 15:49:42
+
+Username:       systemprofile
+Profile Path:   C:\Windows\system32\config\systemprofile
+Last Used:      2024-11-20 15:49:42
+
+
+
+==================================================
+INSTALLED APPLICATIONS
+==================================================
+Name:          7-Zip 24.08 (x64 edition)
+Version:       24.08.00.0
+Vendor:        Igor Pavlov
+Install Date:  2024-10-27
+
+Name:          AppDynamics .NET Agent
+Version:       21.12.1
+Vendor:        AppDynamics
+Install Date:  2023-06-06
+
+Name:          Check MK Agent 2.2
+Version:       2.2.0.50003
+Vendor:        Checkmk GmbH
+Install Date:  2023-10-14
+
+Name:          CrowdStrike Device Control
+Version:       7.10.18083.0
+Vendor:        CrowdStrike, Inc.
+Install Date:  2024-09-21
+
+Name:          CrowdStrike Firmware Analysis
+Version:       7.14.18456.0
+Vendor:        CrowdStrike, Inc.
+Install Date:  2024-09-21
+
+Name:          CrowdStrike Sensor Platform
+Version:       7.16.18609.0
+Vendor:        CrowdStrike, Inc.
+Install Date:  2024-09-21
+
+Name:          Microsoft Edge
+Version:       130.0.2849.56
+Vendor:        Microsoft Corporation
+Install Date:  2024-10-27
+
+Name:          Microsoft Visual C++ 2022 X64 Additional Runtime - 14.40.33816
+Version:       14.40.33816
+Vendor:        Microsoft Corporation
+Install Date:  2024-10-26
+
+Name:          Microsoft Visual C++ 2022 X64 Minimum Runtime - 14.40.33816
+Version:       14.40.33816
+Vendor:        Microsoft Corporation
+Install Date:  2024-10-26
+
+Name:          Microsoft Visual C++ 2022 X86 Additional Runtime - 14.40.33816
+Version:       14.40.33816
+Vendor:        Microsoft Corporation
+Install Date:  2024-10-26
+
+Name:          Microsoft Visual C++ 2022 X86 Minimum Runtime - 14.40.33816
+Version:       14.40.33816
+Vendor:        Microsoft Corporation
+Install Date:  2024-10-26
+
+Name:          PowerShell 7-x64
+Version:       7.4.6.0
+Vendor:        Microsoft Corporation
+Install Date:  2024-10-27
+
+Name:          Qualys Cloud Security Agent
+Version:       5.6.0.20
+Vendor:        Qualys, Inc.
+Install Date:  2024-06-09
+
+Name:          Trend Micro Deep Security Agent
+Version:       20.0.6313
+Vendor:        Trend Micro Inc.
+Install Date:  2023-06-06
+
+Name:          VMware Tools
+Version:       12.5.0.24276846
+Vendor:        VMware, Inc.
+Install Date:  2024-10-27
+
+
+
+==================================================
+INSTALLED ROLES
+==================================================
+Name:          FileAndStorage-Services
+Display Name:  File and Storage Services
+Description:   File and Storage Services includes services that are always installed, as well as functionality that you can install to help manage file servers and storage.
+
+Name:          Storage-Services
+Display Name:  Storage Services
+Description:   Storage Services provides storage management functionality that is always installed and cannot be removed.
+
+Name:          NET-Framework-45-Features
+Display Name:  .NET Framework 4.7 Features
+Description:   .NET Framework 4.7 provides a comprehensive and consistent programming model for quickly and easily building and running applications that are built for various platforms including desktop PCs, Servers, smart phones and the public and private cloud.
+
+Name:          NET-Framework-45-Core
+Display Name:  .NET Framework 4.7
+Description:   .NET Framework 4.7 provides a comprehensive and consistent programming model for quickly and easily building and running applications that are built for various platforms including desktop PCs, Servers, smart phones and the public and private cloud.
+
+Name:          NET-WCF-Services45
+Display Name:  WCF Services
+Description:   Windows Communication Foundation (WCF) Activation uses Windows Process Activation Service to invoke applications remotely over the network by using protocols such as HTTP, Message Queuing, TCP, and named pipes. Consequently, applications can start and stop dynamically in response to incoming work items, resulting in application hosting that is more robust, manageable, and efficient.
+
+Name:          NET-WCF-TCP-PortSharing45
+Display Name:  TCP Port Sharing
+Description:   TCP Port Sharing allows multiple net.tcp applications to share a single TCP port. Consequently, these applications can coexist on the same physical computer in separate, isolated processes, while sharing the network infrastructure required to send and receive traffic over a TCP port, such as port 808.
+
+Name:          RSAT
+Display Name:  Remote Server Administration Tools
+Description:   Remote Server Administration Tools includes snap-ins and command-line tools for remotely managing roles and features.
+
+Name:          RSAT-Feature-Tools
+Display Name:  Feature Administration Tools
+Description:   Feature Administration Tools includes snap-ins and command-line tools for remotely managing features.
+
+Name:          RSAT-SNMP
+Display Name:  SNMP Tools
+Description:   Simple Network Management Protocol (SNMP) Tools includes tools for managing SNMP.
+
+Name:          RSAT-Role-Tools
+Display Name:  Role Administration Tools
+Description:   Role Administration Tools includes snap-ins and command-line tools for remotely managing roles.
+
+Name:          RSAT-AD-Tools
+Display Name:  AD DS and AD LDS Tools
+Description:   Active Directory Domain Services (AD DS) and Active Directory Lightweight Directory Services (AD LDS) Tools includes snap-ins and command-line tools for remotely managing AD DS and AD LDS.
+
+Name:          RSAT-AD-PowerShell
+Display Name:  Active Directory module for Windows PowerShell
+Description:   The Active Directory module for Windows PowerShel and the tools it provides can be used by Active Directory administrators to manage Active Directory Domain Services (AD DS) at the command line.
+
+Name:          SNMP-Service
+Display Name:  SNMP Service
+Description:   Simple Network Management Protocol (SNMP) Service includes agents that monitor the activity in network devices and report to the network console workstation.
+
+Name:          SNMP-WMI-Provider
+Display Name:  SNMP WMI Provider
+Description:   SNMP Windows Management Instrumentation (WMI) Provider enables WMI client scripts and applications to access SNMP information. Clients can use WMI C++ interfaces and scripting objects to communicate with network devices that use the SNMP protocol and can receive SNMP traps as WMI events.
+
+Name:          System-DataArchiver
+Display Name:  System Data Archiver
+Description:   Provides services to collect and archive Windows Server system data.
+
+Name:          Telnet-Client
+Display Name:  Telnet Client
+Description:   Telnet Client uses the Telnet protocol to connect to a remote Telnet server and run applications on that server.
+
+Name:          PowerShellRoot
+Display Name:  Windows PowerShell
+Description:   Windows PowerShell enables you to automate local and remote Windows administration. This task-based command-line shell and scripting language is built on the Microsoft .NET Framework. It includes hundreds of built-in commands and lets you write and distribute your own commands and scripts.
+
+Name:          PowerShell
+Display Name:  Windows PowerShell 5.1
+Description:   Windows PowerShell enables you to automate local and remote Windows administration. This task-based command-line shell and scripting language is built on the Microsoft .NET Framework. It includes hundreds of built-in commands and lets you write and distribute your own commands and scripts.
+
+Name:          PowerShell-ISE
+Display Name:  Windows PowerShell ISE
+Description:   Windows PowerShell Integrated Scripting Environment (ISE) lets you compose, edit, and debug scripts and run multi-line interactive commands in a graphical environment. Features include IntelliSense, tab completion, snippets, color-coded syntax, line numbering, selective execution, graphical debugging, right-to-left language and Unicode support.
+
+Name:          WoW64-Support
+Display Name:  WoW64 Support
+Description:   Includes all of WoW64 to support running 32-bit applications on Server Core installations.  This feature is required for full Server installations. Uninstalling WoW64 Support will convert a full Server installation into a Server Core installation.
+
+Name:          XPS-Viewer
+Display Name:  XPS Viewer
+Description:   The XPS Viewer is used to read, set permissions for, and digitally sign XPS documents.
+
+
+
+==================================================
+LOCAL SHARES
+==================================================
+Name:          ADMIN$
+Path:          C:\Windows
+Description:   Remote Admin
+
+Name:          C$
+Path:          C:\
+Description:   Default share
+
+Name:          D$
+Path:          D:\
+Description:   Default share
+
+Name:          E$
+Path:          E:\
+Description:   Default share
+
+Name:          IPC$
+Path:          
+Description:   Remote IPC
+
+
+
+==================================================
+NETWORK SHARES
+==================================================
+Name:          ADMIN$
+Path:          C:\Windows
+Description:   Remote Admin
+Share State:   1
+Share Type:    0
+
+Name:          C$
+Path:          C:\
+Description:   Default share
+Share State:   1
+Share Type:    0
+
+Name:          D$
+Path:          D:\
+Description:   Default share
+Share State:   1
+Share Type:    0
+
+Name:          E$
+Path:          E:\
+Description:   Default share
+Share State:   1
+Share Type:    0
+
+Name:          IPC$
+Path:          
+Description:   Remote IPC
+Share State:   1
+Share Type:    3
+
+
+
+==================================================
+DISK INFORMATION
+==================================================
+Drive:         C:
+Volume Name:   OS
+File System:   NTFS
+Total Size:    119.66 GB
+Free Space:    95.81 GB
+Percent Free:  80.07%
+
+Drive:         D:
+Volume Name:   Data
+File System:   NTFS
+Total Size:    39.98 GB
+Free Space:    39.90 GB
+Percent Free:  99.79%
+
+Drive:         E:
+Volume Name:   DATA
+File System:   NTFS
+Total Size:    99.98 GB
+Free Space:    99.89 GB
+Percent Free:  99.90%
+
+Drive:         Y:
+Volume Name:   
+File System:   
+Total Size:    0.00 GB
+Free Space:    0.00 GB
+Percent Free:  
+
+Drive:         Z:
+Volume Name:   
+File System:   
+Total Size:    0.00 GB
+Free Space:    0.00 GB
+Percent Free:  
+
+

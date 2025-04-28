@@ -1,0 +1,395 @@
+==================================================
+SERVER INFORMATION REPORT FOR njc2ws0008
+==================================================
+
+SERVER DETAILS
+--------------
+Hostname:           NJC2WS0008
+Operating System:   Microsoft Windows Server 2019 Standard
+OS Version:         10.0.17763
+Manufacturer:       Cisco Systems Inc
+Model:              UCSC-C220-M6S
+Serial Number:      WZP25410P7S
+Domain:             LNHOLDINGS.COM
+Total Memory:       63.66 GB
+
+==================================================
+USER PROFILES
+==================================================
+Username:       Administrator
+Profile Path:   C:\Users\Administrator
+Last Used:      2024-10-17 10:32:00
+
+Username:       administrator.NJC2WS0008
+Profile Path:   C:\Users\administrator.NJC2WS0008
+Last Used:      2024-10-17 10:32:00
+
+Username:       AMERLESA
+Profile Path:   C:\Users\AMERLESA
+Last Used:      2024-10-17 10:32:00
+
+Username:       emalabre
+Profile Path:   C:\Users\emalabre
+Last Used:      2024-10-17 10:32:00
+
+Username:       rbinas-a
+Profile Path:   C:\Users\rbinas-a
+Last Used:      2023-06-03 20:06:22
+
+Username:       LN PMS
+Profile Path:   C:\Users\LN PMS
+Last Used:      2024-11-20 16:54:46
+
+Username:       LN DA 1
+Profile Path:   C:\Users\LN DA 1
+Last Used:      2024-11-09 00:43:44
+
+Username:       ahector-a
+Profile Path:   C:\Users\ahector-a
+Last Used:      2024-10-17 10:32:00
+
+Username:       ln da 3
+Profile Path:   C:\Users\ln da 3
+Last Used:      2024-09-09 19:40:41
+
+Username:       ln da 2
+Profile Path:   C:\Users\ln da 2
+Last Used:      2024-04-29 06:30:10
+
+Username:       pgtses
+Profile Path:   C:\Users\pgtses
+Last Used:      2024-04-26 13:42:09
+
+Username:       jhilaire
+Profile Path:   C:\Users\jhilaire
+Last Used:      2024-11-20 02:10:48
+
+Username:       exchadmin
+Profile Path:   C:\Users\exchadmin
+Last Used:      2024-11-01 21:19:21
+
+Username:       exchroot
+Profile Path:   C:\Users\exchroot
+Last Used:      2024-10-17 10:32:00
+
+Username:       ralueta-a
+Profile Path:   C:\Users\ralueta-a
+Last Used:      2023-01-23 13:21:43
+
+Username:       cboyt-a
+Profile Path:   C:\Users\cboyt-a
+Last Used:      2024-10-17 10:32:00
+
+Username:       inavarrete-a
+Profile Path:   C:\Users\inavarrete-a
+Last Used:      2024-10-17 10:32:00
+
+Username:       NetworkService
+Profile Path:   C:\Windows\ServiceProfiles\NetworkService
+Last Used:      2024-11-20 16:54:47
+
+Username:       LocalService
+Profile Path:   C:\Windows\ServiceProfiles\LocalService
+Last Used:      2024-11-20 16:54:47
+
+Username:       systemprofile
+Profile Path:   C:\Windows\system32\config\systemprofile
+Last Used:      2024-11-20 16:54:47
+
+
+
+==================================================
+INSTALLED APPLICATIONS
+==================================================
+Name:          AppDynamics .NET Agent
+Version:       20.7.0
+Vendor:        AppDynamics
+Install Date:  2022-10-05
+
+Name:          BLOX
+Version:       1.3.0.0
+Vendor:        TP ICAP Plc
+Install Date:  2022-09-30
+
+Name:          Check MK Agent 2.2
+Version:       2.2.0.50003
+Vendor:        Checkmk GmbH
+Install Date:  2024-03-02
+
+Name:          Falcon Identity Protection DC Sensor
+Version:       6.50.21803
+Vendor:        CSSensor
+Install Date:  2024-02-24
+
+Name:          Microsoft Visual C++ 2022 X64 Additional Runtime - 14.40.33816
+Version:       14.40.33816
+Vendor:        Microsoft Corporation
+Install Date:  2024-11-09
+
+Name:          Microsoft Visual C++ 2022 X64 Minimum Runtime - 14.40.33816
+Version:       14.40.33816
+Vendor:        Microsoft Corporation
+Install Date:  2024-11-09
+
+Name:          Qualys Cloud Security Agent
+Version:       5.6.0.20
+Vendor:        Qualys, Inc.
+Install Date:  2024-06-08
+
+Name:          Trend Micro Deep Security Agent
+Version:       20.0.3964
+Vendor:        Trend Micro Inc.
+Install Date:  2022-10-05
+
+
+
+==================================================
+INSTALLED ROLES
+==================================================
+Name:          AD-Domain-Services
+Display Name:  Active Directory Domain Services
+Description:   Active Directory Domain Services (AD DS) stores information about objects on the network and makes this information available to users and network administrators. AD DS uses domain controllers to give network users access to permitted resources anywhere on the network through a single logon process.
+
+Name:          DNS
+Display Name:  DNS Server
+Description:   Domain Name System (DNS) Server provides name resolution for TCP/IP networks. DNS Server is easier to manage when it is installed on the same server as Active Directory Domain Services. If you select the Active Directory Domain Services role, you can install and configure DNS Server and Active Directory Domain Services to work together.
+
+Name:          FileAndStorage-Services
+Display Name:  File and Storage Services
+Description:   File and Storage Services includes services that are always installed, as well as functionality that you can install to help manage file servers and storage.
+
+Name:          File-Services
+Display Name:  File and iSCSI Services
+Description:   File and iSCSI Services provides technologies that help you manage file servers and storage, reduce disk space utilization, replicate and cache files to branch offices, move or fail over a file share to another cluster node, and share files by using the NFS protocol.
+
+Name:          FS-FileServer
+Display Name:  File Server
+Description:   File Server manages shared folders and enables users to access files on this computer from the network.
+
+Name:          Storage-Services
+Display Name:  Storage Services
+Description:   Storage Services provides storage management functionality that is always installed and cannot be removed.
+
+Name:          NET-Framework-45-Features
+Display Name:  .NET Framework 4.7 Features
+Description:   .NET Framework 4.7 provides a comprehensive and consistent programming model for quickly and easily building and running applications that are built for various platforms including desktop PCs, Servers, smart phones and the public and private cloud.
+
+Name:          NET-Framework-45-Core
+Display Name:  .NET Framework 4.7
+Description:   .NET Framework 4.7 provides a comprehensive and consistent programming model for quickly and easily building and running applications that are built for various platforms including desktop PCs, Servers, smart phones and the public and private cloud.
+
+Name:          NET-WCF-Services45
+Display Name:  WCF Services
+Description:   Windows Communication Foundation (WCF) Activation uses Windows Process Activation Service to invoke applications remotely over the network by using protocols such as HTTP, Message Queuing, TCP, and named pipes. Consequently, applications can start and stop dynamically in response to incoming work items, resulting in application hosting that is more robust, manageable, and efficient.
+
+Name:          NET-WCF-TCP-PortSharing45
+Display Name:  TCP Port Sharing
+Description:   TCP Port Sharing allows multiple net.tcp applications to share a single TCP port. Consequently, these applications can coexist on the same physical computer in separate, isolated processes, while sharing the network infrastructure required to send and receive traffic over a TCP port, such as port 808.
+
+Name:          GPMC
+Display Name:  Group Policy Management
+Description:   Group Policy Management is a scriptable Microsoft Management Console (MMC) snap-in, providing a single administrative tool for managing Group Policy across the enterprise. Group Policy Management is the standard tool for managing Group Policy.
+
+Name:          RSAT
+Display Name:  Remote Server Administration Tools
+Description:   Remote Server Administration Tools includes snap-ins and command-line tools for remotely managing roles and features.
+
+Name:          RSAT-Feature-Tools
+Display Name:  Feature Administration Tools
+Description:   Feature Administration Tools includes snap-ins and command-line tools for remotely managing features.
+
+Name:          RSAT-SNMP
+Display Name:  SNMP Tools
+Description:   Simple Network Management Protocol (SNMP) Tools includes tools for managing SNMP.
+
+Name:          RSAT-Role-Tools
+Display Name:  Role Administration Tools
+Description:   Role Administration Tools includes snap-ins and command-line tools for remotely managing roles.
+
+Name:          RSAT-AD-Tools
+Display Name:  AD DS and AD LDS Tools
+Description:   Active Directory Domain Services (AD DS) and Active Directory Lightweight Directory Services (AD LDS) Tools includes snap-ins and command-line tools for remotely managing AD DS and AD LDS.
+
+Name:          RSAT-AD-PowerShell
+Display Name:  Active Directory module for Windows PowerShell
+Description:   The Active Directory module for Windows PowerShel and the tools it provides can be used by Active Directory administrators to manage Active Directory Domain Services (AD DS) at the command line.
+
+Name:          RSAT-ADDS
+Display Name:  AD DS Tools
+Description:   Active Directory Domain Services (AD DS) Tools includes snap-ins and command-line tools for remotely managing AD DS.
+
+Name:          RSAT-AD-AdminCenter
+Display Name:  Active Directory Administrative Center
+Description:   Active Directory Administrative Center provides users and network administrators with an enhanced Active Directory data management experience and a rich graphical user interface (GUI) to perform common Active Directory object management tasks.
+
+Name:          RSAT-ADDS-Tools
+Display Name:  AD DS Snap-Ins and Command-Line Tools
+Description:   Active Directory Domain Services Snap-Ins and Command-Line Tools includes Active Directory Users and Computers, Active Directory Domains and Trusts, Active Directory Sites and Services, and other snap-ins and command-line tools for remotely managing Active Directory domain controllers.
+
+Name:          RSAT-DNS-Server
+Display Name:  DNS Server Tools
+Description:   DNS Server Tools includes the DNS Manager snap-in, dnscmd.exe command-line tool and Windows PowerShell module for DNS Server.
+
+Name:          SNMP-Service
+Display Name:  SNMP Service
+Description:   Simple Network Management Protocol (SNMP) Service includes agents that monitor the activity in network devices and report to the network console workstation.
+
+Name:          SNMP-WMI-Provider
+Display Name:  SNMP WMI Provider
+Description:   SNMP Windows Management Instrumentation (WMI) Provider enables WMI client scripts and applications to access SNMP information. Clients can use WMI C++ interfaces and scripting objects to communicate with network devices that use the SNMP protocol and can receive SNMP traps as WMI events.
+
+Name:          System-DataArchiver
+Display Name:  System Data Archiver
+Description:   Provides services to collect and archive Windows Server system data.
+
+Name:          Telnet-Client
+Display Name:  Telnet Client
+Description:   Telnet Client uses the Telnet protocol to connect to a remote Telnet server and run applications on that server.
+
+Name:          PowerShellRoot
+Display Name:  Windows PowerShell
+Description:   Windows PowerShell enables you to automate local and remote Windows administration. This task-based command-line shell and scripting language is built on the Microsoft .NET Framework. It includes hundreds of built-in commands and lets you write and distribute your own commands and scripts.
+
+Name:          PowerShell
+Display Name:  Windows PowerShell 5.1
+Description:   Windows PowerShell enables you to automate local and remote Windows administration. This task-based command-line shell and scripting language is built on the Microsoft .NET Framework. It includes hundreds of built-in commands and lets you write and distribute your own commands and scripts.
+
+Name:          PowerShell-ISE
+Display Name:  Windows PowerShell ISE
+Description:   Windows PowerShell Integrated Scripting Environment (ISE) lets you compose, edit, and debug scripts and run multi-line interactive commands in a graphical environment. Features include IntelliSense, tab completion, snippets, color-coded syntax, line numbering, selective execution, graphical debugging, right-to-left language and Unicode support.
+
+Name:          WoW64-Support
+Display Name:  WoW64 Support
+Description:   Includes all of WoW64 to support running 32-bit applications on Server Core installations.  This feature is required for full Server installations. Uninstalling WoW64 Support will convert a full Server installation into a Server Core installation.
+
+Name:          XPS-Viewer
+Display Name:  XPS Viewer
+Description:   The XPS Viewer is used to read, set permissions for, and digitally sign XPS documents.
+
+
+
+==================================================
+LOCAL SHARES
+==================================================
+Name:          ADMIN$
+Path:          C:\Windows
+Description:   Remote Admin
+
+Name:          Backups
+Path:          D:\Backups
+Description:   
+
+Name:          C$
+Path:          C:\
+Description:   Default share
+
+Name:          D$
+Path:          D:\
+Description:   Default share
+
+Name:          E$
+Path:          E:\
+Description:   Default share
+
+Name:          IPC$
+Path:          
+Description:   Remote IPC
+
+Name:          LNCA_Backup
+Path:          D:\LNCA_Backup
+Description:   
+
+Name:          NETLOGON
+Path:          D:\Windows\SYSVOL\sysvol\LNHOLDINGS.COM\SCRIPTS
+Description:   Logon server share 
+
+Name:          SYSVOL
+Path:          D:\Windows\SYSVOL\sysvol
+Description:   Logon server share 
+
+
+
+==================================================
+NETWORK SHARES
+==================================================
+Name:          ADMIN$
+Path:          C:\Windows
+Description:   Remote Admin
+Share State:   1
+Share Type:    0
+
+Name:          Backups
+Path:          D:\Backups
+Description:   
+Share State:   1
+Share Type:    0
+
+Name:          C$
+Path:          C:\
+Description:   Default share
+Share State:   1
+Share Type:    0
+
+Name:          D$
+Path:          D:\
+Description:   Default share
+Share State:   1
+Share Type:    0
+
+Name:          E$
+Path:          E:\
+Description:   Default share
+Share State:   1
+Share Type:    0
+
+Name:          IPC$
+Path:          
+Description:   Remote IPC
+Share State:   1
+Share Type:    3
+
+Name:          LNCA_Backup
+Path:          D:\LNCA_Backup
+Description:   
+Share State:   1
+Share Type:    0
+
+Name:          NETLOGON
+Path:          D:\Windows\SYSVOL\sysvol\LNHOLDINGS.COM\SCRIPTS
+Description:   Logon server share 
+Share State:   1
+Share Type:    0
+
+Name:          SYSVOL
+Path:          D:\Windows\SYSVOL\sysvol
+Description:   Logon server share 
+Share State:   1
+Share Type:    0
+
+
+
+==================================================
+DISK INFORMATION
+==================================================
+Drive:         C:
+Volume Name:   
+File System:   NTFS
+Total Size:    119.40 GB
+Free Space:    78.91 GB
+Percent Free:  66.09%
+
+Drive:         D:
+Volume Name:   DATA
+File System:   NTFS
+Total Size:    305.98 GB
+Free Space:    290.51 GB
+Percent Free:  94.94%
+
+Drive:         E:
+Volume Name:   LOGS
+File System:   NTFS
+Total Size:    20.08 GB
+Free Space:    19.89 GB
+Percent Free:  99.05%
+
+

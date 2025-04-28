@@ -1,0 +1,5 @@
+ComputerName,ShareName,SharePath,UserName,ConnectionID,Timestamp,SourceFile
+LDN1WS079N01.corp.ad.tullib.com,IPC$,,gvillanueva-a,104,02/10/2024 6:58,LDN1WS079N01.csv
+LDN1WS090N01.corp.ad.tullib.com,IPC$,,gvillanueva-a,93,02/10/2024 6:58,LDN1WS090N01.csv
+LDN1WS093N01.corp.ad.tullib.com,IPC$,,gvillanueva-a,145,02/10/2024 6:58,LDN1WS093N01.csv
+BAH00XW92413.corp.ad.tullib.com,TULB Records,,ZAlsaffar,86,02/10/2024 6:59,LDN1WS9699.csv

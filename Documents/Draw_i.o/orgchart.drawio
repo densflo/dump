@@ -1,0 +1,171 @@
+<mxfile host="app.diagrams.net" modified="2024-01-29T01:05:17.256Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="6sztbJDk008QWjAU8znk" version="23.0.2" type="onedrive">
+  <diagram name="Page-1" id="97916047-d0de-89f5-080d-49f4d83e522f">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1.5" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="nHubLoMIthwi08aPvzk8-97" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=5;" vertex="1" parent="1">
+          <mxGeometry x="65" y="780" width="420" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="nHubLoMIthwi08aPvzk8-84" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=5;" vertex="1" parent="1">
+          <mxGeometry x="550" y="869" width="710" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="nHubLoMIthwi08aPvzk8-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nHubLoMIthwi08aPvzk8-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2" target="5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nHubLoMIthwi08aPvzk8-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2" target="nHubLoMIthwi08aPvzk8-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2" value="Craig Richards&#xa;Global Head&#xa;Platform Services" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="520" y="200" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="Storage" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="440" y="455.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nHubLoMIthwi08aPvzk8-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5" target="nHubLoMIthwi08aPvzk8-67">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="760" y="560" />
+              <mxPoint x="898" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nHubLoMIthwi08aPvzk8-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5" target="nHubLoMIthwi08aPvzk8-66">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="760" y="560" />
+              <mxPoint x="268" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5" value="Nathan Hale&#xa;Platform Operations" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="660" y="453.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nHubLoMIthwi08aPvzk8-58" value="Database" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="877" y="455.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nHubLoMIthwi08aPvzk8-59" value="Platform Engineering" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="200" y="455.5" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nHubLoMIthwi08aPvzk8-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.563;entryY=0.058;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="2" target="nHubLoMIthwi08aPvzk8-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-J4L8ld58Hstj9vcsaxz-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nHubLoMIthwi08aPvzk8-66" target="-J4L8ld58Hstj9vcsaxz-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-J4L8ld58Hstj9vcsaxz-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nHubLoMIthwi08aPvzk8-66" target="-J4L8ld58Hstj9vcsaxz-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nHubLoMIthwi08aPvzk8-66" value="Peter Michaels&#xa;Linux Server Operations Lead" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="153" y="620" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nHubLoMIthwi08aPvzk8-89" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nHubLoMIthwi08aPvzk8-67" target="nHubLoMIthwi08aPvzk8-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nHubLoMIthwi08aPvzk8-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nHubLoMIthwi08aPvzk8-67" target="nHubLoMIthwi08aPvzk8-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nHubLoMIthwi08aPvzk8-67" value="Nick Wild&#xa;Head, Global Wintel Operations" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="784" y="620" width="243" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nHubLoMIthwi08aPvzk8-68" value="Carlos Quiros&#xa;Sinor Wintel Admin (EMEA)" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="579" y="749" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nHubLoMIthwi08aPvzk8-88" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="nHubLoMIthwi08aPvzk8-69" target="nHubLoMIthwi08aPvzk8-84">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="906" y="789" as="sourcePoint" />
+            <mxPoint x="906" y="869" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nHubLoMIthwi08aPvzk8-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;strokeWidth=3;" edge="1" parent="1" source="nHubLoMIthwi08aPvzk8-69" target="nHubLoMIthwi08aPvzk8-104">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1290" y="779" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nHubLoMIthwi08aPvzk8-69" value="Dennis Jeffrey Flores (APAC)&#xa;Lead Platform Operations" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="749" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nHubLoMIthwi08aPvzk8-70" value="Emmanuel Alabre (AMER)&#xa;Wintel Adminstrator" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="806" y="749" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nHubLoMIthwi08aPvzk8-75" value="Abe, Patricia Anne" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="586" y="889" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nHubLoMIthwi08aPvzk8-76" value="Alueta, Randy" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="806" y="889" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nHubLoMIthwi08aPvzk8-77" value="Costuna, Samuel" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1033" y="889" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nHubLoMIthwi08aPvzk8-78" value="Bindoy, Michael" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="586" y="979" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nHubLoMIthwi08aPvzk8-79" value="Cerdeno, Bienvenido Jr" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="806" y="979" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nHubLoMIthwi08aPvzk8-80" value="Dela Cruz, Rodrigo" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1033" y="979" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nHubLoMIthwi08aPvzk8-81" value="Estropigan, John Rich" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="586" y="1069" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nHubLoMIthwi08aPvzk8-82" value="Laurilla, Jayvee" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="806" y="1069" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nHubLoMIthwi08aPvzk8-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.544;entryY=-0.008;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="nHubLoMIthwi08aPvzk8-67" target="nHubLoMIthwi08aPvzk8-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nHubLoMIthwi08aPvzk8-92" value="Atienza, Christopher" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="78" y="789" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nHubLoMIthwi08aPvzk8-93" value="Open" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="288" y="789" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nHubLoMIthwi08aPvzk8-94" value="Evangelista, RJ" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="78" y="880" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nHubLoMIthwi08aPvzk8-95" value="Open" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="288" y="880" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nHubLoMIthwi08aPvzk8-96" value="Reyes, David" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="78" y="970" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nHubLoMIthwi08aPvzk8-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.483;entryY=0.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="nHubLoMIthwi08aPvzk8-66" target="nHubLoMIthwi08aPvzk8-97">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nHubLoMIthwi08aPvzk8-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.405;entryDx=0;entryDy=0;entryPerimeter=0;fontStyle=1;dashed=1;strokeWidth=3;" edge="1" parent="1" source="nHubLoMIthwi08aPvzk8-69" target="nHubLoMIthwi08aPvzk8-97">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1280" y="820" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="1150" y="840" />
+              <mxPoint x="530" y="840" />
+              <mxPoint x="530" y="889" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nHubLoMIthwi08aPvzk8-104" value="Brad Craig&#xa;Regional Infrastructure Head" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="200" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="zL2XIzAnyouImCC2xf_w-5" value="Binas, Radny" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1033" y="1069" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-J4L8ld58Hstj9vcsaxz-5" value="Linux Operation AMER&#xa;(3 FTE)" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="420" y="670" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-J4L8ld58Hstj9vcsaxz-6" value="Linux Operation EMEA&#xa;(3 FTE)" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="680" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a2fCLim6QLo0z-Dgx7Go-6" value="FTE 1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="780" width="30" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,2758 @@
+==================================================
+SERVER INFORMATION REPORT FOR njc1ws6217
+==================================================
+
+SERVER DETAILS
+--------------
+Hostname:           NJC1WS6217
+Operating System:   Microsoft Windows Server 2019 Standard
+OS Version:         10.0.17763
+Manufacturer:       VMware, Inc.
+Model:              VMware Virtual Platform
+Serial Number:      VMware-42 38 72 dd 1c da e8 53-9a b8 40 95 7d c0 69 de
+Domain:             corp.ad.tullib.com
+Total Memory:       32.00 GB
+
+==================================================
+LOCAL ADMINISTRATORS GROUP MEMBERS
+==================================================
+Name:          AMERLESA
+Type:          Local Account
+Path:          WinNT://CORP/NJC1WS6217/AMERLESA
+
+
+
+Name:          Domain Admins
+Type:          Domain Account
+Path:          WinNT://CORP/Domain Admins
+
+Group Members:
+              - srvcSGveeam (user)
+               - CORP DA 6 (user)
+               - CORP DA 2 (user)
+               - srvcCVLna (user)
+               - srvcTSS (user)
+               - CORP DA 1 (user)
+               - CORP DA 5 (user)
+               - SrvcTPICAP_Okta (user)
+               - CORP DA 4 (user)
+               - CORP DA 3 (user)
+               - CORP PMS (user)
+               - EMEADD42Srv (user)
+               - SpecOPs CORP DA (user)
+               - srvcOneCompute (user)
+               - srvcADManager (user)
+
+
+
+Name:          L NJC1WS6217
+Type:          Domain Account
+Path:          WinNT://CORP/L NJC1WS6217
+
+Group Members:
+              - jstHilaire (Admin), Joseph (user)
+               - Singh (Admin), Livleen (user)
+               - Boyt (Admin), Cameron (user)
+               - srvcATSfedev (user)
+
+
+
+Name:          L Server Admin
+Type:          Domain Account
+Path:          WinNT://CORP/L Server Admin
+
+Group Members:
+              - Villanueva (Admin), Gerwin (user)
+               - Hyams (Admin), Daniel P. (user)
+               - srvc_svt (user)
+               - Wild (Admin), Nick (user)
+               - Teope (Admin), Rainier Erold (user)
+               - srvcCyberDefence (user)
+               - srvcSphere (user)
+               - Ghadache, Rashed (Admin) (user)
+               - Padmawar (Admin), Pooja (user)
+               - Estropigan (Admin), John Rich (user)
+               - Bindoy (Admin), Michael (user)
+               - Flores (Admin), Dennis Jeffrey (user)
+               - Cerdeno (Admin), Bienvenido Jr (user)
+               - Alueta (Admin), Randy (user)
+               - McHugh (Admin), Conchubhar (user)
+               - Costuna (Admin), Samuel (user)
+               - Abe (Admin), Patricia Anne (user)
+               - Alabre (Admin), Emmanuel (user)
+               - McAtamney (Admin), David (user)
+               - Laurilla (Admin), Jayvee (user)
+               - Stenhouse (Admin), Angus (user)
+               - Cruz (Admin), Jose Mari (user)
+               - Stradling (Admin), Chris (user)
+               - Morgan (Admin), Peter (user)
+               - Mattern (Admin), Douglas (user)
+               - Dela Cruz (Admin), Rodrigo (user)
+
+
+
+
+
+==================================================
+REMOTE DESKTOP USERS GROUP MEMBERS
+==================================================
+
+
+==================================================
+USER PROFILES
+==================================================
+Username:       Administrator
+Profile Path:   C:\Users\Administrator
+Last Used:      2024-11-09 09:13:38
+
+Username:       CORP DA 2
+Profile Path:   C:\Users\CORP DA 2
+Last Used:      2024-11-09 09:13:38
+
+Username:       CORP PMS
+Profile Path:   C:\Users\CORP PMS
+Last Used:      2024-12-11 07:52:44
+
+Username:       srvcATSfedev
+Profile Path:   C:\Users\srvcATSfedev
+Last Used:      2024-12-11 07:52:44
+
+Username:       jestropigan-a
+Profile Path:   C:\Users\jestropigan-a
+Last Used:      2024-11-09 09:13:38
+
+Username:       cquiroz-a
+Profile Path:   C:\Users\cquiroz-a
+Last Used:      2024-11-09 09:13:38
+
+Username:       jsthilaire-a
+Profile Path:   C:\Users\jsthilaire-a
+Last Used:      2024-11-09 09:13:38
+
+Username:       fcao
+Profile Path:   C:\Users\fcao
+Last Used:      2024-11-09 09:13:38
+
+Username:       rdelacruz-a
+Profile Path:   C:\Users\rdelacruz-a
+Last Used:      2024-11-09 09:13:38
+
+Username:       NetworkService
+Profile Path:   C:\Windows\ServiceProfiles\NetworkService
+Last Used:      2024-12-11 07:52:44
+
+Username:       LocalService
+Profile Path:   C:\Windows\ServiceProfiles\LocalService
+Last Used:      2024-12-11 07:52:44
+
+Username:       systemprofile
+Profile Path:   C:\Windows\system32\config\systemprofile
+Last Used:      2024-12-11 07:52:44
+
+
+
+==================================================
+INSTALLED APPLICATIONS
+==================================================
+Name:           Tools for .Net 3.5
+Version:       3.11.50727
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          7-Zip 24.08 (x64 edition)
+Version:       24.08.00.0
+Vendor:        Igor Pavlov
+Install Date:  2024-11-09
+
+Name:          AppDynamics .NET Agent
+Version:       21.12.1
+Vendor:        AppDynamics
+Install Date:  2023-06-30
+
+Name:          Application Verifier x64 External Package
+Version:       10.1.22000.832
+Vendor:        Microsoft
+Install Date:  2024-02-02
+
+Name:          Application Verifier x64 External Package
+Version:       10.1.19041.685
+Vendor:        Microsoft
+Install Date:  2024-02-02
+
+Name:          Application Verifier x64 External Package
+Version:       10.1.20348.1
+Vendor:        Microsoft
+Install Date:  2024-02-02
+
+Name:          Application Verifier x64 External Package
+Version:       10.1.18362.1
+Vendor:        Microsoft
+Install Date:  2024-02-02
+
+Name:          Application Verifier x64 External Package (DesktopEditions)
+Version:       10.1.22621.2428
+Vendor:        Microsoft
+Install Date:  2024-02-02
+
+Name:          Application Verifier x64 External Package (OnecoreUAP)
+Version:       10.1.22621.2428
+Vendor:        Microsoft
+Install Date:  2024-02-02
+
+Name:          Check MK Agent 2.2
+Version:       2.2.0.50003
+Vendor:        Checkmk GmbH
+Install Date:  2023-10-14
+
+Name:          ClickOnce Bootstrapper Package for Microsoft .NET Framework
+Version:       4.8.09037
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          CrowdStrike Device Control
+Version:       7.10.18083.0
+Vendor:        CrowdStrike, Inc.
+Install Date:  2024-05-17
+
+Name:          CrowdStrike Firmware Analysis
+Version:       7.14.18456.0
+Vendor:        CrowdStrike, Inc.
+Install Date:  2024-09-21
+
+Name:          CrowdStrike Sensor Platform
+Version:       7.16.18609.0
+Vendor:        CrowdStrike, Inc.
+Install Date:  2024-09-21
+
+Name:          DameWare Mini Remote Control Service
+Version:       12.1.1.0
+Vendor:        SolarWinds
+Install Date:  2024-01-09
+
+Name:          Kits Configuration Installer
+Version:       10.1.18362.1
+Vendor:        Microsoft
+Install Date:  2024-02-02
+
+Name:          Microsoft .NET 6.0 Templates 6.0.427 (x64)
+Version:       24.8.55382
+Vendor:        Microsoft Corporation
+Install Date:  2024-11-09
+
+Name:          Microsoft .NET 6.0 Templates 8.0.100 (x64)
+Version:       24.6.61899
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Microsoft .NET 7.0 Templates 7.0.410 (x64)
+Version:       28.13.2919
+Vendor:        Microsoft Corporation
+Install Date:  2024-08-10
+
+Name:          Microsoft .NET 7.0 Templates 8.0.100 (x64)
+Version:       28.7.61899
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Microsoft .NET 8.0 Templates 8.0.100 (x64)
+Version:       32.6.61899
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Microsoft .NET AppHost Pack - 5.0.17 (x64_arm)
+Version:       40.68.31213
+Vendor:        Microsoft Corporation
+Install Date:  2024-01-09
+
+Name:          Microsoft .NET AppHost Pack - 5.0.17 (x64_arm64)
+Version:       40.68.31213
+Vendor:        Microsoft Corporation
+Install Date:  2024-01-09
+
+Name:          Microsoft .NET AppHost Pack - 5.0.17 (x64_x86)
+Version:       40.68.31213
+Vendor:        Microsoft Corporation
+Install Date:  2024-01-09
+
+Name:          Microsoft .NET AppHost Pack - 5.0.17 (x64)
+Version:       40.68.31213
+Vendor:        Microsoft Corporation
+Install Date:  2024-01-09
+
+Name:          Microsoft .NET AppHost Pack - 6.0.25 (x64_arm)
+Version:       48.100.4028
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Microsoft .NET AppHost Pack - 6.0.25 (x64_arm64)
+Version:       48.100.4028
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Microsoft .NET AppHost Pack - 6.0.25 (x64_x86)
+Version:       48.100.4028
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Microsoft .NET AppHost Pack - 6.0.25 (x64)
+Version:       48.100.4028
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Microsoft .NET AppHost Pack - 6.0.35 (x64_arm)
+Version:       48.140.21458
+Vendor:        Microsoft Corporation
+Install Date:  2024-11-09
+
+Name:          Microsoft .NET AppHost Pack - 6.0.35 (x64_arm64)
+Version:       48.140.21458
+Vendor:        Microsoft Corporation
+Install Date:  2024-11-09
+
+Name:          Microsoft .NET AppHost Pack - 6.0.35 (x64_x86)
+Version:       48.140.21458
+Vendor:        Microsoft Corporation
+Install Date:  2024-11-09
+
+Name:          Microsoft .NET AppHost Pack - 6.0.35 (x64)
+Version:       48.140.21458
+Vendor:        Microsoft Corporation
+Install Date:  2024-11-09
+
+Name:          Microsoft .NET AppHost Pack - 7.0.14 (x64_arm)
+Version:       56.56.4026
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Microsoft .NET AppHost Pack - 7.0.14 (x64_arm64)
+Version:       56.56.4026
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Microsoft .NET AppHost Pack - 7.0.14 (x64_x86)
+Version:       56.56.4026
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Microsoft .NET AppHost Pack - 7.0.14 (x64)
+Version:       56.56.4026
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Microsoft .NET AppHost Pack - 7.0.20 (x64_arm)
+Version:       56.80.15184
+Vendor:        Microsoft Corporation
+Install Date:  2024-08-10
+
+Name:          Microsoft .NET AppHost Pack - 7.0.20 (x64_arm64)
+Version:       56.80.15184
+Vendor:        Microsoft Corporation
+Install Date:  2024-08-10
+
+Name:          Microsoft .NET AppHost Pack - 7.0.20 (x64_x86)
+Version:       56.80.15184
+Vendor:        Microsoft Corporation
+Install Date:  2024-08-10
+
+Name:          Microsoft .NET AppHost Pack - 7.0.20 (x64)
+Version:       56.80.15184
+Vendor:        Microsoft Corporation
+Install Date:  2024-08-10
+
+Name:          Microsoft .NET AppHost Pack - 8.0.0 (x64_arm64)
+Version:       64.0.4211
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Microsoft .NET AppHost Pack - 8.0.0 (x64_x86)
+Version:       64.0.4211
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Microsoft .NET AppHost Pack - 8.0.0 (x64)
+Version:       64.0.4211
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Microsoft .NET Core 5.0 Templates 5.0.408 (x64)
+Version:       20.4.59784
+Vendor:        Microsoft Corporation
+Install Date:  2024-01-09
+
+Name:          Microsoft .NET CoreRuntime For CoreCon
+Version:       1.0.0.0
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Microsoft .NET CoreRuntime SDK
+Version:       1.1.27004.0
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Microsoft .NET Framework 3.5 Targeting Pack (enu)
+Version:       3.5.34129
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Microsoft .NET Framework 4.7.2 Targeting Pack
+Version:       4.7.03062
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Microsoft .NET Framework 4.7.2 Targeting Pack (ENU)
+Version:       4.7.03062
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Microsoft .NET Framework 4.8 SDK
+Version:       4.8.03928
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Microsoft .NET Framework 4.8 Targeting Pack
+Version:       4.8.03761
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Microsoft .NET Framework 4.8 Targeting Pack (ENU)
+Version:       4.8.03761
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Microsoft .NET Framework 4.8.1 SDK
+Version:       4.8.09037
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Microsoft .NET Framework 4.8.1 Targeting Pack
+Version:       4.8.09037
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Microsoft .NET Framework 4.8.1 Targeting Pack (ENU)
+Version:       4.8.09037
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Microsoft .NET Framework Cumulative Intellisense Pack for Visual Studio (ENU)
+Version:       4.8.09037
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Microsoft .NET Host - 5.0.17 (x64)
+Version:       40.68.31213
+Vendor:        Microsoft Corporation
+Install Date:  2024-01-09
+
+Name:          Microsoft .NET Host - 6.0.35 (x64)
+Version:       48.140.21458
+Vendor:        Microsoft Corporation
+Install Date:  2024-11-09
+
+Name:          Microsoft .NET Host - 6.0.35 (x86)
+Version:       48.140.21458
+Vendor:        Microsoft Corporation
+Install Date:  2024-11-09
+
+Name:          Microsoft .NET Host - 7.0.20 (x64)
+Version:       56.80.15184
+Vendor:        Microsoft Corporation
+Install Date:  2024-08-10
+
+Name:          Microsoft .NET Host - 7.0.20 (x86)
+Version:       56.80.15184
+Vendor:        Microsoft Corporation
+Install Date:  2024-08-10
+
+Name:          Microsoft .NET Host - 8.0.10 (x64)
+Version:       64.40.21578
+Vendor:        Microsoft Corporation
+Install Date:  2024-11-09
+
+Name:          Microsoft .NET Host - 8.0.10 (x86)
+Version:       64.40.21578
+Vendor:        Microsoft Corporation
+Install Date:  2024-11-09
+
+Name:          Microsoft .NET Host FX Resolver - 5.0.17 (x64)
+Version:       40.68.31213
+Vendor:        Microsoft Corporation
+Install Date:  2024-01-09
+
+Name:          Microsoft .NET Host FX Resolver - 6.0.35 (x64)
+Version:       48.140.21458
+Vendor:        Microsoft Corporation
+Install Date:  2024-11-09
+
+Name:          Microsoft .NET Host FX Resolver - 6.0.35 (x86)
+Version:       48.140.21458
+Vendor:        Microsoft Corporation
+Install Date:  2024-11-09
+
+Name:          Microsoft .NET Host FX Resolver - 7.0.20 (x64)
+Version:       56.80.15184
+Vendor:        Microsoft Corporation
+Install Date:  2024-08-10
+
+Name:          Microsoft .NET Host FX Resolver - 7.0.20 (x86)
+Version:       56.80.15184
+Vendor:        Microsoft Corporation
+Install Date:  2024-08-10
+
+Name:          Microsoft .NET Host FX Resolver - 8.0.0 (x64)
+Version:       64.0.4211
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Microsoft .NET Host FX Resolver - 8.0.0 (x86)
+Version:       64.0.4211
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Microsoft .NET Host FX Resolver - 8.0.10 (x64)
+Version:       64.40.21578
+Vendor:        Microsoft Corporation
+Install Date:  2024-11-09
+
+Name:          Microsoft .NET Host FX Resolver - 8.0.10 (x86)
+Version:       64.40.21578
+Vendor:        Microsoft Corporation
+Install Date:  2024-11-09
+
+Name:          Microsoft .NET Native SDK
+Version:       15.0.24211.07
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Microsoft .NET Runtime - 5.0.17 (x64)
+Version:       40.68.31213
+Vendor:        Microsoft Corporation
+Install Date:  2024-01-09
+
+Name:          Microsoft .NET Runtime - 6.0.25 (x64)
+Version:       48.100.4028
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Microsoft .NET Runtime - 6.0.25 (x86)
+Version:       48.100.4028
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Microsoft .NET Runtime - 6.0.35 (x64)
+Version:       48.140.21458
+Vendor:        Microsoft Corporation
+Install Date:  2024-11-09
+
+Name:          Microsoft .NET Runtime - 6.0.35 (x86)
+Version:       48.140.21458
+Vendor:        Microsoft Corporation
+Install Date:  2024-11-09
+
+Name:          Microsoft .NET Runtime - 7.0.14 (x64)
+Version:       56.56.4026
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Microsoft .NET Runtime - 7.0.14 (x86)
+Version:       56.56.4026
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Microsoft .NET Runtime - 7.0.20 (x64)
+Version:       56.80.15184
+Vendor:        Microsoft Corporation
+Install Date:  2024-08-10
+
+Name:          Microsoft .NET Runtime - 7.0.20 (x86)
+Version:       56.80.15184
+Vendor:        Microsoft Corporation
+Install Date:  2024-08-10
+
+Name:          Microsoft .NET Runtime - 8.0.0 (x64)
+Version:       64.0.4211
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Microsoft .NET Runtime - 8.0.0 (x86)
+Version:       64.0.4211
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Microsoft .NET Runtime - 8.0.10 (x64)
+Version:       64.40.21578
+Vendor:        Microsoft Corporation
+Install Date:  2024-11-09
+
+Name:          Microsoft .NET Runtime - 8.0.10 (x86)
+Version:       64.40.21578
+Vendor:        Microsoft Corporation
+Install Date:  2024-11-09
+
+Name:          Microsoft .NET SDK 8.0.100 (x64) from Visual Studio
+Version:       8.1.23.55115
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Microsoft .NET Standard Targeting Pack - 2.1.0 (x64)
+Version:       24.0.28113
+Vendor:        Microsoft Corporation
+Install Date:  2024-01-09
+
+Name:          Microsoft .NET Targeting Pack - 5.0.0 (x64)
+Version:       40.0.29513
+Vendor:        Microsoft Corporation
+Install Date:  2024-01-09
+
+Name:          Microsoft .NET Targeting Pack - 6.0.25 (x64)
+Version:       48.100.4028
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Microsoft .NET Targeting Pack - 6.0.25 (x86)
+Version:       48.100.4028
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Microsoft .NET Targeting Pack - 6.0.35 (x64)
+Version:       48.140.21458
+Vendor:        Microsoft Corporation
+Install Date:  2024-11-09
+
+Name:          Microsoft .NET Targeting Pack - 7.0.14 (x64)
+Version:       56.56.4026
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Microsoft .NET Targeting Pack - 7.0.14 (x86)
+Version:       56.56.4026
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Microsoft .NET Targeting Pack - 7.0.20 (x64)
+Version:       56.80.15184
+Vendor:        Microsoft Corporation
+Install Date:  2024-08-10
+
+Name:          Microsoft .NET Targeting Pack - 8.0.0 (x64)
+Version:       64.0.4211
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Microsoft .NET Targeting Pack - 8.0.0 (x86)
+Version:       64.0.4211
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Microsoft .NET Toolset 5.0.408 (x64)
+Version:       20.6.59784
+Vendor:        Microsoft Corporation
+Install Date:  2024-01-09
+
+Name:          Microsoft .NET Toolset 6.0.427 (x64)
+Version:       24.14.55382
+Vendor:        Microsoft Corporation
+Install Date:  2024-11-09
+
+Name:          Microsoft .NET Toolset 7.0.410 (x64)
+Version:       28.10.35687
+Vendor:        Microsoft Corporation
+Install Date:  2024-08-10
+
+Name:          Microsoft .NET Toolset 8.0.100 (x64)
+Version:       32.6.61899
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Microsoft ASP.NET Core 5.0.0 Targeting Pack (x64)
+Version:       5.0.0.20526
+Vendor:        Microsoft Corporation
+Install Date:  2024-01-09
+
+Name:          Microsoft ASP.NET Core 5.0.17 Shared Framework (x64)
+Version:       5.0.17.22215
+Vendor:        Microsoft Corporation
+Install Date:  2024-01-09
+
+Name:          Microsoft ASP.NET Core 6.0.25 Shared Framework (x64)
+Version:       6.0.25.23523
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Microsoft ASP.NET Core 6.0.25 Shared Framework (x86)
+Version:       6.0.25.23523
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Microsoft ASP.NET Core 6.0.25 Targeting Pack (x64)
+Version:       6.0.25.23523
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Microsoft ASP.NET Core 6.0.25 Targeting Pack (x86)
+Version:       6.0.25.23523
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Microsoft ASP.NET Core 6.0.35 Shared Framework (x64)
+Version:       6.0.35.24462
+Vendor:        Microsoft Corporation
+Install Date:  2024-11-09
+
+Name:          Microsoft ASP.NET Core 6.0.35 Shared Framework (x86)
+Version:       6.0.35.24462
+Vendor:        Microsoft Corporation
+Install Date:  2024-11-09
+
+Name:          Microsoft ASP.NET Core 6.0.35 Targeting Pack (x64)
+Version:       6.0.35.24462
+Vendor:        Microsoft Corporation
+Install Date:  2024-11-09
+
+Name:          Microsoft ASP.NET Core 7.0.14 Shared Framework (x64)
+Version:       7.0.14.23523
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Microsoft ASP.NET Core 7.0.14 Shared Framework (x86)
+Version:       7.0.14.23523
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Microsoft ASP.NET Core 7.0.14 Targeting Pack (x64)
+Version:       7.0.14.23523
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Microsoft ASP.NET Core 7.0.14 Targeting Pack (x86)
+Version:       7.0.14.23523
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Microsoft ASP.NET Core 7.0.20 Shared Framework (x64)
+Version:       7.0.20.24269
+Vendor:        Microsoft Corporation
+Install Date:  2024-08-10
+
+Name:          Microsoft ASP.NET Core 7.0.20 Targeting Pack (x64)
+Version:       7.0.20.24269
+Vendor:        Microsoft Corporation
+Install Date:  2024-08-10
+
+Name:          Microsoft ASP.NET Core 8.0.0 Shared Framework (x64)
+Version:       8.0.0.23531
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Microsoft ASP.NET Core 8.0.0 Shared Framework (x86)
+Version:       8.0.0.23531
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Microsoft ASP.NET Core 8.0.0 Targeting Pack (x64)
+Version:       8.0.0.23531
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Microsoft ASP.NET Core 8.0.0 Targeting Pack (x86)
+Version:       8.0.0.23531
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Microsoft Edge
+Version:       130.0.2849.56
+Vendor:        Microsoft Corporation
+Install Date:  2024-11-09
+
+Name:          Microsoft NetStandard SDK
+Version:       15.0.51105
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Microsoft Portable Library Multi-Targeting Pack
+Version:       17.0.34205.100
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Microsoft Portable Library Multi-Targeting Pack Language Pack - enu
+Version:       17.0.34205.65
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Microsoft UniversalWindowsPlatform SDK
+Version:       15.9.16
+Vendor:        Microsoft
+Install Date:  2024-02-02
+
+Name:          Microsoft Visual C++ 2022 X64 Additional Runtime - 14.40.33816
+Version:       14.40.33816
+Vendor:        Microsoft Corporation
+Install Date:  2024-11-09
+
+Name:          Microsoft Visual C++ 2022 X64 Minimum Runtime - 14.40.33816
+Version:       14.40.33816
+Vendor:        Microsoft Corporation
+Install Date:  2024-11-09
+
+Name:          Microsoft Visual C++ 2022 X86 Additional Runtime - 14.40.33816
+Version:       14.40.33816
+Vendor:        Microsoft Corporation
+Install Date:  2024-11-09
+
+Name:          Microsoft Visual C++ 2022 X86 Minimum Runtime - 14.40.33816
+Version:       14.40.33816
+Vendor:        Microsoft Corporation
+Install Date:  2024-11-09
+
+Name:          Microsoft Visual Studio Setup Configuration
+Version:       3.8.2091.34612
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Microsoft Visual Studio Setup WMI Provider
+Version:       3.8.2091.34612
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Microsoft Windows Desktop Runtime - 5.0.17 (x64)
+Version:       40.68.31219
+Vendor:        Microsoft Corporation
+Install Date:  2024-01-09
+
+Name:          Microsoft Windows Desktop Runtime - 6.0.25 (x64)
+Version:       48.100.4037
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Microsoft Windows Desktop Runtime - 6.0.25 (x86)
+Version:       48.100.4037
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Microsoft Windows Desktop Runtime - 6.0.35 (x64)
+Version:       48.140.21525
+Vendor:        Microsoft Corporation
+Install Date:  2024-11-09
+
+Name:          Microsoft Windows Desktop Runtime - 6.0.35 (x86)
+Version:       48.140.21525
+Vendor:        Microsoft Corporation
+Install Date:  2024-11-09
+
+Name:          Microsoft Windows Desktop Runtime - 7.0.14 (x64)
+Version:       56.56.4039
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Microsoft Windows Desktop Runtime - 7.0.14 (x86)
+Version:       56.56.4039
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Microsoft Windows Desktop Runtime - 7.0.20 (x64)
+Version:       56.80.15245
+Vendor:        Microsoft Corporation
+Install Date:  2024-08-10
+
+Name:          Microsoft Windows Desktop Runtime - 7.0.20 (x86)
+Version:       56.80.15245
+Vendor:        Microsoft Corporation
+Install Date:  2024-08-10
+
+Name:          Microsoft Windows Desktop Runtime - 8.0.0 (x64)
+Version:       64.0.5329
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Microsoft Windows Desktop Runtime - 8.0.0 (x86)
+Version:       64.0.5329
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Microsoft Windows Desktop Runtime - 8.0.10 (x64)
+Version:       64.40.21605
+Vendor:        Microsoft Corporation
+Install Date:  2024-11-09
+
+Name:          Microsoft Windows Desktop Runtime - 8.0.10 (x86)
+Version:       64.40.21605
+Vendor:        Microsoft Corporation
+Install Date:  2024-11-09
+
+Name:          Microsoft Windows Desktop Targeting Pack - 5.0.0 (x64)
+Version:       40.0.29420
+Vendor:        Microsoft Corporation
+Install Date:  2024-01-09
+
+Name:          Microsoft Windows Desktop Targeting Pack - 6.0.25 (x64)
+Version:       48.100.4037
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Microsoft Windows Desktop Targeting Pack - 6.0.25 (x86)
+Version:       48.100.4037
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Microsoft Windows Desktop Targeting Pack - 6.0.35 (x64)
+Version:       48.140.21525
+Vendor:        Microsoft Corporation
+Install Date:  2024-11-09
+
+Name:          Microsoft Windows Desktop Targeting Pack - 7.0.14 (x64)
+Version:       56.56.4039
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Microsoft Windows Desktop Targeting Pack - 7.0.14 (x86)
+Version:       56.56.4039
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Microsoft Windows Desktop Targeting Pack - 7.0.20 (x64)
+Version:       56.80.15245
+Vendor:        Microsoft Corporation
+Install Date:  2024-08-10
+
+Name:          Microsoft Windows Desktop Targeting Pack - 8.0.0 (x64)
+Version:       64.0.5329
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Microsoft Windows Desktop Targeting Pack - 8.0.0 (x86)
+Version:       64.0.5329
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Microsoft.NET.Sdk.Android.Manifest-6.0.300
+Version:       128.75.16384
+Vendor:        Microsoft Corporation
+Install Date:  2024-01-09
+
+Name:          Microsoft.NET.Sdk.Android.Manifest-7.0.100 (x64)
+Version:       33.0.4
+Vendor:        Microsoft Corporation
+Install Date:  2024-01-09
+
+Name:          Microsoft.NET.Sdk.Android.Manifest-8.0.100 (x64)
+Version:       34.0.43
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Microsoft.NET.Sdk.iOS.Manifest-6.0.300
+Version:       125.191.42208
+Vendor:        Microsoft Corporation
+Install Date:  2024-01-09
+
+Name:          Microsoft.NET.Sdk.iOS.Manifest-7.0.100 (x64)
+Version:       16.0.0
+Vendor:        Microsoft Corporation
+Install Date:  2024-01-09
+
+Name:          Microsoft.NET.Sdk.iOS.Manifest-8.0.100 (x64)
+Version:       17.0.8478
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Microsoft.NET.Sdk.MacCatalyst.Manifest-6.0.300
+Version:       125.191.42208
+Vendor:        Microsoft Corporation
+Install Date:  2024-01-09
+
+Name:          Microsoft.NET.Sdk.MacCatalyst.Manifest-7.0.100 (x64)
+Version:       15.4.0
+Vendor:        Microsoft Corporation
+Install Date:  2024-01-09
+
+Name:          Microsoft.NET.Sdk.MacCatalyst.Manifest-8.0.100 (x64)
+Version:       17.0.8478
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Microsoft.NET.Sdk.macOS.Manifest-6.0.300
+Version:       100.255.42208
+Vendor:        Microsoft Corporation
+Install Date:  2024-01-09
+
+Name:          Microsoft.NET.Sdk.macOS.Manifest-7.0.100 (x64)
+Version:       12.3.0
+Vendor:        Microsoft Corporation
+Install Date:  2024-01-09
+
+Name:          Microsoft.NET.Sdk.macOS.Manifest-8.0.100 (x64)
+Version:       14.0.8478
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Microsoft.NET.Sdk.Maui.Manifest-6.0.300
+Version:       24.78.0
+Vendor:        Microsoft Corporation
+Install Date:  2024-01-09
+
+Name:          Microsoft.NET.Sdk.Maui.Manifest-7.0.100 (x64)
+Version:       7.0.49
+Vendor:        Microsoft Corporation
+Install Date:  2024-01-09
+
+Name:          Microsoft.NET.Sdk.Maui.Manifest-8.0.100 (x64)
+Version:       8.0.3
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Microsoft.NET.Sdk.tvOS.Manifest-6.0.300
+Version:       125.191.42208
+Vendor:        Microsoft Corporation
+Install Date:  2024-01-09
+
+Name:          Microsoft.NET.Sdk.tvOS.Manifest-7.0.100 (x64)
+Version:       16.0.0
+Vendor:        Microsoft Corporation
+Install Date:  2024-01-09
+
+Name:          Microsoft.NET.Sdk.tvOS.Manifest-8.0.100 (x64)
+Version:       17.0.8478
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Microsoft.NET.Workload.Emscripten.Current.Manifest (x64)
+Version:       64.0.4194
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Microsoft.NET.Workload.Emscripten.Manifest (x64)
+Version:       48.140.20194
+Vendor:        Microsoft Corporation
+Install Date:  2024-11-09
+
+Name:          Microsoft.NET.Workload.Emscripten.net6.Manifest (x64)
+Version:       64.0.4194
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Microsoft.NET.Workload.Emscripten.net6.Manifest (x64)
+Version:       56.80.15172
+Vendor:        Microsoft Corporation
+Install Date:  2024-08-10
+
+Name:          Microsoft.NET.Workload.Emscripten.net7.Manifest (x64)
+Version:       64.0.4194
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Microsoft.NET.Workload.Emscripten.net7.Manifest (x64)
+Version:       56.80.15172
+Vendor:        Microsoft Corporation
+Install Date:  2024-08-10
+
+Name:          Microsoft.NET.Workload.Mono.Toolchain.Current.Manifest (x64)
+Version:       64.0.4211
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Microsoft.NET.Workload.Mono.Toolchain.Manifest
+Version:       48.3.40665
+Vendor:        Microsoft Corporation
+Install Date:  2024-01-09
+
+Name:          Microsoft.NET.Workload.Mono.Toolchain.net6.Manifest (x64)
+Version:       56.80.15184
+Vendor:        Microsoft Corporation
+Install Date:  2024-08-10
+
+Name:          Microsoft.NET.Workload.Mono.Toolchain.net6.Manifest (x64)
+Version:       64.0.4211
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Microsoft.NET.Workload.Mono.Toolchain.net7.Manifest (x64)
+Version:       56.80.15184
+Vendor:        Microsoft Corporation
+Install Date:  2024-08-10
+
+Name:          Microsoft.NET.Workload.Mono.Toolchain.net7.Manifest (x64)
+Version:       64.0.4211
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          MSI Development Tools
+Version:       10.1.20348.1
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          MSI Development Tools
+Version:       10.1.22000.832
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          MSI Development Tools
+Version:       10.1.22621.2428
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          MSI Development Tools
+Version:       10.1.19041.685
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          MSI Development Tools
+Version:       10.1.18362.1
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          PowerShell 7-x64
+Version:       7.4.6.0
+Vendor:        Microsoft Corporation
+Install Date:  2024-11-09
+
+Name:          Qualys Cloud Security Agent
+Version:       5.6.0.20
+Vendor:        Qualys, Inc.
+Install Date:  2024-06-09
+
+Name:          SDK ARM Additions
+Version:       10.1.22621.2428
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          SDK ARM Redistributables
+Version:       10.1.22621.2428
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Trend Micro Deep Security Agent
+Version:       20.0.6313
+Vendor:        Trend Micro Inc.
+Install Date:  2023-06-30
+
+Name:          Universal CRT Extension SDK
+Version:       10.1.22621.2428
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Universal CRT Extension SDK
+Version:       10.1.20348.1
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Universal CRT Extension SDK
+Version:       10.1.18362.1
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Universal CRT Extension SDK
+Version:       10.1.19041.685
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Universal CRT Extension SDK
+Version:       10.1.22000.832
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Universal CRT Headers Libraries and Sources
+Version:       10.1.20348.1
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Universal CRT Headers Libraries and Sources
+Version:       10.1.22000.832
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Universal CRT Headers Libraries and Sources
+Version:       10.1.22621.2428
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Universal CRT Headers Libraries and Sources
+Version:       10.1.19041.685
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Universal CRT Headers Libraries and Sources
+Version:       10.1.18362.1
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Universal CRT Redistributable
+Version:       10.1.18362.1
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Universal CRT Redistributable
+Version:       10.1.19041.685
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Universal CRT Redistributable
+Version:       10.1.22621.2428
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Universal CRT Redistributable
+Version:       10.1.20348.1
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Universal CRT Redistributable
+Version:       10.1.22000.832
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Universal CRT Tools x64
+Version:       10.1.22621.2428
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Universal CRT Tools x86
+Version:       10.1.22621.2428
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Universal General MIDI DLS Extension SDK
+Version:       10.1.19041.685
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Universal General MIDI DLS Extension SDK
+Version:       10.1.18362.1
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Universal General MIDI DLS Extension SDK
+Version:       10.1.22621.2428
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Universal General MIDI DLS Extension SDK
+Version:       10.1.22000.832
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Universal General MIDI DLS Extension SDK
+Version:       10.1.20348.1
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          vcpp_crt.redist.clickonce
+Version:       14.38.33130
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Visual C++ Library CRT Appx Package
+Version:       14.38.33130
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Visual C++ Library CRT Appx Package
+Version:       14.38.33130
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Visual C++ Library CRT Appx Resource Package
+Version:       14.38.33130
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Visual C++ Library CRT Desktop Appx Package
+Version:       14.38.33130
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Visual C++ Library CRT Desktop Appx Package
+Version:       14.38.33130
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Visual C++ Library CRT Desktop Appx Package
+Version:       14.38.33130
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          VMware Tools
+Version:       12.5.0.24276846
+Vendor:        VMware, Inc.
+Install Date:  2024-11-09
+
+Name:          vs_clickoncebootstrappermsi
+Version:       17.8.34205
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          vs_clickoncebootstrappermsires
+Version:       17.8.34129
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          vs_clickoncesigntoolmsi
+Version:       17.8.34129
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          vs_communitymsires
+Version:       17.8.34205
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          vs_communitysharedmsi
+Version:       17.8.34205
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          vs_communityx64msi
+Version:       17.8.34205
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          vs_CoreEditorFonts
+Version:       17.7.40001
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          vs_filehandler_amd64
+Version:       17.8.34205
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          vs_filehandler_x86
+Version:       17.8.34205
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          vs_FileTracker_Singleton
+Version:       17.8.34205
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          vs_githubprotocolhandlermsi
+Version:       17.8.34129
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          vs_minshellinteropmsi
+Version:       17.8.34205
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          vs_minshellinteropsharedmsi
+Version:       17.8.34205
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          vs_minshellmsi
+Version:       17.8.34205
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          vs_minshellmsires
+Version:       17.8.34205
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          vs_minshellsharedmsi
+Version:       17.8.34205
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          vs_SQLClickOnceBootstrappermsi
+Version:       17.8.34129
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          vs_vswebprotocolselectormsi
+Version:       17.8.34129
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          WinAppDeploy
+Version:       10.1.20348.1
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          WinAppDeploy
+Version:       10.1.19041.685
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          WinAppDeploy
+Version:       10.1.22621.2428
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          WinAppDeploy
+Version:       10.1.18362.1
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          WinAppDeploy
+Version:       10.1.22000.832
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows App Certification Kit Native Components
+Version:       10.1.22621.2428
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows App Certification Kit SupportedApiList x86
+Version:       10.1.22621.2428
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows App Certification Kit x64
+Version:       10.1.22621.2428
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows App Certification Kit x64 (OnecoreUAP)
+Version:       10.1.22621.2428
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows Application Driver
+Version:       1.2.1.0
+Vendor:        Microsoft Corporation
+Install Date:  2024-01-09
+
+Name:          Windows Desktop Extension SDK
+Version:       10.1.18362.1
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows Desktop Extension SDK
+Version:       10.1.22621.2428
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows Desktop Extension SDK
+Version:       10.1.22000.832
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows Desktop Extension SDK
+Version:       10.1.19041.685
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows Desktop Extension SDK
+Version:       10.1.20348.1
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows Desktop Extension SDK Contracts
+Version:       10.1.19041.685
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows Desktop Extension SDK Contracts
+Version:       10.1.22621.2428
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows Desktop Extension SDK Contracts
+Version:       10.1.20348.1
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows Desktop Extension SDK Contracts
+Version:       10.1.22000.832
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows Desktop Extension SDK Contracts
+Version:       10.1.18362.1
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows IoT Extension SDK
+Version:       10.1.22000.832
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows IoT Extension SDK
+Version:       10.1.22621.2428
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows IoT Extension SDK
+Version:       10.1.20348.1
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows IoT Extension SDK
+Version:       10.1.19041.685
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows IoT Extension SDK
+Version:       10.1.18362.1
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows IoT Extension SDK Contracts
+Version:       10.1.20348.1
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows IoT Extension SDK Contracts
+Version:       10.1.22621.2428
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows IoT Extension SDK Contracts
+Version:       10.1.18362.1
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows IoT Extension SDK Contracts
+Version:       10.1.22000.832
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows IoT Extension SDK Contracts
+Version:       10.1.19041.685
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows Mobile Extension SDK
+Version:       10.1.19041.685
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows Mobile Extension SDK
+Version:       10.1.22000.832
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows Mobile Extension SDK
+Version:       10.1.20348.1
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows Mobile Extension SDK
+Version:       10.1.22621.2428
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows Mobile Extension SDK
+Version:       10.1.18362.1
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows Mobile Extension SDK Contracts
+Version:       10.1.22000.832
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows Mobile Extension SDK Contracts
+Version:       10.1.20348.1
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows Mobile Extension SDK Contracts
+Version:       10.1.22621.2428
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows Mobile Extension SDK Contracts
+Version:       10.1.19041.685
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows Mobile Extension SDK Contracts
+Version:       10.1.18362.1
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK
+Version:       10.1.22621.2428
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK AddOn
+Version:       10.1.0.0
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK ARM Desktop Tools
+Version:       10.1.22621.2428
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK ARM Desktop Tools
+Version:       10.1.20348.1
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK ARM Desktop Tools
+Version:       10.1.22000.832
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK ARM Desktop Tools
+Version:       10.1.19041.685
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK ARM Desktop Tools
+Version:       10.1.18362.1
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK Desktop Headers arm
+Version:       10.1.19041.685
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK Desktop Headers arm
+Version:       10.1.22621.2428
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK Desktop Headers arm
+Version:       10.1.20348.1
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK Desktop Headers arm
+Version:       10.1.22000.832
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK Desktop Headers arm
+Version:       10.1.18362.1
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK Desktop Headers arm64
+Version:       10.1.19041.685
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK Desktop Headers arm64
+Version:       10.1.22621.2428
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK Desktop Headers arm64
+Version:       10.1.22000.832
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK Desktop Headers arm64
+Version:       10.1.20348.1
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK Desktop Headers arm64
+Version:       10.1.18362.1
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK Desktop Headers x64
+Version:       10.1.20348.1
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK Desktop Headers x64
+Version:       10.1.22621.2428
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK Desktop Headers x64
+Version:       10.1.19041.685
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK Desktop Headers x64
+Version:       10.1.18362.1
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK Desktop Headers x64
+Version:       10.1.22000.832
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK Desktop Headers x86
+Version:       10.1.22621.2428
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK Desktop Headers x86
+Version:       10.1.19041.685
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK Desktop Headers x86
+Version:       10.1.22000.832
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK Desktop Headers x86
+Version:       10.1.18362.1
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK Desktop Headers x86
+Version:       10.1.20348.1
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK Desktop Libs arm
+Version:       10.1.18362.1
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK Desktop Libs arm
+Version:       10.1.22621.2428
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK Desktop Libs arm
+Version:       10.1.22000.832
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK Desktop Libs arm
+Version:       10.1.20348.1
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK Desktop Libs arm
+Version:       10.1.19041.685
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK Desktop Libs arm64
+Version:       10.1.22621.2428
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK Desktop Libs arm64
+Version:       10.1.19041.685
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK Desktop Libs arm64
+Version:       10.1.18362.1
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK Desktop Libs arm64
+Version:       10.1.20348.1
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK Desktop Libs arm64
+Version:       10.1.22000.832
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK Desktop Libs x64
+Version:       10.1.18362.1
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK Desktop Libs x64
+Version:       10.1.20348.1
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK Desktop Libs x64
+Version:       10.1.22000.832
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK Desktop Libs x64
+Version:       10.1.19041.685
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK Desktop Libs x64
+Version:       10.1.22621.2428
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK Desktop Libs x86
+Version:       10.1.22621.2428
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK Desktop Libs x86
+Version:       10.1.18362.1
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK Desktop Libs x86
+Version:       10.1.22000.832
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK Desktop Libs x86
+Version:       10.1.20348.1
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK Desktop Libs x86
+Version:       10.1.19041.685
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK Desktop Tools arm64
+Version:       10.1.20348.1
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK Desktop Tools arm64
+Version:       10.1.19041.685
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK Desktop Tools arm64
+Version:       10.1.22621.2428
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK Desktop Tools arm64
+Version:       10.1.22000.832
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK Desktop Tools arm64
+Version:       10.1.18362.1
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK Desktop Tools x64
+Version:       10.1.19041.685
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK Desktop Tools x64
+Version:       10.1.18362.1
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK Desktop Tools x64
+Version:       10.1.20348.1
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK Desktop Tools x64
+Version:       10.1.22000.832
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK Desktop Tools x64
+Version:       10.1.22621.2428
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK Desktop Tools x86
+Version:       10.1.19041.685
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK Desktop Tools x86
+Version:       10.1.22000.832
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK Desktop Tools x86
+Version:       10.1.18362.1
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK Desktop Tools x86
+Version:       10.1.20348.1
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK Desktop Tools x86
+Version:       10.1.22621.2428
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK DirectX x64 Remote
+Version:       10.1.22621.2428
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK DirectX x86 Remote
+Version:       10.1.22621.2428
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK EULA
+Version:       10.1.22000.832
+Vendor:        Microsoft Corporations
+Install Date:  2024-02-02
+
+Name:          Windows SDK EULA
+Version:       10.1.18362.1
+Vendor:        Microsoft Corporations
+Install Date:  2024-02-02
+
+Name:          Windows SDK EULA
+Version:       10.1.19041.685
+Vendor:        Microsoft Corporations
+Install Date:  2024-02-02
+
+Name:          Windows SDK EULA
+Version:       10.1.20348.1
+Vendor:        Microsoft Corporations
+Install Date:  2024-02-02
+
+Name:          Windows SDK EULA
+Version:       10.1.22621.2428
+Vendor:        Microsoft Corporations
+Install Date:  2024-02-02
+
+Name:          Windows SDK Facade Windows WinMD Versioned
+Version:       10.1.22000.832
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK Facade Windows WinMD Versioned
+Version:       10.1.20348.1
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK Facade Windows WinMD Versioned
+Version:       10.1.22621.2428
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK Facade Windows WinMD Versioned
+Version:       10.1.19041.685
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK Facade Windows WinMD Versioned
+Version:       10.1.18362.1
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK for Windows Store Apps
+Version:       10.1.22621.2428
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK for Windows Store Apps Contracts
+Version:       10.1.22621.2428
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK for Windows Store Apps Contracts
+Version:       10.1.22000.832
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK for Windows Store Apps Contracts
+Version:       10.1.20348.1
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK for Windows Store Apps Contracts
+Version:       10.1.18362.1
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK for Windows Store Apps Contracts
+Version:       10.1.19041.685
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK for Windows Store Apps DirectX x86 Remote
+Version:       10.1.20348.1
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK for Windows Store Apps DirectX x86 Remote
+Version:       10.1.18362.1
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK for Windows Store Apps DirectX x86 Remote
+Version:       10.1.19041.685
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK for Windows Store Apps DirectX x86 Remote
+Version:       10.1.22621.2428
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK for Windows Store Apps DirectX x86 Remote
+Version:       10.1.22000.832
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK for Windows Store Apps Headers
+Version:       10.1.22621.2428
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK for Windows Store Apps Headers
+Version:       10.1.18362.1
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK for Windows Store Apps Headers
+Version:       10.1.22000.832
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK for Windows Store Apps Headers
+Version:       10.1.19041.685
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK for Windows Store Apps Headers
+Version:       10.1.20348.1
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK for Windows Store Apps Libs
+Version:       10.1.20348.1
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK for Windows Store Apps Libs
+Version:       10.1.22000.832
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK for Windows Store Apps Libs
+Version:       10.1.22621.2428
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK for Windows Store Apps Libs
+Version:       10.1.19041.685
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK for Windows Store Apps Libs
+Version:       10.1.18362.1
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK for Windows Store Apps Metadata
+Version:       10.1.20348.1
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK for Windows Store Apps Metadata
+Version:       10.1.18362.1
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK for Windows Store Apps Metadata
+Version:       10.1.22621.2428
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK for Windows Store Apps Metadata
+Version:       10.1.19041.685
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK for Windows Store Apps Metadata
+Version:       10.1.22000.832
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK for Windows Store Apps Tools
+Version:       10.1.19041.685
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK for Windows Store Apps Tools
+Version:       10.1.20348.1
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK for Windows Store Apps Tools
+Version:       10.1.22000.832
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK for Windows Store Apps Tools
+Version:       10.1.22621.2428
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK for Windows Store Apps Tools
+Version:       10.1.18362.1
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK for Windows Store Managed Apps Libs
+Version:       10.1.22621.2428
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK for Windows Store Managed Apps Libs
+Version:       10.1.20348.1
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK for Windows Store Managed Apps Libs
+Version:       10.1.18362.1
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK for Windows Store Managed Apps Libs
+Version:       10.1.19041.685
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK for Windows Store Managed Apps Libs
+Version:       10.1.22000.832
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK Modern Non-Versioned Developer Tools
+Version:       10.1.22621.2428
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK Modern Versioned Developer Tools
+Version:       10.1.19041.685
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK Modern Versioned Developer Tools
+Version:       10.1.22000.832
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK Modern Versioned Developer Tools
+Version:       10.1.18362.1
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK Modern Versioned Developer Tools
+Version:       10.1.20348.1
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK Modern Versioned Developer Tools
+Version:       10.1.22621.2428
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK Redistributables
+Version:       10.1.22621.2428
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK Signing Tools
+Version:       10.1.20348.1
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK Signing Tools
+Version:       10.1.22621.2428
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK Signing Tools
+Version:       10.1.22000.832
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK Signing Tools
+Version:       10.1.18362.1
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows SDK Signing Tools
+Version:       10.1.19041.685
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows Team Extension SDK
+Version:       10.1.19041.685
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows Team Extension SDK
+Version:       10.1.22621.2428
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows Team Extension SDK
+Version:       10.1.18362.1
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows Team Extension SDK
+Version:       10.1.22000.832
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows Team Extension SDK
+Version:       10.1.20348.1
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows Team Extension SDK Contracts
+Version:       10.1.19041.685
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows Team Extension SDK Contracts
+Version:       10.1.18362.1
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows Team Extension SDK Contracts
+Version:       10.1.20348.1
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows Team Extension SDK Contracts
+Version:       10.1.22000.832
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          Windows Team Extension SDK Contracts
+Version:       10.1.22621.2428
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          windows_toolscorepkg
+Version:       17.8.34205
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          WinRT Intellisense Desktop - en-us
+Version:       10.1.22000.832
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          WinRT Intellisense Desktop - en-us
+Version:       10.1.20348.1
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          WinRT Intellisense Desktop - en-us
+Version:       10.1.19041.685
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          WinRT Intellisense Desktop - en-us
+Version:       10.1.18362.1
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          WinRT Intellisense Desktop - en-us
+Version:       10.1.22621.2428
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          WinRT Intellisense Desktop - Other Languages
+Version:       10.1.18362.1
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          WinRT Intellisense Desktop - Other Languages
+Version:       10.1.19041.685
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          WinRT Intellisense Desktop - Other Languages
+Version:       10.1.22000.832
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          WinRT Intellisense Desktop - Other Languages
+Version:       10.1.20348.1
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          WinRT Intellisense Desktop - Other Languages
+Version:       10.1.22621.2428
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          WinRT Intellisense IoT - en-us
+Version:       10.1.22000.832
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          WinRT Intellisense IoT - en-us
+Version:       10.1.19041.685
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          WinRT Intellisense IoT - en-us
+Version:       10.1.18362.1
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          WinRT Intellisense IoT - en-us
+Version:       10.1.20348.1
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          WinRT Intellisense IoT - en-us
+Version:       10.1.22621.2428
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          WinRT Intellisense IoT - Other Languages
+Version:       10.1.20348.1
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          WinRT Intellisense IoT - Other Languages
+Version:       10.1.22000.832
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          WinRT Intellisense IoT - Other Languages
+Version:       10.1.18362.1
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          WinRT Intellisense IoT - Other Languages
+Version:       10.1.19041.685
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          WinRT Intellisense IoT - Other Languages
+Version:       10.1.22621.2428
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          WinRT Intellisense Mobile - en-us
+Version:       10.1.22000.832
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          WinRT Intellisense Mobile - en-us
+Version:       10.1.20348.1
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          WinRT Intellisense Mobile - en-us
+Version:       10.1.18362.1
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          WinRT Intellisense Mobile - en-us
+Version:       10.1.19041.685
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          WinRT Intellisense Mobile - en-us
+Version:       10.1.22621.2428
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          WinRT Intellisense PPI - en-us
+Version:       10.1.18362.1
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          WinRT Intellisense PPI - en-us
+Version:       10.1.19041.685
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          WinRT Intellisense PPI - en-us
+Version:       10.1.22621.2428
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          WinRT Intellisense PPI - en-us
+Version:       10.1.22000.832
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          WinRT Intellisense PPI - en-us
+Version:       10.1.20348.1
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          WinRT Intellisense PPI - Other Languages
+Version:       10.1.22621.2428
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          WinRT Intellisense PPI - Other Languages
+Version:       10.1.22000.832
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          WinRT Intellisense PPI - Other Languages
+Version:       10.1.18362.1
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          WinRT Intellisense PPI - Other Languages
+Version:       10.1.19041.685
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          WinRT Intellisense PPI - Other Languages
+Version:       10.1.20348.1
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          WinRT Intellisense UAP - en-us
+Version:       10.1.18362.1
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          WinRT Intellisense UAP - en-us
+Version:       10.1.22621.2428
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          WinRT Intellisense UAP - en-us
+Version:       10.1.22000.832
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          WinRT Intellisense UAP - en-us
+Version:       10.1.19041.685
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          WinRT Intellisense UAP - en-us
+Version:       10.1.20348.1
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          WinRT Intellisense UAP - Other Languages
+Version:       10.1.22000.832
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          WinRT Intellisense UAP - Other Languages
+Version:       10.1.20348.1
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          WinRT Intellisense UAP - Other Languages
+Version:       10.1.19041.685
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          WinRT Intellisense UAP - Other Languages
+Version:       10.1.18362.1
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          WinRT Intellisense UAP - Other Languages
+Version:       10.1.22621.2428
+Vendor:        Microsoft Corporation
+Install Date:  2024-02-02
+
+Name:          WiX Toolset v3.11 Core
+Version:       3.11.4516
+Vendor:        .NET Foundation
+Install Date:  2024-02-02
+
+Name:          WiX Toolset v3.11 Managed SDK
+Version:       3.11.4516
+Vendor:        .NET Foundation
+Install Date:  2024-02-02
+
+Name:          WiX Toolset v3.11 Native 2010 SDK
+Version:       3.11.4516
+Vendor:        .NET Foundation
+Install Date:  2024-02-02
+
+Name:          WiX Toolset v3.11 Native 2012 SDK
+Version:       3.11.4516
+Vendor:        .NET Foundation
+Install Date:  2024-02-02
+
+Name:          WiX Toolset v3.11 Native 2013 SDK
+Version:       3.11.4516
+Vendor:        .NET Foundation
+Install Date:  2024-02-02
+
+Name:          WiX Toolset v3.11 Native 2015 SDK
+Version:       3.11.4516
+Vendor:        .NET Foundation
+Install Date:  2024-02-02
+
+Name:          WiX Toolset v3.11 Native 2017 SDK
+Version:       3.11.4516
+Vendor:        .NET Foundation
+Install Date:  2024-02-02
+
+Name:          WiX Toolset v3.11 X64
+Version:       3.11.4516
+Vendor:        .NET Foundation
+Install Date:  2024-02-02
+
+
+
+==================================================
+INSTALLED ROLES
+==================================================
+Name:          FileAndStorage-Services
+Display Name:  File and Storage Services
+Description:   File and Storage Services includes services that are always installed, as well as functionality that you can install to help manage file servers and storage.
+
+Name:          Storage-Services
+Display Name:  Storage Services
+Description:   Storage Services provides storage management functionality that is always installed and cannot be removed.
+
+Name:          Web-Server
+Display Name:  Web Server (IIS)
+Description:   Web Server (IIS) provides a reliable, manageable, and scalable Web application infrastructure.
+
+Name:          Web-WebServer
+Display Name:  Web Server
+Description:   Web Server provides support for HTML Web sites and optional support for ASP.NET, ASP, and Web server extensions. You can use the Web Server to host an internal or external Web site or to provide an environment for developers to create Web-based applications.
+
+Name:          Web-Common-Http
+Display Name:  Common HTTP Features
+Description:   Common HTTP Features supports basic HTTP functionality, such as delivering standard file formats and configuring custom server properties. Use Common HTTP Features to create custom error messages, to configure how the server responds to requests that do not specify a document, or to automatically redirect some requests to a different location.
+
+Name:          Web-Default-Doc
+Display Name:  Default Document
+Description:   Default Document lets you configure a default file for the Web server to return when users do not specify a file in a request URL. Default documents make it easier and more convenient for users to reach your Web site.
+
+Name:          Web-Dir-Browsing
+Display Name:  Directory Browsing
+Description:   Directory Browsing lets users to see the contents of a directory on your Web server. Use Directory Browsing to enable an automatically generated list of all directories and files available in a directory when users do not specify a file in a request URL and default documents are either disabled or not configured.
+
+Name:          Web-Http-Errors
+Display Name:  HTTP Errors
+Description:   HTTP Errors allows you to customize the error messages returned to users' browsers when the Web server detects a fault condition. Use HTTP errors to provide users with a better user experience when they run up against an error message. Consider providing users with an e-mail address for staff who can help them resolve the error.
+
+Name:          Web-Static-Content
+Display Name:  Static Content
+Description:   Static Content allows the Web server to publish static Web file formats, such as HTML pages and image files. Use Static Content to publish files on your Web server that users can then view using a Web browser.
+
+Name:          Web-Health
+Display Name:  Health and Diagnostics
+Description:   Health and Diagnostics provides infrastructure to monitor, manage, and troubleshoot the health of Web servers, sites, and applications.
+
+Name:          Web-Http-Logging
+Display Name:  HTTP Logging
+Description:   HTTP Logging provides logging of Web site activity for this server. When a loggable event, usually an HTTP transaction, occurs, IIS calls the selected logging module, which then writes to one of the logs stored in the file system of the Web server. These logs are in addition to those provided by the operating system.
+
+Name:          Web-Performance
+Display Name:  Performance
+Description:   Performance provides infrastructure for output caching by integrating the dynamic output-caching capabilities of ASP.NET with the static output-caching capabilities that were present in IIS 6.0. IIS also lets you use bandwidth more effectively and efficiently by using common compression mechanisms such as Gzip and Deflate.
+
+Name:          Web-Stat-Compression
+Display Name:  Static Content Compression
+Description:   Static Content Compression provides infrastructure to configure HTTP compression of static content. This allows more efficient use of bandwidth. Unlike dynamic responses, compressed static responses can be cached without degrading CPU resources.
+
+Name:          Web-Security
+Display Name:  Security
+Description:   Security provides infrastructure for securing the Web server from users and requests. IIS supports multiple authentication methods. Pick an appropriate authentication scheme based upon the role of the server. Filter all incoming requests, rejecting without processing requests that match user defined values, or restrict requests based on originating address space.
+
+Name:          Web-Filtering
+Display Name:  Request Filtering
+Description:   Request Filtering screens all incoming requests to the server and filters these requests based on rules set by the administrator. Many malicious attacks share common characteristics, like extremely long requests, or requests for an unusual action. By filtering requests, you can attempt to mitigate the impact of these type attacks.
+
+Name:          Web-Mgmt-Tools
+Display Name:  Management Tools
+Description:   Management Tools provide infrastructure to manage a Web server that runs IIS 10. You can use the IIS user interface, command-line tools, and scripts to manage the Web server. You can also edit the configuration files directly.
+
+Name:          Web-Mgmt-Console
+Display Name:  IIS Management Console
+Description:   IIS Management Console provides infrastructure to manage IIS 10 by using a user interface. You can use the IIS management console to manage a local or remote Web server that runs IIS 10. To manage SMTP, you must install and use the IIS 6 Management Console.
+
+Name:          NET-Framework-Features
+Display Name:  .NET Framework 3.5 Features
+Description:   .NET Framework 3.5 combines the power of the .NET Framework 2.0 APIs with new technologies for building applications that offer appealing user interfaces, protect your customers' personal identity information, enable seamless and secure communication, and provide the ability to model a range of business processes.
+
+Name:          NET-Framework-Core
+Display Name:  .NET Framework 3.5 (includes .NET 2.0 and 3.0)
+Description:   .NET Framework 3.5 combines the power of the .NET Framework 2.0 APIs with new technologies for building applications that offer appealing user interfaces, protect your customers' personal identity information, enable seamless and secure communication, and provide the ability to model a range of business processes.
+
+Name:          NET-Framework-45-Features
+Display Name:  .NET Framework 4.7 Features
+Description:   .NET Framework 4.7 provides a comprehensive and consistent programming model for quickly and easily building and running applications that are built for various platforms including desktop PCs, Servers, smart phones and the public and private cloud.
+
+Name:          NET-Framework-45-Core
+Display Name:  .NET Framework 4.7
+Description:   .NET Framework 4.7 provides a comprehensive and consistent programming model for quickly and easily building and running applications that are built for various platforms including desktop PCs, Servers, smart phones and the public and private cloud.
+
+Name:          NET-WCF-Services45
+Display Name:  WCF Services
+Description:   Windows Communication Foundation (WCF) Activation uses Windows Process Activation Service to invoke applications remotely over the network by using protocols such as HTTP, Message Queuing, TCP, and named pipes. Consequently, applications can start and stop dynamically in response to incoming work items, resulting in application hosting that is more robust, manageable, and efficient.
+
+Name:          NET-WCF-TCP-PortSharing45
+Display Name:  TCP Port Sharing
+Description:   TCP Port Sharing allows multiple net.tcp applications to share a single TCP port. Consequently, these applications can coexist on the same physical computer in separate, isolated processes, while sharing the network infrastructure required to send and receive traffic over a TCP port, such as port 808.
+
+Name:          RSAT
+Display Name:  Remote Server Administration Tools
+Description:   Remote Server Administration Tools includes snap-ins and command-line tools for remotely managing roles and features.
+
+Name:          RSAT-Feature-Tools
+Display Name:  Feature Administration Tools
+Description:   Feature Administration Tools includes snap-ins and command-line tools for remotely managing features.
+
+Name:          RSAT-SNMP
+Display Name:  SNMP Tools
+Description:   Simple Network Management Protocol (SNMP) Tools includes tools for managing SNMP.
+
+Name:          RSAT-Role-Tools
+Display Name:  Role Administration Tools
+Description:   Role Administration Tools includes snap-ins and command-line tools for remotely managing roles.
+
+Name:          RSAT-AD-Tools
+Display Name:  AD DS and AD LDS Tools
+Description:   Active Directory Domain Services (AD DS) and Active Directory Lightweight Directory Services (AD LDS) Tools includes snap-ins and command-line tools for remotely managing AD DS and AD LDS.
+
+Name:          RSAT-AD-PowerShell
+Display Name:  Active Directory module for Windows PowerShell
+Description:   The Active Directory module for Windows PowerShel and the tools it provides can be used by Active Directory administrators to manage Active Directory Domain Services (AD DS) at the command line.
+
+Name:          SNMP-Service
+Display Name:  SNMP Service
+Description:   Simple Network Management Protocol (SNMP) Service includes agents that monitor the activity in network devices and report to the network console workstation.
+
+Name:          SNMP-WMI-Provider
+Display Name:  SNMP WMI Provider
+Description:   SNMP Windows Management Instrumentation (WMI) Provider enables WMI client scripts and applications to access SNMP information. Clients can use WMI C++ interfaces and scripting objects to communicate with network devices that use the SNMP protocol and can receive SNMP traps as WMI events.
+
+Name:          System-DataArchiver
+Display Name:  System Data Archiver
+Description:   Provides services to collect and archive Windows Server system data.
+
+Name:          Telnet-Client
+Display Name:  Telnet Client
+Description:   Telnet Client uses the Telnet protocol to connect to a remote Telnet server and run applications on that server.
+
+Name:          PowerShellRoot
+Display Name:  Windows PowerShell
+Description:   Windows PowerShell enables you to automate local and remote Windows administration. This task-based command-line shell and scripting language is built on the Microsoft .NET Framework. It includes hundreds of built-in commands and lets you write and distribute your own commands and scripts.
+
+Name:          PowerShell
+Display Name:  Windows PowerShell 5.1
+Description:   Windows PowerShell enables you to automate local and remote Windows administration. This task-based command-line shell and scripting language is built on the Microsoft .NET Framework. It includes hundreds of built-in commands and lets you write and distribute your own commands and scripts.
+
+Name:          PowerShell-V2
+Display Name:  Windows PowerShell 2.0 Engine
+Description:   Windows PowerShell 2.0 Engine includes the core components from Windows PowerShell 2.0 for backward compatibility with existing Windows PowerShell host applications.
+
+Name:          PowerShell-ISE
+Display Name:  Windows PowerShell ISE
+Description:   Windows PowerShell Integrated Scripting Environment (ISE) lets you compose, edit, and debug scripts and run multi-line interactive commands in a graphical environment. Features include IntelliSense, tab completion, snippets, color-coded syntax, line numbering, selective execution, graphical debugging, right-to-left language and Unicode support.
+
+Name:          WoW64-Support
+Display Name:  WoW64 Support
+Description:   Includes all of WoW64 to support running 32-bit applications on Server Core installations.  This feature is required for full Server installations. Uninstalling WoW64 Support will convert a full Server installation into a Server Core installation.
+
+Name:          XPS-Viewer
+Display Name:  XPS Viewer
+Description:   The XPS Viewer is used to read, set permissions for, and digitally sign XPS documents.
+
+
+
+==================================================
+LOCAL SHARES
+==================================================
+Name:          ADMIN$
+Path:          C:\Windows
+Description:   Remote Admin
+
+Name:          C$
+Path:          C:\
+Description:   Default share
+
+Name:          D$
+Path:          D:\
+Description:   Default share
+
+Name:          E$
+Path:          E:\
+Description:   Default share
+
+Name:          IPC$
+Path:          
+Description:   Remote IPC
+
+
+
+==================================================
+NETWORK SHARES
+==================================================
+Name:          ADMIN$
+Path:          C:\Windows
+Description:   Remote Admin
+Share State:   1
+Share Type:    0
+
+Name:          C$
+Path:          C:\
+Description:   Default share
+Share State:   1
+Share Type:    0
+
+Name:          D$
+Path:          D:\
+Description:   Default share
+Share State:   1
+Share Type:    0
+
+Name:          E$
+Path:          E:\
+Description:   Default share
+Share State:   1
+Share Type:    0
+
+Name:          IPC$
+Path:          
+Description:   Remote IPC
+Share State:   1
+Share Type:    3
+
+
+
+==================================================
+DISK INFORMATION
+==================================================
+Drive:         C:
+Volume Name:   OS
+File System:   NTFS
+Total Size:    119.66 GB
+Free Space:    47.12 GB
+Percent Free:  39.38%
+
+Drive:         D:
+Volume Name:   Data
+File System:   NTFS
+Total Size:    39.98 GB
+Free Space:    34.55 GB
+Percent Free:  86.41%
+
+Drive:         E:
+Volume Name:   Data
+File System:   NTFS
+Total Size:    499.98 GB
+Free Space:    499.86 GB
+Percent Free:  99.97%
+
+Drive:         R:
+Volume Name:   
+File System:   
+Total Size:    0.00 GB
+Free Space:    0.00 GB
+Percent Free:  
+
+Drive:         Z:
+Volume Name:   
+File System:   
+Total Size:    0.00 GB
+Free Space:    0.00 GB
+Percent Free:  
+
+

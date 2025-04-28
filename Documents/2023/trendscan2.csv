@@ -1,0 +1,816 @@
+#TYPE System.Management.Automation.PSCustomObject,
+PSComputerName,Register
+vrdpvrclog04,"Id     Name            PSJobTypeName   State         HasMoreData     Location             Command                  
+--     ----            -------------   -----         -----------     --------             -------                  
+157    Job157          RemoteJob       Completed     False           vrdpvrclog04         ...                      
+Unlocking the agent
+HTTP Status: 200 - OK
+2023-03-17 07:20:57.433636 [+0000]: Activation will be re-attempted 30 time(s) in case of failure
+2023-03-17 07:20:57.433636 [+0000]: dsa_control
+HTTP Status: 200 - OK
+Response:
+Attempting to connect to https://agents.workload.gb-1.cloudone.trendmicro.com:443/
+SSL handshake completed successfully - initiating command session.
+Connected with ECDHE-RSA-AES256-GCM-SHA384 to peer at agents.workload.gb-1.cloudone.trendmicro.com
+Received a 'GetHostInfo' command from the manager.
+Received a 'SetDSMCert' command from the manager.
+Received a 'SetAgentCredentials' command from the manager.
+Received a 'GetAgentEvents' command from the manager.
+Received a 'SetAgentStatus' command from the manager.
+Received a 'GetInterfaces' command from the manager.
+Received a 'GetAgentEvents' command from the manager.
+Received a 'GetAgentStatus' command from the manager.
+Received a 'GetAgentEvents' command from the manager.
+Received a 'GetComponentInfo' command from the manager.
+Received a 'GetDockerVersion' command from the manager.
+Received a 'GetCRIOVersion' command from the manager.
+Received a 'SetXDRInformation' command from the manager.
+Received a 'SetSecurityConfiguration' command from the manager.
+Received a 'GetAgentEvents' command from the manager.
+Received a 'GetAgentStatus' command from the manager.
+Received a 'GetIoT' command from the manager.
+Received a 'SetDSMCACert' command from the manager.
+Received a 'Metrics' command from the manager.
+Command session completed.
+ successfully registered"
+vrdpvrclog03,"Id     Name            PSJobTypeName   State         HasMoreData     Location             Command                  
+--     ----            -------------   -----         -----------     --------             -------                  
+159    Job159          RemoteJob       Completed     False           vrdpvrclog03         ...                      
+Unlocking the agent
+HTTP Status: 200 - OK
+2023-03-17 07:21:05.290571 [+0000]: Activation will be re-attempted 30 time(s) in case of failure
+2023-03-17 07:21:05.290571 [+0000]: dsa_control
+HTTP Status: 200 - OK
+Response:
+Attempting to connect to https://agents.workload.gb-1.cloudone.trendmicro.com:443/
+SSL handshake completed successfully - initiating command session.
+Connected with ECDHE-RSA-AES256-GCM-SHA384 to peer at agents.workload.gb-1.cloudone.trendmicro.com
+Received a 'GetHostInfo' command from the manager.
+Received a 'SetDSMCert' command from the manager.
+Received a 'SetAgentCredentials' command from the manager.
+Received a 'GetAgentEvents' command from the manager.
+Received a 'SetAgentStatus' command from the manager.
+Received a 'GetInterfaces' command from the manager.
+Received a 'GetAgentEvents' command from the manager.
+Received a 'GetAgentStatus' command from the manager.
+Received a 'GetAgentEvents' command from the manager.
+Received a 'GetComponentInfo' command from the manager.
+Received a 'GetDockerVersion' command from the manager.
+Received a 'GetCRIOVersion' command from the manager.
+Received a 'SetXDRInformation' command from the manager.
+Received a 'SetSecurityConfiguration' command from the manager.
+Received a 'GetAgentEvents' command from the manager.
+Received a 'GetAgentStatus' command from the manager.
+Received a 'GetIoT' command from the manager.
+Received a 'SetDSMCACert' command from the manager.
+Received a 'Metrics' command from the manager.
+Command session completed.
+ successfully registered"
+vrdpvrclog02,"Id     Name            PSJobTypeName   State         HasMoreData     Location             Command                  
+--     ----            -------------   -----         -----------     --------             -------                  
+161    Job161          RemoteJob       Completed     False           vrdpvrclog02         ...                      
+Unlocking the agent
+HTTP Status: 200 - OK
+2023-03-17 07:21:14.030436 [+0000]: Activation will be re-attempted 30 time(s) in case of failure
+2023-03-17 07:21:14.030436 [+0000]: dsa_control
+HTTP Status: 200 - OK
+Response:
+Attempting to connect to https://agents.workload.gb-1.cloudone.trendmicro.com:443/
+SSL handshake completed successfully - initiating command session.
+Connected with ECDHE-RSA-AES256-GCM-SHA384 to peer at agents.workload.gb-1.cloudone.trendmicro.com
+Received a 'GetHostInfo' command from the manager.
+Received a 'SetDSMCert' command from the manager.
+Received a 'SetAgentCredentials' command from the manager.
+Received a 'GetAgentEvents' command from the manager.
+Received a 'SetAgentStatus' command from the manager.
+Received a 'GetInterfaces' command from the manager.
+Received a 'GetAgentEvents' command from the manager.
+Received a 'GetAgentStatus' command from the manager.
+Received a 'GetAgentEvents' command from the manager.
+Received a 'GetComponentInfo' command from the manager.
+Received a 'GetDockerVersion' command from the manager.
+Received a 'GetCRIOVersion' command from the manager.
+Received a 'SetXDRInformation' command from the manager.
+Received a 'SetSecurityConfiguration' command from the manager.
+Received a 'GetAgentEvents' command from the manager.
+Received a 'GetAgentStatus' command from the manager.
+Received a 'GetIoT' command from the manager.
+Received a 'SetDSMCACert' command from the manager.
+Received a 'Metrics' command from the manager.
+Command session completed.
+ successfully registered"
+gcm-tc-dvt,"Id     Name            PSJobTypeName   State         HasMoreData     Location             Command                  
+--     ----            -------------   -----         -----------     --------             -------                  
+163    Job163          RemoteJob       Completed     False           gcm-tc-dvt           ...                      
+Unlocking the agent
+HTTP Status: 200 - OK
+Activation will be re-attempted 30 time(s) in case of failure
+dsa_control
+HTTP Status: 500 - Another activation task is in progress
+ registration failed"
+usicapdcs06,"Id     Name            PSJobTypeName   State         HasMoreData     Location             Command                  
+--     ----            -------------   -----         -----------     --------             -------                  
+165    Job165          RemoteJob       Completed     False           usicapdcs06          ...                      
+Unlocking the agent
+HTTP Status: 200 - OK
+ registration failed"
+nj1cbsccm01,"Id     Name            PSJobTypeName   State         HasMoreData     Location             Command                  
+--     ----            -------------   -----         -----------     --------             -------                  
+167    Job167          RemoteJob       Completed     False           nj1cbsccm01          ...                      
+Unlocking the agent
+HTTP Status: 200 - OK
+ registration failed"
+nj1cvspfrtend02,"Id     Name            PSJobTypeName   State         HasMoreData     Location             Command                  
+--     ----            -------------   -----         -----------     --------             -------                  
+169    Job169          RemoteJob       Completed     False           nj1cvspfrtend02      ...                      
+Unlocking the agent
+HTTP Status: 200 - OK
+ registration failed"
+usicapdcs04,"Id     Name            PSJobTypeName   State         HasMoreData     Location             Command                  
+--     ----            -------------   -----         -----------     --------             -------                  
+171    Job171          RemoteJob       Completed     False           usicapdcs04          ...                      
+Unlocking the agent
+HTTP Status: 200 - OK
+ registration failed"
+njc1ws0019n01,"Id     Name            PSJobTypeName   State         HasMoreData     Location             Command                  
+--     ----            -------------   -----         -----------     --------             -------                  
+173    Job173          RemoteJob       Completed     False           njc1ws0019n01        ...                      
+Unlocking the agent
+ registration failed"
+usicapdc06,"Id     Name            PSJobTypeName   State         HasMoreData     Location             Command                  
+--     ----            -------------   -----         -----------     --------             -------                  
+175    Job175          RemoteJob       Completed     False           usicapdc06           ...                      
+Unlocking the agent
+HTTP Status: 200 - OK
+ registration failed"
+usicapdc05,"Id     Name            PSJobTypeName   State         HasMoreData     Location             Command                  
+--     ----            -------------   -----         -----------     --------             -------                  
+177    Job177          RemoteJob       Completed     False           usicapdc05           ...                      
+Unlocking the agent
+HTTP Status: 200 - OK
+ registration failed"
+njc2ws0019n02,"Id     Name            PSJobTypeName   State         HasMoreData     Location             Command                  
+--     ----            -------------   -----         -----------     --------             -------                  
+179    Job179          RemoteJob       Completed     False           njc2ws0019n02        ...                      
+Unlocking the agent
+HTTP Status: 200 - OK
+2023-03-17 03:52:31.935916 [-0500]: Activation will be re-attempted 30 time(s) in case of failure
+2023-03-17 03:52:31.936424 [-0500]: dsa_control
+HTTP Status: 200 - OK
+Response:
+Attempting to connect to https://agents.workload.gb-1.cloudone.trendmicro.com:443/
+SSL handshake completed successfully - initiating command session.
+Connected with ECDHE-RSA-AES256-GCM-SHA384 to peer at agents.workload.gb-1.cloudone.trendmicro.com
+Received a 'GetHostInfo' command from the manager.
+Received a 'SetDSMCert' command from the manager.
+Received a 'SetAgentCredentials' command from the manager.
+Received a 'GetAgentEvents' command from the manager.
+Received a 'SetAgentStatus' command from the manager.
+Received a 'GetInterfaces' command from the manager.
+Received a 'GetAgentEvents' command from the manager.
+Received a 'GetCapabilities' command from the manager.
+Received a 'GetAgentStatus' command from the manager.
+Received a 'GetAgentEvents' command from the manager.
+Received a 'GetComponentInfo' command from the manager.
+Received a 'GetDockerVersion' command from the manager.
+Received a 'GetCRIOVersion' command from the manager.
+Received a 'SetXDRInformation' command from the manager.
+Received a 'SetSecurityConfiguration' command from the manager.
+Received a 'GetAgentEvents' command from the manager.
+Received a 'GetAgentStatus' command from the manager.
+Received a 'GetIoT' command from the manager.
+Received a 'SetDSMCACert' command from the manager.
+Received a 'Metrics' command from the manager.
+Command session completed.
+ successfully registered"
+njc2ws7001,"Id     Name            PSJobTypeName   State         HasMoreData     Location             Command                  
+--     ----            -------------   -----         -----------     --------             -------                  
+181    Job181          RemoteJob       Completed     False           njc2ws7001           ...                      
+Unlocking the agent
+HTTP Status: 200 - OK
+ registration failed"
+njc2wsorion02,"Id     Name            PSJobTypeName   State         HasMoreData     Location             Command                  
+--     ----            -------------   -----         -----------     --------             -------                  
+183    Job183          RemoteJob       Completed     False           njc2wsorion02        ...                      
+Unlocking the agent
+HTTP Status: 200 - OK
+2023-03-17 03:57:45.320454 [-0500]: Activation will be re-attempted 30 time(s) in case of failure
+2023-03-17 03:57:45.320454 [-0500]: dsa_control
+HTTP Status: 200 - OK
+Response:
+Attempting to connect to https://agents.workload.gb-1.cloudone.trendmicro.com:443/
+SSL handshake completed successfully - initiating command session.
+Connected with ECDHE-RSA-AES256-GCM-SHA384 to peer at agents.workload.gb-1.cloudone.trendmicro.com
+Received a 'GetHostInfo' command from the manager.
+Received a 'SetDSMCert' command from the manager.
+Received a 'SetAgentCredentials' command from the manager.
+Received a 'GetAgentEvents' command from the manager.
+Received a 'SetAgentStatus' command from the manager.
+Received a 'GetInterfaces' command from the manager.
+Received a 'GetAgentEvents' command from the manager.
+Received a 'GetCapabilities' command from the manager.
+Received a 'GetAgentStatus' command from the manager.
+Received a 'GetAgentEvents' command from the manager.
+Received a 'GetComponentInfo' command from the manager.
+Received a 'GetDockerVersion' command from the manager.
+Received a 'GetCRIOVersion' command from the manager.
+Received a 'SetXDRInformation' command from the manager.
+Received a 'SetSecurityConfiguration' command from the manager.
+Received a 'GetAgentEvents' command from the manager.
+Received a 'GetAgentStatus' command from the manager.
+Received a 'GetIoT' command from the manager.
+Received a 'SetDSMCACert' command from the manager.
+Received a 'Metrics' command from the manager.
+Command session completed.
+ successfully registered"
+ushstools01,"Id     Name            PSJobTypeName   State         HasMoreData     Location             Command                  
+--     ----            -------------   -----         -----------     --------             -------                  
+185    Job185          RemoteJob       Completed     False           ushstools01          ...                      
+Unlocking the agent
+HTTP Status: 200 - OK
+ registration failed"
+ushstmsuat01,"Id     Name            PSJobTypeName   State         HasMoreData     Location             Command                  
+--     ----            -------------   -----         -----------     --------             -------                  
+187    Job187          RemoteJob       Completed     False           ushstmsuat01         ...                      
+Unlocking the agent
+HTTP Status: 200 - OK
+ registration failed"
+ushstmsqarts01,"Id     Name            PSJobTypeName   State         HasMoreData     Location             Command                  
+--     ----            -------------   -----         -----------     --------             -------                  
+189    Job189          RemoteJob       Completed     False           ushstmsqarts01       ...                      
+Unlocking the agent
+HTTP Status: 200 - OK
+ registration failed"
+ushstmsqa01,"Id     Name            PSJobTypeName   State         HasMoreData     Location             Command                  
+--     ----            -------------   -----         -----------     --------             -------                  
+191    Job191          RemoteJob       Completed     False           ushstmsqa01          ...                      
+Unlocking the agent
+HTTP Status: 200 - OK
+ registration failed"
+ushstcdbs2,"Id     Name            PSJobTypeName   State         HasMoreData     Location             Command                  
+--     ----            -------------   -----         -----------     --------             -------                  
+193    Job193          RemoteJob       Completed     False           ushstcdbs2           ...                      
+Unlocking the agent
+HTTP Status: 200 - OK
+Activation will be re-attempted 30 time(s) in case of failure
+dsa_control
+HTTP Status: 200 - OK
+Response:
+Attempting to connect to https://agents.workload.gb-1.cloudone.trendmicro.com:443/
+SSL handshake completed successfully - initiating command session.
+Connected with ECDHE-RSA-AES256-GCM-SHA384 to peer at agents.workload.gb-1.cloudone.trendmicro.com
+Received a 'GetHostInfo' command from the manager.
+Received a 'SetDSMCert' command from the manager.
+Received a 'SetAgentCredentials' command from the manager.
+Received a 'GetAgentEvents' command from the manager.
+Received a 'SetAgentStatus' command from the manager.
+Received a 'GetInterfaces' command from the manager.
+Received a 'GetAgentEvents' command from the manager.
+Received a 'GetHostMetaDataQueryCapabilities' command from the manager.
+Received a 'GetHostMetaData' command from the manager.
+Received a 'GetInterfaces' command from the manager.
+Received a 'GetAgentEvents' command from the manager.
+Received a 'GetHostMetaData' command from the manager.
+Received a 'GetAgentStatus' command from the manager.
+Received a 'GetAgentEvents' command from the manager.
+Received a 'GetComponentInfo' command from the manager.
+Received a 'GetDockerVersion' command from the manager.
+Received a 'GetCRIOVersion' command from the manager.
+Received a 'SetXDRInformation' command from the manager.
+Received a 'SetSecurityConfiguration' command from the manager.
+Received a 'GetAgentEvents' command from the manager.
+Received a 'GetAgentStatus' command from the manager.
+Received a 'GetAgentStatus' command from the manager.
+Received a 'GetAgentEvents' command from the manager.
+Received a 'GetComponentInfo' command from the manager.
+Received a 'GetDockerVersion' command from the manager.
+Received a 'GetCRIOVersion' command from the manager.
+Received a 'SetXDRInformation' command from the manager.
+Received a 'UpdateAgentSoftware' command from the manager.
+Received a 'GetIoT' command from the manager.
+Received a 'SetDSMCACert' command from the manager.
+Received a 'Metrics' command from the manager.
+Command session completed.
+ successfully registered"
+ushssfinmir11,"Id     Name            PSJobTypeName   State         HasMoreData     Location             Command                  
+--     ----            -------------   -----         -----------     --------             -------                  
+195    Job195          RemoteJob       Completed     False           ushssfinmir11        ...                      
+Unlocking the agent
+HTTP Status: 200 - OK
+ registration failed"
+ushssfinmir10,"Id     Name            PSJobTypeName   State         HasMoreData     Location             Command                  
+--     ----            -------------   -----         -----------     --------             -------                  
+197    Job197          RemoteJob       Completed     False           ushssfinmir10        ...                      
+Unlocking the agent
+HTTP Status: 200 - OK
+ registration failed"
+ushssfinmir07,"Id     Name            PSJobTypeName   State         HasMoreData     Location             Command                  
+--     ----            -------------   -----         -----------     --------             -------                  
+199    Job199          RemoteJob       Completed     False           ushssfinmir07        ...                      
+Unlocking the agent
+HTTP Status: 200 - OK
+ registration failed"
+ushssfinmir06,"Id     Name            PSJobTypeName   State         HasMoreData     Location             Command                  
+--     ----            -------------   -----         -----------     --------             -------                  
+201    Job201          RemoteJob       Completed     False           ushssfinmir06        ...                      
+Unlocking the agent
+HTTP Status: 200 - OK
+ registration failed"
+ushssfinmir01,"Id     Name            PSJobTypeName   State         HasMoreData     Location             Command                  
+--     ----            -------------   -----         -----------     --------             -------                  
+203    Job203          RemoteJob       Completed     False           ushssfinmir01        ...                      
+Unlocking the agent
+HTTP Status: 200 - OK
+ registration failed"
+njcpsfnapp01,"Id     Name            PSJobTypeName   State         HasMoreData     Location             Command                  
+--     ----            -------------   -----         -----------     --------             -------                  
+205    Job205          RemoteJob       Completed     False           njcpsfnapp01         ...                      
+Unlocking the agent
+HTTP Status: 200 - OK
+ registration failed"
+ushspxs3,"Id     Name            PSJobTypeName   State         HasMoreData     Location             Command                  
+--     ----            -------------   -----         -----------     --------             -------                  
+207    Job207          RemoteJob       Completed     False           ushspxs3             ...                      
+Unlocking the agent
+HTTP Status: 200 - OK
+ registration failed"
+ushsprints2,"Id     Name            PSJobTypeName   State         HasMoreData     Location             Command                  
+--     ----            -------------   -----         -----------     --------             -------                  
+209    Job209          RemoteJob       Completed     False           ushsprints2          ...                      
+Unlocking the agent
+HTTP Status: 200 - OK
+ registration failed"
+ushsnicendr,"Id     Name            PSJobTypeName   State         HasMoreData     Location             Command                  
+--     ----            -------------   -----         -----------     --------             -------                  
+211    Job211          RemoteJob       Completed     False           ushsnicendr          ...                      
+Unlocking the agent
+HTTP Status: 200 - OK
+ registration failed"
+us00wbaksql01p,"Id     Name            PSJobTypeName   State         HasMoreData     Location             Command                  
+--     ----            -------------   -----         -----------     --------             -------                  
+213    Job213          RemoteJob       Completed     False           us00wbaksql01p       ...                      
+Unlocking the agent
+HTTP Status: 200 - OK
+ registration failed"
+ushsimdstages7,"Id     Name            PSJobTypeName   State         HasMoreData     Location             Command                  
+--     ----            -------------   -----         -----------     --------             -------                  
+215    Job215          RemoteJob       Completed     False           ushsimdstages7       ...                      
+Unlocking the agent
+HTTP Status: 200 - OK
+ registration failed"
+ushsimds7,"Id     Name            PSJobTypeName   State         HasMoreData     Location             Command                  
+--     ----            -------------   -----         -----------     --------             -------                  
+217    Job217          RemoteJob       Completed     False           ushsimds7            ...                      
+Unlocking the agent
+HTTP Status: 200 - OK
+ registration failed"
+us00wbmkapp01p,"Id     Name            PSJobTypeName   State         HasMoreData     Location             Command                  
+--     ----            -------------   -----         -----------     --------             -------                  
+219    Job219          RemoteJob       Completed     False           us00wbmkapp01p       ...                      
+Unlocking the agent
+HTTP Status: 200 - OK
+ registration failed"
+ushsexmbxs05,"Id     Name            PSJobTypeName   State         HasMoreData     Location             Command                  
+--     ----            -------------   -----         -----------     --------             -------                  
+221    Job221          RemoteJob       Completed     False           ushsexmbxs05         ...                      
+Unlocking the agent
+HTTP Status: 200 - OK
+ registration failed"
+ushsexhubs03,"Id     Name            PSJobTypeName   State         HasMoreData     Location             Command                  
+--     ----            -------------   -----         -----------     --------             -------                  
+223    Job223          RemoteJob       Completed     False           ushsexhubs03         ...                      
+Unlocking the agent
+HTTP Status: 200 - OK
+ registration failed"
+ushsexhubs02,"Id     Name            PSJobTypeName   State         HasMoreData     Location             Command                  
+--     ----            -------------   -----         -----------     --------             -------                  
+225    Job225          RemoteJob       Completed     False           ushsexhubs02         ...                      
+Unlocking the agent
+HTTP Status: 200 - OK
+ registration failed"
+ushsexhubs01,"Id     Name            PSJobTypeName   State         HasMoreData     Location             Command                  
+--     ----            -------------   -----         -----------     --------             -------                  
+227    Job227          RemoteJob       Completed     False           ushsexhubs01         ...                      
+Unlocking the agent
+HTTP Status: 200 - OK
+ registration failed"
+us00wbosapp02p,"Id     Name            PSJobTypeName   State         HasMoreData     Location             Command                  
+--     ----            -------------   -----         -----------     --------             -------                  
+229    Job229          RemoteJob       Completed     False           us00wbosapp02p       ...                      
+Unlocking the agent
+HTTP Status: 200 - OK
+ registration failed"
+us00wbosapp02q,"Id     Name            PSJobTypeName   State         HasMoreData     Location             Command                  
+--     ----            -------------   -----         -----------     --------             -------                  
+231    Job231          RemoteJob       Completed     False           us00wbosapp02q       ...                      
+Unlocking the agent
+HTTP Status: 200 - OK
+ registration failed"
+us00wbosapp03p,"Id     Name            PSJobTypeName   State         HasMoreData     Location             Command                  
+--     ----            -------------   -----         -----------     --------             -------                  
+233    Job233          RemoteJob       Completed     False           us00wbosapp03p       ...                      
+Unlocking the agent
+HTTP Status: 200 - OK
+ registration failed"
+ushsexcass01,"Id     Name            PSJobTypeName   State         HasMoreData     Location             Command                  
+--     ----            -------------   -----         -----------     --------             -------                  
+235    Job235          RemoteJob       Completed     False           ushsexcass01         ...                      
+Unlocking the agent
+HTTP Status: 200 - OK
+ registration failed"
+ushsdmprods1,"Id     Name            PSJobTypeName   State         HasMoreData     Location             Command                  
+--     ----            -------------   -----         -----------     --------             -------                  
+237    Job237          RemoteJob       Completed     False           ushsdmprods1         ...                      
+Unlocking the agent
+HTTP Status: 200 - OK
+ registration failed"
+ushsdistribs1,"Id     Name            PSJobTypeName   State         HasMoreData     Location             Command                  
+--     ----            -------------   -----         -----------     --------             -------                  
+239    Job239          RemoteJob       Completed     False           ushsdistribs1        ...                      
+Unlocking the agent
+HTTP Status: 200 - OK
+ registration failed"
+ushsdbsqld1,"Id     Name            PSJobTypeName   State         HasMoreData     Location             Command                  
+--     ----            -------------   -----         -----------     --------             -------                  
+241    Job241          RemoteJob       Completed     False           ushsdbsqld1          ...                      
+Unlocking the agent
+HTTP Status: 200 - OK
+ registration failed"
+us00wbosapp03q,"Id     Name            PSJobTypeName   State         HasMoreData     Location             Command                  
+--     ----            -------------   -----         -----------     --------             -------                  
+243    Job243          RemoteJob       Completed     False           us00wbosapp03q       ...                      
+Unlocking the agent
+HTTP Status: 200 - OK
+ registration failed"
+us00wcmmapp01p,"Id     Name            PSJobTypeName   State         HasMoreData     Location             Command                  
+--     ----            -------------   -----         -----------     --------             -------                  
+245    Job245          RemoteJob       Completed     False           us00wcmmapp01p       ...                      
+Unlocking the agent
+HTTP Status: 200 - OK
+ registration failed"
+us00wcomapp01p,"Id     Name            PSJobTypeName   State         HasMoreData     Location             Command                  
+--     ----            -------------   -----         -----------     --------             -------                  
+247    Job247          RemoteJob       Completed     False           us00wcomapp01p       ...                      
+Unlocking the agent
+HTTP Status: 200 - OK
+ registration failed"
+us00wcrhapp01p,"Id     Name            PSJobTypeName   State         HasMoreData     Location             Command                  
+--     ----            -------------   -----         -----------     --------             -------                  
+249    Job249          RemoteJob       Completed     False           us00wcrhapp01p       ...                      
+Unlocking the agent
+HTTP Status: 200 - OK
+ registration failed"
+us00wdssapp01p,"Id     Name            PSJobTypeName   State         HasMoreData     Location             Command                  
+--     ----            -------------   -----         -----------     --------             -------                  
+251    Job251          RemoteJob       Completed     False           us00wdssapp01p       ...                      
+Unlocking the agent
+HTTP Status: 200 - OK
+ registration failed"
+usedsfinprod01,"Id     Name            PSJobTypeName   State         HasMoreData     Location             Command                  
+--     ----            -------------   -----         -----------     --------             -------                  
+253    Job253          RemoteJob       Completed     False           usedsfinprod01       ...                      
+Unlocking the agent
+HTTP Status: 200 - OK
+ registration failed"
+us00wdssapp02p,"Id     Name            PSJobTypeName   State         HasMoreData     Location             Command                  
+--     ----            -------------   -----         -----------     --------             -------                  
+255    Job255          RemoteJob       Completed     False           us00wdssapp02p       ...                      
+Unlocking the agent
+HTTP Status: 200 - OK
+ registration failed"
+us00wdssapp03p,"Id     Name            PSJobTypeName   State         HasMoreData     Location             Command                  
+--     ----            -------------   -----         -----------     --------             -------                  
+257    Job257          RemoteJob       Completed     False           us00wdssapp03p       ...                      
+Unlocking the agent
+HTTP Status: 200 - OK
+ registration failed"
+us00wdssapp04p,"Id     Name            PSJobTypeName   State         HasMoreData     Location             Command                  
+--     ----            -------------   -----         -----------     --------             -------                  
+259    Job259          RemoteJob       Completed     False           us00wdssapp04p       ...                      
+Unlocking the agent
+HTTP Status: 200 - OK
+ registration failed"
+us00wdtcapp01s,"Id     Name            PSJobTypeName   State         HasMoreData     Location             Command                  
+--     ----            -------------   -----         -----------     --------             -------                  
+261    Job261          RemoteJob       Completed     False           us00wdtcapp01s       ...                      
+Unlocking the agent
+HTTP Status: 200 - OK
+ registration failed"
+us00wdtcapp02p,"Id     Name            PSJobTypeName   State         HasMoreData     Location             Command                  
+--     ----            -------------   -----         -----------     --------             -------                  
+263    Job263          RemoteJob       Completed     False           us00wdtcapp02p       ...                      
+Unlocking the agent
+HTTP Status: 200 - OK
+ registration failed"
+us00wepsapp01p,"Id     Name            PSJobTypeName   State         HasMoreData     Location             Command                  
+--     ----            -------------   -----         -----------     --------             -------                  
+265    Job265          RemoteJob       Completed     False           us00wepsapp01p       ...                      
+Unlocking the agent
+HTTP Status: 200 - OK
+ registration failed"
+us00wetcapp01t,"Id     Name            PSJobTypeName   State         HasMoreData     Location             Command                  
+--     ----            -------------   -----         -----------     --------             -------                  
+267    Job267          RemoteJob       Completed     False           us00wetcapp01t       ...                      
+Unlocking the agent
+HTTP Status: 200 - OK
+ registration failed"
+us00weucapp01p,"Id     Name            PSJobTypeName   State         HasMoreData     Location             Command                  
+--     ----            -------------   -----         -----------     --------             -------                  
+269    Job269          RemoteJob       Completed     False           us00weucapp01p       ...                      
+Unlocking the agent
+HTTP Status: 200 - OK
+ registration failed"
+us00wgcmapp01p,"Id     Name            PSJobTypeName   State         HasMoreData     Location             Command                  
+--     ----            -------------   -----         -----------     --------             -------                  
+271    Job271          RemoteJob       Completed     False           us00wgcmapp01p       ...                      
+Unlocking the agent
+HTTP Status: 200 - OK
+ registration failed"
+us00wguiapp01s,"Id     Name            PSJobTypeName   State         HasMoreData     Location             Command                  
+--     ----            -------------   -----         -----------     --------             -------                  
+273    Job273          RemoteJob       Completed     False           us00wguiapp01s       ...                      
+Unlocking the agent
+HTTP Status: 200 - OK
+ registration failed"
+us00wguilbn01q,"Id     Name            PSJobTypeName   State         HasMoreData     Location             Command                  
+--     ----            -------------   -----         -----------     --------             -------                  
+275    Job275          RemoteJob       Completed     False           us00wguilbn01q       ...                      
+Unlocking the agent
+HTTP Status: 200 - OK
+ registration failed"
+us00wiisapp02p,"Id     Name            PSJobTypeName   State         HasMoreData     Location             Command                  
+--     ----            -------------   -----         -----------     --------             -------                  
+277    Job277          RemoteJob       Completed     False           us00wiisapp02p       ...                      
+Unlocking the agent
+HTTP Status: 200 - OK
+ registration failed"
+us01wmkdats02p,"Id     Name            PSJobTypeName   State         HasMoreData     Location             Command                  
+--     ----            -------------   -----         -----------     --------             -------                  
+279    Job279          RemoteJob       Completed     False           us01wmkdats02p       ...                      
+Unlocking the agent
+HTTP Status: 403 - Forbidden - untrusted peer.
+ Unlocked, Failed, trying passwords
+Agent self-protection successfully disabled.
+HTTP Status: 200 - OK
+Activation will be re-attempted 30 time(s) in case of failure
+dsa_control
+HTTP Status: 200 - OK
+Response:
+Attempting to connect to https://agents.workload.gb-1.cloudone.trendmicro.com:443/
+SSL handshake completed successfully - initiating command session.
+Connected with ECDHE-RSA-AES256-GCM-SHA384 to peer at agents.workload.gb-1.cloudone.trendmicro.com
+Received a 'GetHostInfo' command from the manager.
+Received a 'SetDSMCert' command from the manager.
+Received a 'SetAgentCredentials' command from the manager.
+Received a 'GetAgentEvents' command from the manager.
+Received a 'SetAgentStatus' command from the manager.
+Received a 'GetInterfaces' command from the manager.
+Received a 'GetAgentEvents' command from the manager.
+Received a 'GetHostMetaDataQueryCapabilities' command from the manager.
+Received a 'GetHostMetaData' command from the manager.
+Received a 'GetInterfaces' command from the manager.
+Received a 'GetAgentEvents' command from the manager.
+Received a 'GetHostMetaData' command from the manager.
+Received a 'GetAgentStatus' command from the manager.
+Received a 'GetAgentEvents' command from the manager.
+Received a 'GetComponentInfo' command from the manager.
+Received a 'GetDockerVersion' command from the manager.
+Received a 'GetCRIOVersion' command from the manager.
+Received a 'SetXDRInformation' command from the manager.
+Received a 'SetSecurityConfiguration' command from the manager.
+Received a 'GetAgentEvents' command from the manager.
+Received a 'GetAgentStatus' command from the manager.
+Received a 'GetAgentStatus' command from the manager.
+Received a 'GetAgentEvents' command from the manager.
+Received a 'GetComponentInfo' command from the manager.
+Received a 'GetDockerVersion' command from the manager.
+Received a 'GetCRIOVersion' command from the manager.
+Received a 'SetXDRInformation' command from the manager.
+Received a 'UpdateAgentSoftware' command from the manager.
+Received a 'GetIoT' command from the manager.
+Received a 'SetDSMCACert' command from the manager.
+Received a 'Metrics' command from the manager.
+Command session completed.
+ successfully registered"
+us01wmkdats01p,"Id     Name            PSJobTypeName   State         HasMoreData     Location             Command                  
+--     ----            -------------   -----         -----------     --------             -------                  
+281    Job281          RemoteJob       Completed     False           us01wmkdats01p       ...                      
+Unlocking the agent
+HTTP Status: 200 - OK
+Activation will be re-attempted 30 time(s) in case of failure
+dsa_control
+HTTP Status: 200 - OK
+Response:
+Attempting to connect to https://agents.workload.gb-1.cloudone.trendmicro.com:443/
+SSL handshake completed successfully - initiating command session.
+Connected with ECDHE-RSA-AES256-GCM-SHA384 to peer at agents.workload.gb-1.cloudone.trendmicro.com
+Received a 'GetHostInfo' command from the manager.
+Received a 'SetDSMCert' command from the manager.
+Received a 'SetAgentCredentials' command from the manager.
+Received a 'GetAgentEvents' command from the manager.
+Received a 'SetAgentStatus' command from the manager.
+Received a 'GetInterfaces' command from the manager.
+Received a 'GetAgentEvents' command from the manager.
+Received a 'GetHostMetaData' command from the manager.
+Received a 'GetInterfaces' command from the manager.
+Received a 'GetAgentEvents' command from the manager.
+Received a 'GetHostMetaData' command from the manager.
+Received a 'GetAgentStatus' command from the manager.
+Received a 'GetAgentEvents' command from the manager.
+Received a 'GetDockerVersion' command from the manager.
+Received a 'GetCRIOVersion' command from the manager.
+Received a 'SetXDRInformation' command from the manager.
+Received a 'SetSecurityConfiguration' command from the manager.
+Received a 'GetAgentEvents' command from the manager.
+Received a 'GetAgentStatus' command from the manager.
+Received a 'GetAgentStatus' command from the manager.
+Received a 'GetAgentEvents' command from the manager.
+Received a 'GetDockerVersion' command from the manager.
+Received a 'GetCRIOVersion' command from the manager.
+Received a 'SetXDRInformation' command from the manager.
+Received a 'UpdateAgentSoftware' command from the manager.
+Received a 'GetIoT' command from the manager.
+Received a 'SetDSMCACert' command from the manager.
+Received a 'Metrics' command from the manager.
+Command session completed.
+ successfully registered"
+us01wlneapp02p,"Id     Name            PSJobTypeName   State         HasMoreData     Location             Command                  
+--     ----            -------------   -----         -----------     --------             -------                  
+283    Job283          RemoteJob       Completed     False           us01wlneapp02p       ...                      
+Unlocking the agent
+HTTP Status: 200 - OK
+ registration failed"
+us00wiisapp03p,"Id     Name            PSJobTypeName   State         HasMoreData     Location             Command                  
+--     ----            -------------   -----         -----------     --------             -------                  
+285    Job285          RemoteJob       Completed     False           us00wiisapp03p       ...                      
+Unlocking the agent
+HTTP Status: 200 - OK
+ registration failed"
+us00wiisapp07p,"Id     Name            PSJobTypeName   State         HasMoreData     Location             Command                  
+--     ----            -------------   -----         -----------     --------             -------                  
+287    Job287          RemoteJob       Completed     False           us00wiisapp07p       ...                      
+Unlocking the agent
+HTTP Status: 200 - OK
+ registration failed"
+us01wiisapp06p,"Id     Name            PSJobTypeName   State         HasMoreData     Location             Command                  
+--     ----            -------------   -----         -----------     --------             -------                  
+289    Job289          RemoteJob       Completed     False           us01wiisapp06p       ...                      
+Unlocking the agent
+HTTP Status: 200 - OK
+ registration failed"
+us01wguilbn01p,"Id     Name            PSJobTypeName   State         HasMoreData     Location             Command                  
+--     ----            -------------   -----         -----------     --------             -------                  
+291    Job291          RemoteJob       Completed     False           us01wguilbn01p       ...                      
+Unlocking the agent
+HTTP Status: 200 - OK
+ registration failed"
+us00wimdapp01p,"Id     Name            PSJobTypeName   State         HasMoreData     Location             Command                  
+--     ----            -------------   -----         -----------     --------             -------                  
+293    Job293          RemoteJob       Completed     False           us00wimdapp01p       ...                      
+Unlocking the agent
+HTTP Status: 200 - OK
+ registration failed"
+us00wimdapp02d,"Id     Name            PSJobTypeName   State         HasMoreData     Location             Command                  
+--     ----            -------------   -----         -----------     --------             -------                  
+295    Job295          RemoteJob       Completed     False           us00wimdapp02d       ...                      
+Unlocking the agent
+HTTP Status: 200 - OK
+ registration failed"
+us00wtccapp02p,"Id     Name            PSJobTypeName   State         HasMoreData     Location             Command                  
+--     ----            -------------   -----         -----------     --------             -------                  
+297    Job297          RemoteJob       Completed     False           us00wtccapp02p       ...                      
+Unlocking the agent
+HTTP Status: 200 - OK
+ registration failed"
+us00wtccapp01p,"Id     Name            PSJobTypeName   State         HasMoreData     Location             Command                  
+--     ----            -------------   -----         -----------     --------             -------                  
+299    Job299          RemoteJob       Completed     False           us00wtccapp01p       ...                      
+Unlocking the agent
+HTTP Status: 200 - OK
+ registration failed"
+us00wtcaapp02p,"Id     Name            PSJobTypeName   State         HasMoreData     Location             Command                  
+--     ----            -------------   -----         -----------     --------             -------                  
+301    Job301          RemoteJob       Completed     False           us00wtcaapp02p       ...                      
+Unlocking the agent
+HTTP Status: 200 - OK
+ registration failed"
+us00wtcaapp01u,"Id     Name            PSJobTypeName   State         HasMoreData     Location             Command                  
+--     ----            -------------   -----         -----------     --------             -------                  
+303    Job303          RemoteJob       Completed     False           us00wtcaapp01u       ...                      
+Unlocking the agent
+HTTP Status: 200 - OK
+ registration failed"
+us00wtcaapp01s,"Id     Name            PSJobTypeName   State         HasMoreData     Location             Command                  
+--     ----            -------------   -----         -----------     --------             -------                  
+305    Job305          RemoteJob       Completed     False           us00wtcaapp01s       ...                      
+Unlocking the agent
+HTTP Status: 200 - OK
+ registration failed"
+us00wsqladm02p,"Id     Name            PSJobTypeName   State         HasMoreData     Location             Command                  
+--     ----            -------------   -----         -----------     --------             -------                  
+307    Job307          RemoteJob       Completed     False           us00wsqladm02p       ...                      
+Unlocking the agent
+HTTP Status: 200 - OK
+ registration failed"
+us00wrtsfix01p,"Id     Name            PSJobTypeName   State         HasMoreData     Location             Command                  
+--     ----            -------------   -----         -----------     --------             -------                  
+309    Job309          RemoteJob       Completed     False           us00wrtsfix01p       ...                      
+Unlocking the agent
+HTTP Status: 200 - OK
+ registration failed"
+us00wrptapp01p,"Id     Name            PSJobTypeName   State         HasMoreData     Location             Command                  
+--     ----            -------------   -----         -----------     --------             -------                  
+311    Job311          RemoteJob       Completed     False           us00wrptapp01p       ...                      
+Unlocking the agent
+HTTP Status: 200 - OK
+ registration failed"
+us00writapp01p,"Id     Name            PSJobTypeName   State         HasMoreData     Location             Command                  
+--     ----            -------------   -----         -----------     --------             -------                  
+313    Job313          RemoteJob       Completed     False           us00writapp01p       ...                      
+Unlocking the agent
+HTTP Status: 200 - OK
+ registration failed"
+us00wpxeapp01p,"Id     Name            PSJobTypeName   State         HasMoreData     Location             Command                  
+--     ----            -------------   -----         -----------     --------             -------                  
+315    Job315          RemoteJob       Completed     False           us00wpxeapp01p       ...                      
+Unlocking the agent
+HTTP Status: 200 - OK
+ registration failed"
+us00wprnapp01p,"Id     Name            PSJobTypeName   State         HasMoreData     Location             Command                  
+--     ----            -------------   -----         -----------     --------             -------                  
+317    Job317          RemoteJob       Completed     False           us00wprnapp01p       ...                      
+Unlocking the agent
+HTTP Status: 200 - OK
+ registration failed"
+us00wimdapp03d,"Id     Name            PSJobTypeName   State         HasMoreData     Location             Command                  
+--     ----            -------------   -----         -----------     --------             -------                  
+319    Job319          RemoteJob       Completed     False           us00wimdapp03d       ...                      
+Unlocking the agent
+HTTP Status: 200 - OK
+ registration failed"
+us00wmsgapp02p,"Id     Name            PSJobTypeName   State         HasMoreData     Location             Command                  
+--     ----            -------------   -----         -----------     --------             -------                  
+321    Job321          RemoteJob       Completed     False           us00wmsgapp02p       ...                      
+Unlocking the agent
+HTTP Status: 200 - OK
+ registration failed"
+us00wmsgapp01p,"Id     Name            PSJobTypeName   State         HasMoreData     Location             Command                  
+--     ----            -------------   -----         -----------     --------             -------                  
+323    Job323          RemoteJob       Completed     False           us00wmsgapp01p       ...                      
+Unlocking the agent
+HTTP Status: 200 - OK
+ registration failed"
+us00wmonapp01p,"Id     Name            PSJobTypeName   State         HasMoreData     Location             Command                  
+--     ----            -------------   -----         -----------     --------             -------                  
+325    Job325          RemoteJob       Completed     False           us00wmonapp01p       ...                      
+Unlocking the agent
+HTTP Status: 200 - OK
+ registration failed"
+us00wmigapp02p,"Id     Name            PSJobTypeName   State         HasMoreData     Location             Command                  
+--     ----            -------------   -----         -----------     --------             -------                  
+327    Job327          RemoteJob       Completed     False           us00wmigapp02p       ...                      
+Unlocking the agent
+HTTP Status: 200 - OK
+ registration failed"
+us00wmfdapp01p,"Id     Name            PSJobTypeName   State         HasMoreData     Location             Command                  
+--     ----            -------------   -----         -----------     --------             -------                  
+329    Job329          RemoteJob       Completed     False           us00wmfdapp01p       ...                      
+Unlocking the agent
+HTTP Status: 200 - OK
+ registration failed"
+us00winfapp02p,"Id     Name            PSJobTypeName   State         HasMoreData     Location             Command                  
+--     ----            -------------   -----         -----------     --------             -------                  
+331    Job331          RemoteJob       Completed     False           us00winfapp02p       ...                      
+Unlocking the agent
+HTTP Status: 200 - OK
+ registration failed"
+us00winfwin02p,"Id     Name            PSJobTypeName   State         HasMoreData     Location             Command                  
+--     ----            -------------   -----         -----------     --------             -------                  
+333    Job333          RemoteJob       Completed     False           us00winfwin02p       ...                      
+Unlocking the agent
+HTTP Status: 200 - OK
+ registration failed"
+us00winfwin01p,"Id     Name            PSJobTypeName   State         HasMoreData     Location             Command                  
+--     ----            -------------   -----         -----------     --------             -------                  
+335    Job335          RemoteJob       Completed     False           us00winfwin01p       ...                      
+Unlocking the agent
+HTTP Status: 200 - OK
+ registration failed"
+us00winfpbs01p,"Id     Name            PSJobTypeName   State         HasMoreData     Location             Command                  
+--     ----            -------------   -----         -----------     --------             -------                  
+337    Job337          RemoteJob       Completed     False           us00winfpbs01p       ...                      
+Unlocking the agent
+HTTP Status: 200 - OK
+ registration failed"
+us00winfapp06p,"Id     Name            PSJobTypeName   State         HasMoreData     Location             Command                  
+--     ----            -------------   -----         -----------     --------             -------                  
+339    Job339          RemoteJob       Completed     False           us00winfapp06p       ...                      
+Unlocking the agent
+HTTP Status: 200 - OK
+ registration failed"
+us00winfapp05p,"Id     Name            PSJobTypeName   State         HasMoreData     Location             Command                  
+--     ----            -------------   -----         -----------     --------             -------                  
+341    Job341          RemoteJob       Completed     False           us00winfapp05p       ...                      
+Unlocking the agent
+HTTP Status: 200 - OK
+ registration failed"

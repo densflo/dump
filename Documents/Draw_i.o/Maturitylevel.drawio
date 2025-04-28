@@ -1,0 +1,39 @@
+<mxfile host="app.diagrams.net" modified="2024-02-16T04:37:43.232Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="UoHN_oBE9OP4CtvoQShJ" version="22.1.21" type="onedrive">
+  <diagram name="Page-1" id="A7DmYSRfxp8UxRZk7TEc">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8S8xF-JSCekzHMD6rhUT-1" value="&lt;b&gt;Level 1: Chaos: Chaotic Reaction&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;align=left;" vertex="1" parent="1">
+          <mxGeometry x="80" y="360" width="720" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8S8xF-JSCekzHMD6rhUT-3" value="&lt;b&gt;Level 2: Committed - Awakening and Structuring&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;align=left;" vertex="1" parent="1">
+          <mxGeometry x="160" y="300" width="640" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8S8xF-JSCekzHMD6rhUT-4" value="&lt;b&gt;Level 3: Proactive - Systematic Approach&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;align=left;" vertex="1" parent="1">
+          <mxGeometry x="240" y="240" width="560" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8S8xF-JSCekzHMD6rhUT-5" value="&lt;b&gt;Level 4: Integrated and Aligned - Data-Driven Precision&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;align=left;" vertex="1" parent="1">
+          <mxGeometry x="320" y="180" width="480" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8S8xF-JSCekzHMD6rhUT-6" value="&lt;b&gt;Level 5: Optimized - Predictive Innovation&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;align=left;" vertex="1" parent="1">
+          <mxGeometry x="400" y="120" width="400" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8S8xF-JSCekzHMD6rhUT-7" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;endWidth=38;endSize=16.86;width=39;fillColor=#0050ef;strokeColor=#001DBC;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="30" y="345" as="sourcePoint" />
+            <mxPoint x="330" y="80" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="110" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8S8xF-JSCekzHMD6rhUT-8" value="Maturity Journey" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=-40;" vertex="1" connectable="0" parent="8S8xF-JSCekzHMD6rhUT-7">
+          <mxGeometry x="-0.0567" y="-6" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

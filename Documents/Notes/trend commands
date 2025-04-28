@@ -1,0 +1,130 @@
+"C:\Program Files\Trend Micro\Deep Security Agent\dsa_control.cmd" -a "dsm://agents.workload.gb-1.cloudone.trendmicro.com:443/" "tenantID:BE123086-1CAA-5C3A-2027-3BCB78B797A6" "token:9BA0BFE0-65DE-2658-82BB-2AD32ED43100" "policyid:3" "groupid:67" -p WWIQ7G!fHX$19LQZBZD
+
+
+\\syd1ws7001\patches$\Custom\Trend\Agent-Core-Windows.msi
+\\10.242.32.34\patches$\Custom\Trend\Agent-Core-Windows.msi
+
+\\10.242.32.34\patches$\Custom\Trend\
+GLOBAL\GLOBAL PMS
+^)Wc8$fJ7av*&J*ULF&0Lznbme6vH#XC
+
+GLOBAL\GBL DA 3
+ON7uleZnl%aLodv
+
+AMERLESA-BRZ
+Hz@Dxl*Cu38SE8N56wPK4ia#51jsk390
+
+lnholdings.com\LN PMS
+Zej02LLDqq03WX*6
+
+
+\\njc1ws7001\patches$\Custom\Trend\Agent-Core-Windows.msi
+\\10.138.32.142\patches$\Custom\Trend\Agent-Core-Windows.msi
+
+\\sng1ws7001\patches$\Custom\Trend\
+\\10.202.33.43\patches$\Custom\Trend\
+
+Desktop\SCUT_February\A1\SCUT.exe -noinstall -dbg
+\\10.24.240.233\temp\SCUT_February
+
+
+xcopy \\10.24.240.233\temp\SCUT_February C:\temp\ /E /H /C /I
+cd\
+cd C:\Temp\A1\
+scut.exe -noinstall -dbg
+xcopy \\10.138.32.142\patches$\Custom\Trend\Agent-Core-Windows.msi C:\temp\
+C:\Temp\Agent-Core-Windows.msi
+
+xcopy \\10.24.240.233\temp\SCUT_February C:\temp /E /H /C /I
+cd\
+cd C:\Temp\A1
+scut.exe -noinstall -dbg
+xcopy \\10.138.32.142\patches$\Custom\Trend\Agent-Core-Windows.msi C:\temp\
+C:\Temp\Agent-Core-Windows.msi
+
+mkdir C:\temp\A1
+mkdir C:\temp\nonA1
+xcopy \\10.138.32.142\patches$\Custom\Trend\A1 C:\temp\A1\ /E /H /C /I
+xcopy \\10.138.32.142\patches$\Custom\Trend\NonA1 C:\temp\NonA1 /E /H /C /I
+xcopy \\10.138.32.142\patches$\Custom\Trend\Agent-Core-Windows.msi C:\temp\
+
+
+
+cd\
+cd C:\Temp\a1
+scut.exe -noinstall -dbg
+
+tcping app.deepsecurity.trendmicro.com 443
+tcping agents.workload.gb-1.cloudone.trendmicro.com 443
+tcping dsmim.deepsecurity.trendmicro.com 443
+
+
+Test-NetConnection -ComputerName "app.deepsecurity.trendmicro.com" -port 443
+Test-NetConnection -ComputerName "agents.workload.gb-1.cloudone.trendmicro.com" -port 443
+Test-NetConnection -ComputerName "dsmim.deepsecurity.trendmicro.com" -port 443
+
+
+mkdir C:\temp\A1
+mkdir C:\temp\nonA1
+xcopy \\10.202.33.43\patches$\Custom\Trend\A1 C:\temp\A1\ /E /H /C /I
+xcopy \\10.202.33.43\patches$\Custom\Trend\NonA1 C:\temp\NonA1 /E /H /C /I
+xcopy \\10.202.33.43\patches$\Custom\Trend\Agent-Core-Windows.msi C:\temp\
+
+mkdir C:\temp\A1
+mkdir C:\temp\nonA1
+xcopy \\10.182.32.37\patches$\Custom\Trend\A1 C:\temp\A1\ /E /H /C /I
+xcopy \\10.182.32.37\patches$\Custom\Trend\NonA1 C:\temp\NonA1 /E /H /C /I
+xcopy \\10.182.32.37\patches$\Custom\Trend\Agent-Core-Windows-10.0.0-4043.i386.msi C:\temp\
+
+
+"C:\Program Files\Trend Micro\Deep Security Agent\dsa_control.cmd" -a "dsm://agents.workload.gb-1.cloudone.trendmicro.com:443/" "tenantID:BE123086-1CAA-5C3A-2027-3BCB78B797A6" "token:9BA0BFE0-65DE-2658-82BB-2AD32ED43100" "policyid:3" "groupid:67" -p WWIQ7G!fHX$19LQZBZD
+
+mkdir C:\temp\A1
+mkdir C:\temp\nonA1
+mkdir C:\temp\Trend
+xcopy \\10.74.40.125\Trend\SCUT_February\A1 C:\temp\A1\ /E /H /C /I /y
+xcopy \\10.74.40.125\Trend\SCUT_February\nonA1 C:\temp\nonA1\ /E /H /C /I /y
+cd C:\Temp\nonA1\
+scut.exe -noinstall -dbg
+xcopy \\10.74.40.125\Trend\Agent-Windows-10.0.0-4043.i386 C:\temp\Trend /E /H /C /I /y
+
+
+mkdir C:\temp\A1
+mkdir C:\temp\nonA1
+mkdir C:\temp\Trend
+xcopy \\10.182.32.37\patches$\Custom\Trend\A1 C:\temp\A1\ /E /H /C /I /y
+xcopy \\10.182.32.37\patches$\Custom\Trend\NonA1 C:\temp\nonA1\ /E /H /C /I /y
+cd C:\Temp\nonA1\
+scut.exe -noinstall -dbg
+xcopy \\10.182.32.37\patches$\Custom\Trend\Agent-Core-Windows.msi C:\temp\Trend /E /H /C /I /y
+
+cd C:\Temp\nonA1\
+scut.exe -noinstall -dbg
+
+
+@echo off
+
+
+\\ldn1ws7001
+
+
+mkdir C:\temp\A1
+mkdir C:\temp\nonA1
+mkdir C:\temp\Trend
+xcopy \\ldn1ws7001\patches$\Custom\Trend\A1 C:\temp\A1\ /E /H /C /I /y
+xcopy \\ldn1ws7001\patches$\Custom\Trend\NonA1 C:\temp\nonA1\ /E /H /C /I /y
+cd C:\Temp\nonA1\
+scut.exe -noinstall -dbg
+xcopy \\10.90.80.93\patches$\Custom\Trend\Agent-Core-Windows.msi C:\temp\Trend /E /H /C /I /y
+
+
+C:\Program Files\Trend Micro\Deep Security Agent\dsa_control.cmd -s 0
+C:\Program Files\Trend Micro\Deep Security Agent\dsa_control.cmd -r 
+
+C:\Program Files\Trend Micro\Deep Security Agent\dsa_control.cmd" -a "dsm://agents.workload.gb-1.cloudone.trendmicro.com:443/" "tenantID:BE123086-1CAA-5C3A-2027-3BCB78B797A6" "token:9BA0BFE0-65DE-2658-82BB-2AD32ED43100" "policyid:562"
+
+dsa_control.cmd -s 0 -p Tr3ndServerUninstall!
+
+Tr3ndServerUnload!
+
+-s 0 -p WWIQ7G!fHX$19LQZBZD

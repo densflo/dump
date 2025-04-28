@@ -1,0 +1,560 @@
+The time and date of this login have been sent to the system logs.
+
+WARNING:
+   All commands run on the ESXi shell are logged and may be included in
+   support bundles. Do not provide passwords directly on the command line.
+   Most tools can prompt for secrets or accept them from standard input.
+
+VMware offers supported, powerful system administration tools.  Please
+see www.vmware.com/go/sysadmintools for details.
+
+The ESXi Shell can be disabled by an administrative user. See the
+vSphere Security documentation for more information.
+[root@SNG1ES0103:~]
+[root@SNG1ES0103:~]
+[root@SNG1ES0103:~] cls
+-sh: cls: not found
+[root@SNG1ES0103:~]
+[root@SNG1ES0103:~]
+[root@SNG1ES0103:~] esxcfg-vswitch -l
+Switch Name      Num Ports   Used Ports  Configured Ports  MTU     Uplinks
+vSwitch0         9216        6           128               1500    vmnic0,vmnic1
+
+  PortGroup Name                            VLAN ID  Used Ports  Uplinks
+  Management Network                        1039     1           vmnic0,vmnic1
+
+Switch Name      Num Ports   Used Ports  Configured Ports  MTU     Uplinks
+vSwitch1         9216        6           1024              1500    vmnic2,vmnic3
+
+  PortGroup Name                            VLAN ID  Used Ports  Uplinks
+  vMotion                                   1040     1           vmnic2,vmnic3
+
+Switch Name      Num Ports   Used Ports  Configured Ports  MTU     Uplinks
+vSwitch2         9216        19          1024              1500    vmnic4,vmnic5
+
+  PortGroup Name                            VLAN ID  Used Ports  Uplinks
+  SG3VLAN1033                               1033     0           vmnic4,vmnic5
+  SG3VLAN1051                               1051     0           vmnic4,vmnic5
+  SG3VLAN1048                               1048     0           vmnic4,vmnic5
+  SG3VLAN1013                               1013     0           vmnic4,vmnic5
+  SG3VLAN1448                               1448     0           vmnic4,vmnic5
+  SG3VLAN1432                               1432     0           vmnic4,vmnic5
+  SG3VLAN1096                               1096     0           vmnic4,vmnic5
+  SG3VLAN1066                               1066     0           vmnic4,vmnic5
+  SG3VLAN1047                               1047     0           vmnic4,vmnic5
+  SG3VLAN1040                               1040     0           vmnic4,vmnic5
+  SG3VLAN1037                               1037     0           vmnic4,vmnic5
+  SG3VLAN1036                               1036     0           vmnic4,vmnic5
+  SG3VLAN1035                               1035     0           vmnic4,vmnic5
+  SG3VLAN1032                               1032     3           vmnic4,vmnic5
+  SG3VLAN1039                               1039     1           vmnic4,vmnic5
+  SG3VLAN1034                               1034     2           vmnic4,vmnic5
+  SG3VLAN1038                               1038     4           vmnic4,vmnic5
+  SG3VLAN1440                               1440     4           vmnic4,vmnic5
+
+Switch Name      Num Ports   Used Ports  Configured Ports  MTU     Uplinks
+vSwitch3         9216        7           1024              1500    vmnic6,vmnic7
+
+  PortGroup Name                            VLAN ID  Used Ports  Uplinks
+  iSCSI2                                    1260     1           vmnic7
+  iSCSI1                                    1260     1           vmnic6
+
+Switch Name      Num Ports   Used Ports  Configured Ports  MTU     Uplinks
+vSwitch4         9216        6           1024              1500    vmnic8,vmnic9
+
+  PortGroup Name                            VLAN ID  Used Ports  Uplinks
+  SG3VLAN3032                               3032     0           vmnic8,vmnic9
+  SG3VLAN3033                               3033     0           vmnic8,vmnic9
+  SG3VLAN3016                               3016     0           vmnic8,vmnic9
+  SG3VLAN3236                               3236     1           vmnic8,vmnic9
+
+[root@SNG1ES0103:~] esxtop
+[root@SNG1ES0103:~] nst-stats -l
+-sh: nst-stats: not found
+[root@SNG1ES0103:~] net-stats -l
+PortNum          Type SubType SwitchName       MACAddress         ClientName
+2214592525          4       0 vSwitch0         00:25:b5:00:01:0f  vmnic0
+2214592527          4       0 vSwitch0         00:25:b5:00:01:1f  vmnic1
+67108901            3       0 vSwitch0         00:25:b5:00:01:0f  vmk0
+2248146962          4       0 vSwitch1         00:25:b5:00:00:ff  vmnic2
+2248146964          4       0 vSwitch1         00:25:b5:00:00:df  vmnic3
+100663334           3       0 vSwitch1         00:50:56:64:a3:0e  vmk1
+2281701399          4       0 vSwitch2         00:25:b5:00:00:ef  vmnic4
+2281701401          4       0 vSwitch2         00:25:b5:00:00:bf  vmnic5
+134217770           5       7 vSwitch2         00:50:56:b6:fb:35  sngpqvsova02
+134217771           5       7 vSwitch2         00:50:56:b6:0c:ed  sngpqvsova01
+134217773           5       7 vSwitch2         00:50:56:9d:1e:55  SNGCPMDS01
+134217774           5       9 vSwitch2         00:50:56:b2:1a:73  sng1lx0098
+134217775           5       9 vSwitch2         00:50:56:b6:02:6c  SNG1WS9941
+134217777           5       9 vSwitch2         00:50:56:b6:0e:c6  SNGPINFFSH25
+134217778           5       7 vSwitch2         00:50:56:b6:0f:9f  sngpqvsova03
+134217779           5       9 vSwitch2         00:50:56:b2:89:23  sng1lx0099
+134217780           5       9 vSwitch2         00:50:56:b6:e7:0a  SNGPINFFSH27
+134217781           5       9 vSwitch2         00:50:56:9b:e0:c6  SNG1WS9999
+134217782           5       9 vSwitch2         00:50:56:b2:e5:a6  SNGPINFADM25
+134217783           5       9 vSwitch2         00:50:56:b6:ec:92  SNG1WS9939
+134217785           5       9 vSwitch2         00:50:56:b6:ea:a7  SG1STOKMBS01
+134217786           5       9 vSwitch2         00:50:56:b6:dc:f6  SNG1WS4003
+2315255836          4       0 vSwitch3         00:25:b5:00:00:cf  vmnic6
+2315255838          4       0 vSwitch3         00:25:b5:00:00:af  vmnic7
+167772199           3       0 vSwitch3         00:50:56:6d:24:3c  vmk2
+167772200           3       0 vSwitch3         00:50:56:60:6a:b6  vmk3
+2348810273          4       0 vSwitch4         00:25:b5:00:02:8f  vmnic8
+2348810275          4       0 vSwitch4         00:25:b5:00:02:9f  vmnic9
+201326640           5       9 vSwitch4         00:50:56:a5:42:e7  SNGPINFDCP03
+[root@SNG1ES0103:~] pktcap-uw --uplink vmnic4 --dir 2 --ip 10.202.32.13 -o -|tcpdump-uw -ner -
+The name of the uplink is vmnic4.
+The session filter IP(src or dst) address is 10.202.32.13.
+pktcap: The output file is -.
+pktcap: No server port specifed, select 2629 as the port.
+pktcap: Local CID 2.
+pktcap: Listen on port 2629.
+pktcap: Main thread: 449800362880.
+pktcap: Dump Thread: 449800898304.
+pktcap: Recv Thread: 449801426688.
+pktcap: Accept...
+pktcap: Vsock connection from port 1025 cid 2.
+reading from file -, link-type EN10MB (Ethernet)
+11:12:21.684473 00:50:56:b6:ea:a7 > 00:00:0c:9f:f4:0a, ethertype IPv4 (0x0800), length 74: 10.202.34.30 > 10.202.32.13: ICMP echo request, id 56, seq 36473, length 40
+11:12:26.671806 00:50:56:b6:ea:a7 > 00:00:0c:9f:f4:0a, ethertype IPv4 (0x0800), length 74: 10.202.34.30 > 10.202.32.13: ICMP echo request, id 56, seq 36479, length 40
+11:12:31.678226 00:50:56:b6:ea:a7 > 00:00:0c:9f:f4:0a, ethertype IPv4 (0x0800), length 74: 10.202.34.30 > 10.202.32.13: ICMP echo request, id 56, seq 36485, length 40
+11:12:36.678382 00:50:56:b6:ea:a7 > 00:00:0c:9f:f4:0a, ethertype IPv4 (0x0800), length 74: 10.202.34.30 > 10.202.32.13: ICMP echo request, id 56, seq 36491, length 40
+11:12:41.674013 00:50:56:b6:ea:a7 > 00:00:0c:9f:f4:0a, ethertype IPv4 (0x0800), length 74: 10.202.34.30 > 10.202.32.13: ICMP echo request, id 56, seq 36497, length 40
+11:12:46.268999 00:50:56:b6:dc:f6 > ff:ff:ff:ff:ff:ff, ethertype IPv4 (0x0800), length 92: 10.202.32.13.137 > 10.202.32.255.137: NBT UDP PACKET(137): QUERY; REQUEST; BROADCAST
+11:12:46.674260 00:50:56:b6:ea:a7 > 00:00:0c:9f:f4:0a, ethertype IPv4 (0x0800), length 74: 10.202.34.30 > 10.202.32.13: ICMP echo request, id 56, seq 36502, length 40
+11:12:47.026894 00:50:56:b6:dc:f6 > ff:ff:ff:ff:ff:ff, ethertype IPv4 (0x0800), length 92: 10.202.32.13.137 > 10.202.32.255.137: NBT UDP PACKET(137): QUERY; REQUEST; BROADCAST
+11:12:47.785044 00:50:56:b6:dc:f6 > ff:ff:ff:ff:ff:ff, ethertype IPv4 (0x0800), length 92: 10.202.32.13.137 > 10.202.32.255.137: NBT UDP PACKET(137): QUERY; REQUEST; BROADCAST
+11:12:51.674396 00:50:56:b6:ea:a7 > 00:00:0c:9f:f4:0a, ethertype IPv4 (0x0800), length 74: 10.202.34.30 > 10.202.32.13: ICMP echo request, id 56, seq 36508, length 40
+11:12:56.674662 00:50:56:b6:ea:a7 > 00:00:0c:9f:f4:0a, ethertype IPv4 (0x0800), length 74: 10.202.34.30 > 10.202.32.13: ICMP echo request, id 56, seq 36514, length 40
+11:13:01.674745 00:50:56:b6:ea:a7 > 00:00:0c:9f:f4:0a, ethertype IPv4 (0x0800), length 74: 10.202.34.30 > 10.202.32.13: ICMP echo request, id 56, seq 36520, length 40
+11:13:06.675545 00:50:56:b6:ea:a7 > 00:00:0c:9f:f4:0a, ethertype IPv4 (0x0800), length 74: 10.202.34.30 > 10.202.32.13: ICMP echo request, id 56, seq 36526, length 40
+11:13:11.678656 00:50:56:b6:ea:a7 > 00:00:0c:9f:f4:0a, ethertype IPv4 (0x0800), length 74: 10.202.34.30 > 10.202.32.13: ICMP echo request, id 56, seq 36532, length 40
+11:13:16.678825 00:50:56:b6:ea:a7 > 00:00:0c:9f:f4:0a, ethertype IPv4 (0x0800), length 74: 10.202.34.30 > 10.202.32.13: ICMP echo request, id 56, seq 36538, length 40
+11:13:21.681338 00:50:56:b6:ea:a7 > 00:00:0c:9f:f4:0a, ethertype IPv4 (0x0800), length 74: 10.202.34.30 > 10.202.32.13: ICMP echo request, id 56, seq 36544, length 40
+11:13:26.683161 00:50:56:b6:ea:a7 > 00:00:0c:9f:f4:0a, ethertype IPv4 (0x0800), length 74: 10.202.34.30 > 10.202.32.13: ICMP echo request, id 56, seq 36550, length 40
+11:13:31.683374 00:50:56:b6:ea:a7 > 00:00:0c:9f:f4:0a, ethertype IPv4 (0x0800), length 74: 10.202.34.30 > 10.202.32.13: ICMP echo request, id 56, seq 36556, length 40
+11:13:34.715921 00:50:56:b6:dc:f6 > ff:ff:ff:ff:ff:ff, ethertype IPv4 (0x0800), length 92: 10.202.32.13.137 > 10.202.32.255.137: NBT UDP PACKET(137): QUERY; REQUEST; BROADCAST
+11:13:35.482303 00:50:56:b6:dc:f6 > ff:ff:ff:ff:ff:ff, ethertype IPv4 (0x0800), length 92: 10.202.32.13.137 > 10.202.32.255.137: NBT UDP PACKET(137): QUERY; REQUEST; BROADCAST
+11:13:36.234396 00:50:56:b6:dc:f6 > ff:ff:ff:ff:ff:ff, ethertype IPv4 (0x0800), length 92: 10.202.32.13.137 > 10.202.32.255.137: NBT UDP PACKET(137): QUERY; REQUEST; BROADCAST
+11:13:36.685202 00:50:56:b6:ea:a7 > 00:00:0c:9f:f4:0a, ethertype IPv4 (0x0800), length 74: 10.202.34.30 > 10.202.32.13: ICMP echo request, id 56, seq 36562, length 40
+11:13:41.681343 00:50:56:b6:ea:a7 > 00:00:0c:9f:f4:0a, ethertype IPv4 (0x0800), length 74: 10.202.34.30 > 10.202.32.13: ICMP echo request, id 56, seq 36568, length 40
+11:13:46.683663 00:50:56:b6:ea:a7 > 00:00:0c:9f:f4:0a, ethertype IPv4 (0x0800), length 74: 10.202.34.30 > 10.202.32.13: ICMP echo request, id 56, seq 36574, length 40
+11:13:51.683812 00:50:56:b6:ea:a7 > 00:00:0c:9f:f4:0a, ethertype IPv4 (0x0800), length 74: 10.202.34.30 > 10.202.32.13: ICMP echo request, id 56, seq 36579, length 40
+11:13:56.684259 00:50:56:b6:ea:a7 > 00:00:0c:9f:f4:0a, ethertype IPv4 (0x0800), length 74: 10.202.34.30 > 10.202.32.13: ICMP echo request, id 56, seq 36585, length 40
+11:14:01.684442 00:50:56:b6:ea:a7 > 00:00:0c:9f:f4:0a, ethertype IPv4 (0x0800), length 74: 10.202.34.30 > 10.202.32.13: ICMP echo request, id 56, seq 36591, length 40
+tcpdump-uw: pcap_loop: error reading dump file: Interrupted system call
+pktcap: Join with dump thread failed.
+pktcap: Destroying session 1.
+pktcap:
+pktcap: Dumped 27 packet to file -, dropped 0 packets.
+pktcap: Done.
+[root@SNG1ES0103:~] esxtop
+[root@SNG1ES0103:~] pktcap-uw --uplink vmnic5 --dir 2 --ip 10.202.32.13 -o -|tcpdump-uw -ner -
+The name of the uplink is vmnic5.
+The session filter IP(src or dst) address is 10.202.32.13.
+pktcap: The output file is -.
+pktcap: No server port specifed, select 2718 as the port.
+pktcap: Local CID 2.
+pktcap: Listen on port 2718.
+pktcap: Main thread: 730569173888.
+pktcap: Dump Thread: 730569709312.
+pktcap: Recv Thread: 730570237696.
+pktcap: Accept...
+pktcap: Vsock connection from port 1026 cid 2.
+reading from file -, link-type EN10MB (Ethernet)
+11:19:01.697681 00:50:56:b6:ea:a7 > 00:00:0c:9f:f4:0a, ethertype IPv4 (0x0800), length 74: 10.202.34.30 > 10.202.32.13: ICMP echo request, id 56, seq 36946, length 40
+11:19:01.698173 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 74: 10.202.34.30 > 10.202.32.13: ICMP echo request, id 56, seq 36946, length 40
+11:19:01.698387 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 74: 10.202.32.13 > 10.202.34.30: ICMP echo reply, id 56, seq 36946, length 40
+11:19:01.808340 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 246: 10.203.32.13.60099 > 10.202.32.13.7024: Flags [P.], seq 2955935529:2955935721, ack 1389460308, win 8211, length 192
+11:19:01.808660 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 246: 10.202.32.13.59886 > 10.203.32.13.7024: Flags [P.], seq 2285373359:2285373551, ack 367892275, win 8211, length 192
+11:19:01.821275 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 60: 10.202.32.13.7024 > 10.203.32.13.60099: Flags [.], ack 192, win 8208, length 0
+11:19:01.823808 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 60: 10.203.32.13.7024 > 10.202.32.13.59886: Flags [.], ack 192, win 8208, length 0
+11:19:01.865471 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 60: 10.201.155.56.59009 > 10.202.32.13.4201: Flags [.], seq 1441283601:1441283602, ack 4133681894, win 8212, length 1
+11:19:01.865527 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 66: 10.202.32.13.4201 > 10.201.155.56.59009: Flags [.], ack 1, win 8212, options [nop,nop,sack 1 {0:1}], length 0
+11:19:01.901375 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 60: 10.201.155.56.54213 > 10.202.32.13.3901: Flags [.], seq 2834604460:2834604461, ack 490627854, win 8211, length 1
+11:19:01.901454 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 66: 10.202.32.13.3901 > 10.201.155.56.54213: Flags [.], ack 1, win 8212, options [nop,nop,sack 1 {0:1}], length 0
+11:19:01.912229 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 246: 10.203.32.13.60099 > 10.202.32.13.7024: Flags [P.], seq 192:384, ack 1, win 8211, length 192
+11:19:01.912440 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 246: 10.202.32.13.59886 > 10.203.32.13.7024: Flags [P.], seq 192:384, ack 1, win 8211, length 192
+11:19:01.925067 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 60: 10.202.32.13.7024 > 10.203.32.13.60099: Flags [.], ack 384, win 8207, length 0
+11:19:01.927728 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 60: 10.203.32.13.7024 > 10.202.32.13.59886: Flags [.], ack 384, win 8207, length 0
+11:19:02.091603 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 246: 10.202.32.13.59886 > 10.203.32.13.7024: Flags [P.], seq 384:576, ack 1, win 8211, length 192
+11:19:02.104149 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 60: 10.203.32.13.7024 > 10.202.32.13.59886: Flags [.], ack 576, win 8212, length 0
+11:19:02.104312 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 246: 10.203.32.13.60099 > 10.202.32.13.7024: Flags [P.], seq 384:576, ack 1, win 8211, length 192
+11:19:02.132765 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 60: 10.202.32.13.7024 > 10.203.32.13.60099: Flags [.], ack 576, win 8212, length 0
+11:19:02.467605 00:de:fb:7a:f3:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 781: 10.214.228.107.51181 > 10.202.32.13.4201: Flags [P.], seq 1082557639:1082558366, ack 3390543352, win 1028, length 727
+11:19:02.468188 00:de:fb:7a:f3:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 1364: 10.214.228.107.51181 > 10.202.32.13.4201: Flags [.], seq 727:2037, ack 1, win 1028, length 1310
+11:19:02.468262 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 60: 10.202.32.13.4201 > 10.214.228.107.51181: Flags [.], ack 2037, win 8228, length 0
+11:19:02.468327 00:de:fb:7a:f3:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 184: 10.214.228.107.51181 > 10.202.32.13.4201: Flags [P.], seq 2037:2167, ack 1, win 1028, length 130
+11:19:02.480117 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 4588: 10.202.32.13.4201 > 10.214.228.107.51181: Flags [P.], seq 1:4535, ack 2167, win 8227, length 4534
+11:19:02.486219 00:de:fb:7a:f3:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 60: 10.214.228.107.51181 > 10.202.32.13.4201: Flags [.], ack 2621, win 1028, length 0
+11:19:02.486961 00:de:fb:7a:f3:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 60: 10.214.228.107.51181 > 10.202.32.13.4201: Flags [.], ack 4535, win 1028, length 0
+11:19:02.814481 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 246: 10.203.32.13.60099 > 10.202.32.13.7024: Flags [P.], seq 576:768, ack 1, win 8211, length 192
+11:19:02.814828 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 246: 10.202.32.13.59886 > 10.203.32.13.7024: Flags [P.], seq 576:768, ack 1, win 8211, length 192
+11:19:02.829847 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 60: 10.203.32.13.7024 > 10.202.32.13.59886: Flags [.], ack 768, win 8211, length 0
+11:19:02.838488 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 60: 10.202.32.13.7024 > 10.203.32.13.60099: Flags [.], ack 768, win 8211, length 0
+11:19:02.918376 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 246: 10.203.32.13.60099 > 10.202.32.13.7024: Flags [P.], seq 768:960, ack 1, win 8211, length 192
+11:19:02.918595 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 246: 10.202.32.13.59886 > 10.203.32.13.7024: Flags [P.], seq 768:960, ack 1, win 8211, length 192
+11:19:02.933772 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 60: 10.203.32.13.7024 > 10.202.32.13.59886: Flags [.], ack 960, win 8211, length 0
+11:19:02.942294 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 60: 10.202.32.13.7024 > 10.203.32.13.60099: Flags [.], ack 960, win 8211, length 0
+11:19:03.103211 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 246: 10.202.32.13.59886 > 10.203.32.13.7024: Flags [P.], seq 960:1152, ack 1, win 8211, length 192
+11:19:03.104124 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 246: 10.203.32.13.60099 > 10.202.32.13.7024: Flags [P.], seq 960:1152, ack 1, win 8211, length 192
+11:19:03.118723 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 60: 10.202.32.13.7024 > 10.203.32.13.60099: Flags [.], ack 1152, win 8210, length 0
+11:19:03.125953 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 60: 10.203.32.13.7024 > 10.202.32.13.59886: Flags [.], ack 1152, win 8210, length 0
+11:19:03.403415 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 60: 10.202.32.13.57977 > 18.132.172.198.443: Flags [.], seq 3237406263:3237406264, ack 3728639226, win 1024, length 1
+11:19:03.557420 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 66: 18.132.172.198.443 > 10.202.32.13.57977: Flags [.], ack 1, win 425, options [nop,nop,sack 1 {0:1}], length 0
+11:19:03.580068 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 74: 10.202.32.13 > 10.202.34.30: ICMP echo request, id 5, seq 52902, length 40
+11:19:03.819239 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 246: 10.203.32.13.60099 > 10.202.32.13.7024: Flags [P.], seq 1152:1344, ack 1, win 8211, length 192
+11:19:03.819592 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 246: 10.202.32.13.59886 > 10.203.32.13.7024: Flags [P.], seq 1152:1344, ack 1, win 8211, length 192
+11:19:03.834569 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 60: 10.203.32.13.7024 > 10.202.32.13.59886: Flags [.], ack 1344, win 8209, length 0
+11:19:03.849542 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 60: 10.202.32.13.7024 > 10.203.32.13.60099: Flags [.], ack 1344, win 8209, length 0
+11:19:03.922982 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 246: 10.203.32.13.60099 > 10.202.32.13.7024: Flags [P.], seq 1344:1536, ack 1, win 8211, length 192
+11:19:03.923218 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 246: 10.202.32.13.59886 > 10.203.32.13.7024: Flags [P.], seq 1344:1536, ack 1, win 8211, length 192
+11:19:03.938421 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 60: 10.203.32.13.7024 > 10.202.32.13.59886: Flags [.], ack 1536, win 8208, length 0
+11:19:03.953353 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 60: 10.202.32.13.7024 > 10.203.32.13.60099: Flags [.], ack 1536, win 8208, length 0
+11:19:04.018178 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 60: 10.202.32.13 > 10.203.32.97: ICMP echo request, id 5, seq 52903, length 24
+11:19:04.018736 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 60: 10.203.32.97 > 10.202.32.13: ICMP echo reply, id 5, seq 52903, length 24
+11:19:04.104240 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 246: 10.202.32.13.59886 > 10.203.32.13.7024: Flags [P.], seq 1536:1728, ack 1, win 8211, length 192
+11:19:04.105124 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 246: 10.203.32.13.60099 > 10.202.32.13.7024: Flags [P.], seq 1536:1728, ack 1, win 8211, length 192
+11:19:04.114879 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 60: 10.203.32.13.7024 > 10.202.32.13.59886: Flags [.], ack 1728, win 8208, length 0
+11:19:04.119698 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 60: 10.202.32.13.7024 > 10.203.32.13.60099: Flags [.], ack 1728, win 8208, length 0
+11:19:04.559123 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 749: 10.250.156.33.65075 > 10.202.32.13.3901: Flags [P.], seq 172049687:172050382, ack 2067589674, win 1026, length 695
+11:19:04.561761 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 1514: 10.250.156.33.65075 > 10.202.32.13.3901: Flags [.], seq 695:2155, ack 1, win 1026, length 1460
+11:19:04.561837 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 60: 10.202.32.13.3901 > 10.250.156.33.65075: Flags [.], ack 2155, win 1026, length 0
+11:19:04.562047 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 332: 10.250.156.33.65075 > 10.202.32.13.3901: Flags [P.], seq 2155:2433, ack 1, win 1026, length 278
+11:19:04.567857 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 2910: 10.202.32.13.3901 > 10.250.156.33.65075: Flags [P.], seq 1:2857, ack 2433, win 1025, length 2856
+11:19:04.649755 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 60: 10.250.156.33.65075 > 10.202.32.13.3901: Flags [.], ack 2857, win 1026, length 0
+11:19:04.820450 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 246: 10.203.32.13.60099 > 10.202.32.13.7024: Flags [P.], seq 1728:1920, ack 1, win 8211, length 192
+11:19:04.820766 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 246: 10.202.32.13.59886 > 10.203.32.13.7024: Flags [P.], seq 1728:1920, ack 1, win 8211, length 192
+11:19:04.824407 00:de:fb:7a:f3:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 60: 10.202.34.15.1433 > 10.202.32.13.63392: Flags [.], seq 76331296:76331297, ack 458413828, win 4100, length 1
+11:19:04.824407 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 60: 10.202.34.15.1433 > 10.202.32.13.63391: Flags [.], seq 1158075529:1158075530, ack 3533835625, win 4100, length 1
+11:19:04.824452 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 66: 10.202.32.13.63392 > 10.202.34.15.1433: Flags [.], ack 1, win 8212, options [nop,nop,sack 1 {0:1}], length 0
+11:19:04.824459 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 66: 10.202.32.13.63391 > 10.202.34.15.1433: Flags [.], ack 1, win 8212, options [nop,nop,sack 1 {0:1}], length 0
+11:19:04.829882 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 60: 10.202.32.13.7024 > 10.203.32.13.60099: Flags [.], ack 1920, win 8207, length 0
+11:19:04.845800 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 60: 10.203.32.13.7024 > 10.202.32.13.59886: Flags [.], ack 1920, win 8207, length 0
+11:19:04.861141 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 60: 10.202.32.13.63391 > 10.202.34.15.1433: Flags [.], seq 0:1, ack 1, win 8212, length 1
+11:19:04.861326 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 66: 10.202.34.15.1433 > 10.202.32.13.63391: Flags [.], ack 1, win 4100, options [nop,nop,sack 1 {0:1}], length 0
+11:19:04.876757 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 60: 10.202.32.13.63392 > 10.202.34.15.1433: Flags [.], seq 0:1, ack 1, win 8212, length 1
+11:19:04.876881 00:de:fb:7a:f3:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 66: 10.202.34.15.1433 > 10.202.32.13.63392: Flags [.], ack 1, win 4100, options [nop,nop,sack 1 {0:1}], length 0
+11:19:04.928760 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 246: 10.203.32.13.60099 > 10.202.32.13.7024: Flags [P.], seq 1920:2112, ack 1, win 8211, length 192
+11:19:04.928953 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 246: 10.202.32.13.59886 > 10.203.32.13.7024: Flags [P.], seq 1920:2112, ack 1, win 8211, length 192
+11:19:04.949374 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 60: 10.202.32.13.7024 > 10.203.32.13.60099: Flags [.], ack 2112, win 8212, length 0
+11:19:04.954333 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 60: 10.203.32.13.7024 > 10.202.32.13.59886: Flags [.], ack 2112, win 8212, length 0
+11:19:05.108009 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 246: 10.203.32.13.60099 > 10.202.32.13.7024: Flags [P.], seq 2112:2304, ack 1, win 8211, length 192
+11:19:05.108359 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 246: 10.202.32.13.59886 > 10.203.32.13.7024: Flags [P.], seq 2112:2304, ack 1, win 8211, length 192
+11:19:05.120314 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 60: 10.202.32.13.7024 > 10.203.32.13.60099: Flags [.], ack 2304, win 8211, length 0
+11:19:05.122711 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 60: 10.203.32.13.7024 > 10.202.32.13.59886: Flags [.], ack 2304, win 8211, length 0
+11:19:05.125771 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 208: 10.202.32.13.3389 > 10.91.80.194.63417: Flags [P.], seq 1576968443:1576968597, ack 462857135, win 63622, length 154
+11:19:05.335808 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 60: 10.91.80.194.63417 > 10.202.32.13.3389: Flags [.], ack 154, win 1021, length 0
+11:19:05.338068 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 60: 10.202.32.13.52926 > 108.129.63.17.443: Flags [.], seq 2635266973:2635266974, ack 120999064, win 1022, length 1
+11:19:05.366915 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 60: 108.129.63.17.443 > 10.202.32.13.52926: Flags [.], ack 1, win 6154, length 0
+11:19:05.366960 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 60: 10.202.32.13.52926 > 108.129.63.17.443: Flags [.], ack 1, win 1022, length 0
+11:19:05.369445 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 497: 10.202.32.13.60873 > 52.29.100.34.443: Flags [P.], seq 3841836408:3841836851, ack 2490716863, win 1022, length 443
+11:19:05.369503 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 9407: 10.202.32.13.60873 > 52.29.100.34.443: Flags [P.], seq 443:9796, ack 1, win 1022, length 9353
+11:19:05.450783 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 84: 10.91.80.194.63417 > 10.202.32.13.3389: Flags [P.], seq 1:31, ack 154, win 1021, length 30
+11:19:05.498799 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 60: 10.202.32.13.3389 > 10.91.80.194.63417: Flags [.], ack 31, win 63592, length 0
+11:19:05.509779 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 66: 108.129.63.17.443 > 10.202.32.13.52926: Flags [.], ack 1, win 6154, options [nop,nop,sack 1 {0:1}], length 0
+11:19:05.533244 00:de:fb:7a:f3:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 60: 52.29.100.34.443 > 10.202.32.13.60873: Flags [.], ack 4751, win 771, length 0
+11:19:05.533361 00:de:fb:7a:f3:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 60: 52.29.100.34.443 > 10.202.32.13.60873: Flags [.], ack 9796, win 771, length 0
+11:19:05.546503 00:de:fb:7a:f3:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 606: 52.29.100.34.443 > 10.202.32.13.60873: Flags [P.], seq 1:553, ack 9796, win 771, length 552
+11:19:05.586992 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 60: 10.202.32.13.60873 > 52.29.100.34.443: Flags [.], ack 553, win 1026, length 0
+11:19:05.656555 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 233: 10.91.80.194.63417 > 10.202.32.13.3389: Flags [P.], seq 31:210, ack 154, win 1021, length 179
+11:19:05.716513 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 60: 10.202.32.13.3389 > 10.91.80.194.63417: Flags [.], ack 210, win 63413, length 0
+11:19:05.833953 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 246: 10.203.32.13.60099 > 10.202.32.13.7024: Flags [P.], seq 2304:2496, ack 1, win 8211, length 192
+11:19:05.834277 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 246: 10.202.32.13.59886 > 10.203.32.13.7024: Flags [P.], seq 2304:2496, ack 1, win 8211, length 192
+11:19:05.849316 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 60: 10.203.32.13.7024 > 10.202.32.13.59886: Flags [.], ack 2496, win 8211, length 0
+11:19:05.851580 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 60: 10.202.32.13.7024 > 10.203.32.13.60099: Flags [.], ack 2496, win 8211, length 0
+11:19:05.937903 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 246: 10.203.32.13.60099 > 10.202.32.13.7024: Flags [P.], seq 2496:2688, ack 1, win 8211, length 192
+11:19:05.938176 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 246: 10.202.32.13.59886 > 10.203.32.13.7024: Flags [P.], seq 2496:2688, ack 1, win 8211, length 192
+11:19:05.955410 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 60: 10.202.32.13.7024 > 10.203.32.13.60099: Flags [.], ack 2688, win 8210, length 0
+11:19:05.963419 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 60: 10.203.32.13.7024 > 10.202.32.13.59886: Flags [.], ack 2688, win 8210, length 0
+11:19:06.085438 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 74: 10.202.32.13 > 10.202.34.30: ICMP echo request, id 5, seq 52904, length 40
+11:19:06.114595 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 246: 10.203.32.13.60099 > 10.202.32.13.7024: Flags [P.], seq 2688:2880, ack 1, win 8211, length 192
+11:19:06.115003 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 246: 10.202.32.13.59886 > 10.203.32.13.7024: Flags [P.], seq 2688:2880, ack 1, win 8211, length 192
+11:19:06.132032 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 60: 10.202.32.13.7024 > 10.203.32.13.60099: Flags [.], ack 2880, win 8209, length 0
+11:19:06.140151 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 60: 10.203.32.13.7024 > 10.202.32.13.59886: Flags [.], ack 2880, win 8209, length 0
+11:19:06.697757 00:50:56:b6:ea:a7 > 00:00:0c:9f:f4:0a, ethertype IPv4 (0x0800), length 74: 10.202.34.30 > 10.202.32.13: ICMP echo request, id 56, seq 36952, length 40
+11:19:06.697788 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 74: 10.202.34.30 > 10.202.32.13: ICMP echo request, id 56, seq 36952, length 40
+11:19:06.697983 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 74: 10.202.32.13 > 10.202.34.30: ICMP echo reply, id 56, seq 36952, length 40
+11:19:06.840527 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 246: 10.203.32.13.60099 > 10.202.32.13.7024: Flags [P.], seq 2880:3072, ack 1, win 8211, length 192
+11:19:06.840896 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 246: 10.202.32.13.59886 > 10.203.32.13.7024: Flags [P.], seq 2880:3072, ack 1, win 8211, length 192
+11:19:06.855887 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 60: 10.203.32.13.7024 > 10.202.32.13.59886: Flags [.], ack 3072, win 8208, length 0
+11:19:06.857947 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 60: 10.202.32.13.7024 > 10.203.32.13.60099: Flags [.], ack 3072, win 8208, length 0
+11:19:06.944206 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 246: 10.203.32.13.60099 > 10.202.32.13.7024: Flags [P.], seq 3072:3264, ack 1, win 8211, length 192
+11:19:06.944475 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 246: 10.202.32.13.59886 > 10.203.32.13.7024: Flags [P.], seq 3072:3264, ack 1, win 8211, length 192
+11:19:06.959711 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 60: 10.203.32.13.7024 > 10.202.32.13.59886: Flags [.], ack 3264, win 8208, length 0
+11:19:06.971828 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 60: 10.202.32.13.7024 > 10.203.32.13.60099: Flags [.], ack 3264, win 8208, length 0
+11:19:07.120670 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 246: 10.203.32.13.60099 > 10.202.32.13.7024: Flags [P.], seq 3264:3456, ack 1, win 8211, length 192
+11:19:07.121051 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 246: 10.202.32.13.59886 > 10.203.32.13.7024: Flags [P.], seq 3264:3456, ack 1, win 8211, length 192
+11:19:07.136148 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 60: 10.203.32.13.7024 > 10.202.32.13.59886: Flags [.], ack 3456, win 8207, length 0
+11:19:07.138583 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 60: 10.202.32.13.7024 > 10.203.32.13.60099: Flags [.], ack 3456, win 8207, length 0
+11:19:07.488204 00:de:fb:7a:f3:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 781: 10.214.228.107.51182 > 10.202.32.13.3901: Flags [P.], seq 3376522333:3376523060, ack 688544513, win 1028, length 727
+11:19:07.488651 00:de:fb:7a:f3:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 1364: 10.214.228.107.51182 > 10.202.32.13.3901: Flags [.], seq 727:2037, ack 1, win 1028, length 1310
+11:19:07.488710 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 60: 10.202.32.13.3901 > 10.214.228.107.51182: Flags [.], ack 2037, win 8228, length 0
+11:19:07.488799 00:de:fb:7a:f3:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 294: 10.214.228.107.51182 > 10.202.32.13.3901: Flags [P.], seq 2037:2277, ack 1, win 1028, length 240
+11:19:07.501518 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 60: 10.202.32.13.3901 > 10.214.228.107.51182: Flags [.], ack 2277, win 8227, length 0
+11:19:07.544662 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 9304: 10.202.32.13.3901 > 10.214.228.107.51182: Flags [P.], seq 1:9251, ack 2277, win 8227, length 9250
+11:19:07.554081 00:de:fb:7a:f3:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 60: 10.214.228.107.51182 > 10.202.32.13.3901: Flags [.], ack 9251, win 1028, length 0
+11:19:07.693807 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 94: 10.202.32.13.63454 > 178.20.193.122.8471: Flags [P.], seq 1130048107:1130048147, ack 477331177, win 1024, length 40
+11:19:07.847579 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 246: 10.203.32.13.60099 > 10.202.32.13.7024: Flags [P.], seq 3456:3648, ack 1, win 8211, length 192
+11:19:07.847873 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 246: 10.202.32.13.59886 > 10.203.32.13.7024: Flags [P.], seq 3456:3648, ack 1, win 8211, length 192
+11:19:07.870128 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 60: 10.202.32.13.7024 > 10.203.32.13.60099: Flags [.], ack 3648, win 8212, length 0
+11:19:07.872655 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 60: 178.20.193.122.8471 > 10.202.32.13.63454: Flags [FP.], seq 1, ack 40, win 32767, length 0
+11:19:07.872693 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 60: 10.202.32.13.63454 > 178.20.193.122.8471: Flags [.], ack 2, win 1024, length 0
+11:19:07.873018 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 60: 10.203.32.13.7024 > 10.202.32.13.59886: Flags [.], ack 3648, win 8212, length 0
+11:19:07.958407 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 246: 10.202.32.13.59886 > 10.203.32.13.7024: Flags [P.], seq 3648:3840, ack 1, win 8211, length 192
+11:19:07.959107 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 246: 10.203.32.13.60099 > 10.202.32.13.7024: Flags [P.], seq 3648:3840, ack 1, win 8211, length 192
+11:19:07.973945 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 60: 10.202.32.13.7024 > 10.203.32.13.60099: Flags [.], ack 3840, win 8211, length 0
+11:19:07.976906 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 60: 10.203.32.13.7024 > 10.202.32.13.59886: Flags [.], ack 3840, win 8211, length 0
+11:19:08.030962 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 60: 10.202.32.13.63454 > 178.20.193.122.8471: Flags [F.], seq 40, ack 2, win 1024, length 0
+11:19:08.131577 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 246: 10.203.32.13.60099 > 10.202.32.13.7024: Flags [P.], seq 3840:4032, ack 1, win 8211, length 192
+11:19:08.131870 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 246: 10.202.32.13.59886 > 10.203.32.13.7024: Flags [P.], seq 3840:4032, ack 1, win 8211, length 192
+11:19:08.146922 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 60: 10.203.32.13.7024 > 10.202.32.13.59886: Flags [.], ack 4032, win 8211, length 0
+11:19:08.150465 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 60: 10.202.32.13.7024 > 10.203.32.13.60099: Flags [.], ack 4032, win 8211, length 0
+11:19:08.168646 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 88: 10.202.32.13.64879 > 10.202.36.31.53: 18830+ A? z6ikla.manage.trendmicro.com. (46)
+11:19:08.168813 00:de:fb:7a:f3:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 171: 10.202.36.31.53 > 10.202.32.13.64879: 18830 NXDomain 0/1/0 (129)
+11:19:08.170338 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 85: 10.202.32.13.63988 > 10.202.36.31.53: 41670+ A? z6ikla.corp.ad.tullib.com. (43)
+11:19:08.170493 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 163: 10.202.36.31.53 > 10.202.32.13.63988: 41670 NXDomain* 0/1/0 (121)
+11:19:08.170653 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 85: 10.202.32.13.64859 > 10.202.36.31.53: 33967+ A? z6ikla.apac.ad.tullib.com. (43)
+11:19:08.170751 00:de:fb:7a:f3:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 133: 10.202.36.31.53 > 10.202.32.13.64859: 33967 0/1/0 (91)
+11:19:08.170886 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 78: 10.202.32.13.64689 > 10.202.36.31.53: 32775+ A? z6ikla.sg.icap.com. (36)
+11:19:08.170966 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 131: 10.202.36.31.53 > 10.202.32.13.64689: 32775 NXDomain 0/1/0 (89)
+11:19:08.171097 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 78: 10.202.32.13.60277 > 10.202.36.31.53: 461+ A? z6ikla.au.icap.com. (36)
+11:19:08.171235 00:de:fb:7a:f3:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 135: 10.202.36.31.53 > 10.202.32.13.60277: 461 0/1/0 (93)
+11:19:08.171366 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 79: 10.202.32.13.62651 > 10.202.36.31.53: 25111+ A? z6ikla.jpn.icap.com. (37)
+11:19:08.171440 00:de:fb:7a:f3:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 137: 10.202.36.31.53 > 10.202.32.13.62651: 25111 NXDomain 0/1/0 (95)
+11:19:08.171567 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 78: 10.202.32.13.55234 > 10.202.36.31.53: 24036+ A? z6ikla.hk.icap.com. (36)
+11:19:08.171641 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 130: 10.202.36.31.53 > 10.202.32.13.55234: 24036 NXDomain 0/1/0 (88)
+11:19:08.171765 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 82: 10.202.32.13.49766 > 10.202.36.31.53: 14019+ A? z6ikla.global.icap.com. (40)
+11:19:08.171834 00:de:fb:7a:f3:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 140: 10.202.36.31.53 > 10.202.32.13.49766: 14019 NXDomain 0/1/0 (98)
+11:19:08.171957 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 80: 10.202.32.13.65161 > 10.202.36.31.53: 35209+ A? z6ikla.ad.tullib.com. (38)
+11:19:08.172059 00:de:fb:7a:f3:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 152: 10.202.36.31.53 > 10.202.32.13.65161: 35209 NXDomain* 0/1/0 (110)
+11:19:08.172182 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 75: 10.202.32.13.59787 > 10.202.36.31.53: 35157+ A? z6ikla.icap.com. (33)
+11:19:08.172254 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 133: 10.202.36.31.53 > 10.202.32.13.59787: 35157 NXDomain 0/1/0 (91)
+11:19:08.172377 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 84: 10.202.32.13.59052 > 10.202.36.31.53: 27497+ A? z6ikla.eur.ad.tullib.com. (42)
+11:19:08.172453 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 136: 10.202.36.31.53 > 10.202.32.13.59052: 27497 NXDomain 0/1/0 (94)
+11:19:08.172575 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 83: 10.202.32.13.58596 > 10.202.36.31.53: 38857+ A? z6ikla.na.ad.tullib.com. (41)
+11:19:08.172655 00:de:fb:7a:f3:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 138: 10.202.36.31.53 > 10.202.32.13.58596: 38857 NXDomain 0/1/0 (96)
+11:19:08.172773 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 78: 10.202.32.13.60517 > 10.202.36.31.53: 60168+ A? z6ikla.us.icap.com. (36)
+11:19:08.172863 00:de:fb:7a:f3:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 136: 10.202.36.31.53 > 10.202.32.13.60517: 60168 NXDomain 0/1/0 (94)
+11:19:08.172981 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 78: 10.202.32.13.57612 > 10.202.36.31.53: 26611+ A? z6ikla.uk.icap.com. (36)
+11:19:08.173133 00:de:fb:7a:f3:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 136: 10.202.36.31.53 > 10.202.32.13.57612: 26611 NXDomain 0/1/0 (94)
+11:19:08.173252 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 78: 10.202.32.13.54056 > 10.202.36.31.53: 48265+ A? z6ikla.br.icap.com. (36)
+11:19:08.173335 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 135: 10.202.36.31.53 > 10.202.32.13.54056: 48265 NXDomain 0/1/0 (93)
+11:19:08.173453 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 81: 10.202.32.13.62043 > 10.202.36.31.53: 28259+ A? z6ikla.lnholdings.com. (39)
+11:19:08.191403 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 60: 178.20.193.122.8471 > 10.202.32.13.63454: Flags [P.], ack 41, win 32767, length 0
+11:19:08.197421 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 81: 10.202.32.13.62043 > 10.202.36.33.53: 28259+ A? z6ikla.lnholdings.com. (39)
+11:19:08.415043 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 133: 10.202.36.31.53 > 10.202.32.13.62043: 28259 NXDomain 0/1/0 (91)
+11:19:08.415265 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 80: 10.202.32.13.53535 > 10.202.36.31.53: 20197+ A? z6ikla.liquidnet.biz. (38)
+11:19:08.415467 00:de:fb:7a:f3:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 166: 10.202.36.31.53 > 10.202.32.13.53535: 20197 NXDomain 0/1/0 (124)
+11:19:08.415617 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 80: 10.202.32.13.55329 > 10.202.36.31.53: 56344+ A? z6ikla.liquidnet.com. (38)
+11:19:08.415750 00:de:fb:7a:f3:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 143: 10.202.36.31.53 > 10.202.32.13.55329: 56344 NXDomain 0/1/0 (101)
+11:19:08.415883 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 87: 10.202.32.13.50123 > 10.202.36.31.53: 28824+ A? z6ikla.global.liquidnet.biz. (45)
+11:19:08.416057 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 173: 10.202.36.31.53 > 10.202.32.13.50123: 28824 NXDomain 0/1/0 (131)
+11:19:08.416180 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 73: 10.202.32.13.56944 > 10.202.36.31.53: 24104+ A? z6ikla.ln.net. (31)
+11:19:08.416310 00:de:fb:7a:f3:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 139: 10.202.36.31.53 > 10.202.32.13.56944: 24104 NXDomain 0/1/0 (97)
+11:19:08.416430 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 75: 10.202.32.13.60761 > 10.202.36.31.53: 37562+ A? z6ikla.lqnt.net. (33)
+11:19:08.416790 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 174: 10.202.36.31.53 > 10.202.32.13.60761: 37562 NXDomain 0/1/0 (132)
+11:19:08.416911 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 83: 10.202.32.13.52383 > 10.202.36.31.53: 35535+ A? z6ikla.ux.ny.tullib.com. (41)
+11:19:08.417005 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 131: 10.202.36.31.53 > 10.202.32.13.52383: 35535 NXDomain 0/1/0 (89)
+11:19:08.417126 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 76: 10.202.32.13.54407 > 10.202.36.31.53: 43244+ A? z6ikla.pvm.co.uk. (34)
+11:19:08.417209 00:de:fb:7a:f3:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 131: 10.202.36.31.53 > 10.202.32.13.54407: 43244 NXDomain 0/1/0 (89)
+11:19:08.417475 00:50:56:b6:dc:f6 > ff:ff:ff:ff:ff:ff, ethertype IPv4 (0x0800), length 92: 10.202.32.13.137 > 10.202.32.255.137: NBT UDP PACKET(137): QUERY; REQUEST; BROADCAST
+11:19:08.427487 00:de:fb:7a:f3:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 133: 10.202.36.33.53 > 10.202.32.13.62043: 28259 NXDomain 0/1/0 (91)
+11:19:08.427535 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 161: 10.202.32.13 > 10.202.36.33: ICMP 10.202.32.13 udp port 62043 unreachable, length 127
+11:19:08.543665 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 724: 10.201.154.217.58707 > 10.202.32.13.4201: Flags [P.], seq 4019988254:4019988924, ack 2958452665, win 8212, length 670
+11:19:08.543934 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 1496: 10.201.154.217.58707 > 10.202.32.13.4201: Flags [P.], seq 670:2112, ack 1, win 8212, length 1442
+11:19:08.543982 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 60: 10.202.32.13.4201 > 10.201.154.217.58707: Flags [.], ack 2112, win 8212, length 0
+11:19:08.551952 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 2912: 10.202.32.13.4201 > 10.201.154.217.58707: Flags [P.], seq 1:2859, ack 2112, win 8212, length 2858
+11:19:08.552663 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 60: 10.201.154.217.58707 > 10.202.32.13.4201: Flags [.], ack 2859, win 8212, length 0
+11:19:08.570360 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 74: 10.202.32.13 > 10.202.34.30: ICMP echo request, id 5, seq 52905, length 40
+11:19:08.850865 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 246: 10.203.32.13.60099 > 10.202.32.13.7024: Flags [P.], seq 4032:4224, ack 1, win 8211, length 192
+11:19:08.851166 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 246: 10.202.32.13.59886 > 10.203.32.13.7024: Flags [P.], seq 4032:4224, ack 1, win 8211, length 192
+11:19:08.866375 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 60: 10.203.32.13.7024 > 10.202.32.13.59886: Flags [.], ack 4224, win 8210, length 0
+11:19:08.886545 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 60: 10.202.32.13.7024 > 10.203.32.13.60099: Flags [.], ack 4224, win 8210, length 0
+11:19:08.964769 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 246: 10.202.32.13.59886 > 10.203.32.13.7024: Flags [P.], seq 4224:4416, ack 1, win 8211, length 192
+11:19:08.965490 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 246: 10.203.32.13.60099 > 10.202.32.13.7024: Flags [P.], seq 4224:4416, ack 1, win 8211, length 192
+11:19:08.986423 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 60: 10.203.32.13.7024 > 10.202.32.13.59886: Flags [.], ack 4416, win 8209, length 0
+11:19:08.990352 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 60: 10.202.32.13.7024 > 10.203.32.13.60099: Flags [.], ack 4416, win 8209, length 0
+11:19:09.141258 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 246: 10.202.32.13.59886 > 10.203.32.13.7024: Flags [P.], seq 4416:4608, ack 1, win 8211, length 192
+11:19:09.142006 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 246: 10.203.32.13.60099 > 10.202.32.13.7024: Flags [P.], seq 4416:4608, ack 1, win 8211, length 192
+11:19:09.156708 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 60: 10.202.32.13.7024 > 10.203.32.13.60099: Flags [.], ack 4608, win 8208, length 0
+11:19:09.162829 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 60: 10.203.32.13.7024 > 10.202.32.13.59886: Flags [.], ack 4608, win 8208, length 0
+11:19:09.172489 00:50:56:b6:dc:f6 > ff:ff:ff:ff:ff:ff, ethertype IPv4 (0x0800), length 92: 10.202.32.13.137 > 10.202.32.255.137: NBT UDP PACKET(137): QUERY; REQUEST; BROADCAST
+11:19:09.861574 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 246: 10.202.32.13.59886 > 10.203.32.13.7024: Flags [P.], seq 4608:4800, ack 1, win 8211, length 192
+11:19:09.862355 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 246: 10.203.32.13.60099 > 10.202.32.13.7024: Flags [P.], seq 4608:4800, ack 1, win 8211, length 192
+11:19:09.876995 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 60: 10.202.32.13.7024 > 10.203.32.13.60099: Flags [.], ack 4800, win 8208, length 0
+11:19:09.885754 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 60: 10.203.32.13.7024 > 10.202.32.13.59886: Flags [.], ack 4800, win 8208, length 0
+11:19:09.924023 00:50:56:b6:dc:f6 > ff:ff:ff:ff:ff:ff, ethertype IPv4 (0x0800), length 92: 10.202.32.13.137 > 10.202.32.255.137: NBT UDP PACKET(137): QUERY; REQUEST; BROADCAST
+11:19:09.974602 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 246: 10.203.32.13.60099 > 10.202.32.13.7024: Flags [P.], seq 4800:4992, ack 1, win 8211, length 192
+11:19:09.974842 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 246: 10.202.32.13.59886 > 10.203.32.13.7024: Flags [P.], seq 4800:4992, ack 1, win 8211, length 192
+11:19:09.990116 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 60: 10.203.32.13.7024 > 10.202.32.13.59886: Flags [.], ack 4992, win 8207, length 0
+11:19:09.996430 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 60: 10.202.32.13.7024 > 10.203.32.13.60099: Flags [.], ack 4992, win 8207, length 0
+11:19:10.131427 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 273: 10.202.32.13.3389 > 10.91.80.194.63417: Flags [P.], seq 154:373, ack 210, win 63413, length 219
+11:19:10.141911 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 246: 10.202.32.13.59886 > 10.203.32.13.7024: Flags [P.], seq 4992:5184, ack 1, win 8211, length 192
+11:19:10.142599 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 246: 10.203.32.13.60099 > 10.202.32.13.7024: Flags [P.], seq 4992:5184, ack 1, win 8211, length 192
+11:19:10.156458 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 60: 10.203.32.13.7024 > 10.202.32.13.59886: Flags [.], ack 5184, win 8212, length 0
+11:19:10.167491 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 60: 10.202.32.13.7024 > 10.203.32.13.60099: Flags [.], ack 5184, win 8212, length 0
+11:19:10.243472 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 60: 10.201.154.173.53037 > 10.202.32.13.4201: Flags [.], seq 1555932942:1555932943, ack 260116922, win 8211, length 1
+11:19:10.243528 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 66: 10.202.32.13.4201 > 10.201.154.173.53037: Flags [.], ack 1, win 8212, options [nop,nop,sack 1 {0:1}], length 0
+11:19:10.344287 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 60: 10.91.80.194.63417 > 10.202.32.13.3389: Flags [.], ack 373, win 1026, length 0
+11:19:10.459336 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 84: 10.91.80.194.63417 > 10.202.32.13.3389: Flags [P.], seq 210:240, ack 373, win 1026, length 30
+11:19:10.509205 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 60: 10.202.32.13.3389 > 10.91.80.194.63417: Flags [.], ack 240, win 63383, length 0
+11:19:10.639758 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 750: 10.201.154.49.54256 > 10.202.32.13.4201: Flags [P.], seq 3260269620:3260270316, ack 2352773209, win 8212, length 696
+11:19:10.639869 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 1514: 10.201.154.49.54256 > 10.202.32.13.4201: Flags [.], seq 696:2156, ack 1, win 8212, length 1460
+11:19:10.639870 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 338: 10.201.154.49.54256 > 10.202.32.13.4201: Flags [P.], seq 2156:2440, ack 1, win 8212, length 284
+11:19:10.639917 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 60: 10.202.32.13.4201 > 10.201.154.49.54256: Flags [.], ack 2440, win 8212, length 0
+11:19:10.640126 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 807: 10.201.154.49.56428 > 10.202.32.13.4201: Flags [P.], seq 3777979202:3777979955, ack 3410890983, win 8212, length 753
+11:19:10.640393 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 1514: 10.201.154.49.56428 > 10.202.32.13.4201: Flags [.], seq 753:2213, ack 1, win 8212, length 1460
+11:19:10.640395 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 334: 10.201.154.49.56428 > 10.202.32.13.4201: Flags [P.], seq 2213:2493, ack 1, win 8212, length 280
+11:19:10.640440 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 60: 10.202.32.13.4201 > 10.201.154.49.56428: Flags [.], ack 2493, win 8212, length 0
+11:19:10.644299 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 2961: 10.202.32.13.4201 > 10.201.154.49.56428: Flags [P.], seq 1:2908, ack 2493, win 8212, length 2907
+11:19:10.644481 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 2953: 10.202.32.13.4201 > 10.201.154.49.54256: Flags [P.], seq 1:2900, ack 2440, win 8212, length 2899
+11:19:10.645015 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 60: 10.201.154.49.56428 > 10.202.32.13.4201: Flags [.], ack 2908, win 8212, length 0
+11:19:10.645126 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 60: 10.201.154.49.54256 > 10.202.32.13.4201: Flags [.], ack 2900, win 8212, length 0
+11:19:10.666966 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 213: 10.91.80.194.63417 > 10.202.32.13.3389: Flags [P.], seq 240:399, ack 373, win 1026, length 159
+11:19:10.716870 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 60: 10.202.32.13.3389 > 10.91.80.194.63417: Flags [.], ack 399, win 63224, length 0
+11:19:10.862280 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 246: 10.202.32.13.59886 > 10.203.32.13.7024: Flags [P.], seq 5184:5376, ack 1, win 8211, length 192
+11:19:10.863043 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 246: 10.203.32.13.60099 > 10.202.32.13.7024: Flags [P.], seq 5184:5376, ack 1, win 8211, length 192
+11:19:10.877651 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 60: 10.202.32.13.7024 > 10.203.32.13.60099: Flags [.], ack 5376, win 8211, length 0
+11:19:10.882775 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 60: 10.203.32.13.7024 > 10.202.32.13.59886: Flags [.], ack 5376, win 8211, length 0
+11:19:10.981183 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 246: 10.203.32.13.60099 > 10.202.32.13.7024: Flags [P.], seq 5376:5568, ack 1, win 8211, length 192
+11:19:10.981513 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 246: 10.202.32.13.59886 > 10.203.32.13.7024: Flags [P.], seq 5376:5568, ack 1, win 8211, length 192
+11:19:10.996695 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 60: 10.203.32.13.7024 > 10.202.32.13.59886: Flags [.], ack 5568, win 8211, length 0
+11:19:10.997098 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 60: 10.202.32.13.7024 > 10.203.32.13.60099: Flags [.], ack 5568, win 8211, length 0
+11:19:11.085528 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 74: 10.202.32.13 > 10.202.34.30: ICMP echo request, id 5, seq 52906, length 40
+11:19:11.142561 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 246: 10.202.32.13.59886 > 10.203.32.13.7024: Flags [P.], seq 5568:5760, ack 1, win 8211, length 192
+11:19:11.143275 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 246: 10.203.32.13.60099 > 10.202.32.13.7024: Flags [P.], seq 5568:5760, ack 1, win 8211, length 192
+11:19:11.157536 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 60: 10.203.32.13.7024 > 10.202.32.13.59886: Flags [.], ack 5760, win 8210, length 0
+11:19:11.157892 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 60: 10.202.32.13.7024 > 10.203.32.13.60099: Flags [.], ack 5760, win 8210, length 0
+11:19:11.371853 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 89: 10.202.32.13.60914 > 10.202.36.31.53: 1208+ A? sng1lx0012.corp.ad.tullib.com. (47)
+11:19:11.372086 00:de:fb:7a:f3:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 167: 10.202.36.31.53 > 10.202.32.13.60914: 1208 NXDomain* 0/1/0 (125)
+11:19:11.383305 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 89: 10.202.32.13.54033 > 10.202.36.31.53: 19327+ A? sng2lx0012.corp.ad.tullib.com. (47)
+11:19:11.383580 00:de:fb:7a:f3:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 167: 10.202.36.31.53 > 10.202.32.13.54033: 19327 NXDomain* 0/1/0 (125)
+11:19:11.395016 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 88: 10.202.32.13.62958 > 10.202.36.31.53: 39523+ A? qagpublic.qg1.apps.qualys.eu. (46)
+11:19:11.395295 00:de:fb:7a:f3:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 104: 10.202.36.31.53 > 10.202.32.13.62958: 39523 1/0/0 A 64.39.100.93 (62)
+11:19:11.395675 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 66: 10.202.32.13.63462 > 64.39.100.93.443: Flags [SEW], seq 3010907672, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+11:19:11.620889 00:de:fb:7a:f3:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 66: 64.39.100.93.443 > 10.202.32.13.63462: Flags [S.], seq 3516865629, ack 3010907673, win 8190, options [mss 1330,nop,wscale 8,nop,nop,sackOK], length 0
+11:19:11.621024 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 60: 10.202.32.13.63462 > 64.39.100.93.443: Flags [.], ack 1, win 1028, length 0
+11:19:11.621441 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 265: 10.202.32.13.63462 > 64.39.100.93.443: Flags [P.], seq 1:212, ack 1, win 1028, length 211
+11:19:11.683754 00:50:56:b6:ea:a7 > 00:00:0c:9f:f4:0a, ethertype IPv4 (0x0800), length 74: 10.202.34.30 > 10.202.32.13: ICMP echo request, id 56, seq 36958, length 40
+11:19:11.683777 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 74: 10.202.34.30 > 10.202.32.13: ICMP echo request, id 56, seq 36958, length 40
+11:19:11.683949 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 74: 10.202.32.13 > 10.202.34.30: ICMP echo reply, id 56, seq 36958, length 40
+11:19:11.845639 00:de:fb:7a:f3:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 1384: 64.39.100.93.443 > 10.202.32.13.63462: Flags [P.], seq 1:1331, ack 212, win 1023, length 1330
+11:19:11.845752 00:de:fb:7a:f3:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 1384: 64.39.100.93.443 > 10.202.32.13.63462: Flags [P.], seq 1331:2661, ack 212, win 1023, length 1330
+11:19:11.845817 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 60: 10.202.32.13.63462 > 64.39.100.93.443: Flags [.], ack 2661, win 1028, length 0
+11:19:11.845872 00:de:fb:7a:f3:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 479: 64.39.100.93.443 > 10.202.32.13.63462: Flags [P.], seq 2661:3086, ack 212, win 1023, length 425
+11:19:11.857347 00:de:fb:7a:f3:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 396: 64.39.100.93.443 > 10.202.32.13.63462: Flags [P.], seq 3086:3428, ack 212, win 1023, length 342
+11:19:11.857391 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 60: 10.202.32.13.63462 > 64.39.100.93.443: Flags [.], ack 3428, win 1025, length 0
+11:19:11.858440 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 180: 10.202.32.13.63462 > 64.39.100.93.443: Flags [P.], seq 212:338, ack 3428, win 1025, length 126
+11:19:11.864804 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 246: 10.202.32.13.59886 > 10.203.32.13.7024: Flags [P.], seq 5760:5952, ack 1, win 8211, length 192
+11:19:11.865564 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 246: 10.203.32.13.60099 > 10.202.32.13.7024: Flags [P.], seq 5760:5952, ack 1, win 8211, length 192
+11:19:11.884552 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 60: 10.203.32.13.7024 > 10.202.32.13.59886: Flags [.], ack 5952, win 8209, length 0
+11:19:11.889714 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 60: 10.202.32.13.7024 > 10.203.32.13.60099: Flags [.], ack 5952, win 8209, length 0
+11:19:11.940237 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 724: 10.201.154.209.63544 > 10.202.32.13.4201: Flags [P.], seq 2461080265:2461080935, ack 2268503094, win 8209, length 670
+11:19:11.941188 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 1492: 10.201.154.209.63544 > 10.202.32.13.4201: Flags [P.], seq 670:2108, ack 1, win 8209, length 1438
+11:19:11.941244 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 60: 10.202.32.13.4201 > 10.201.154.209.63544: Flags [.], ack 2108, win 8212, length 0
+11:19:11.948042 00:50:56:b6:dc:f6 > 00:00:0c:9f:f4:08, ethertype IPv4 (0x0800), length 3840: 10.202.32.13.4201 > 10.201.154.209.63544: Flags [P.], seq 1:3787, ack 2108, win 8212, length 3786
+tcpdump-uw: pcap_loop: error reading dump file: Interrupted system call
+pktcap: Destroying session 2. failed.
+pktcap:
+pktcap: Dumped 292 packet to file -, dropped 0 packets.
+pktcap: Done.
+[root@SNG1ES0103:~] pktcap-uw --uplink vmnic5 --dir 2 --dstip 10.202.32.13 --proto 0x01 -o -|tcpdump-uw -ner -
+The name of the uplink is vmnic5.
+The session filter destination IP address is 10.202.32.13.
+The session filter IP protocol is 0x01.
+pktcap: The output file is -.
+pktcap: No server port specifed, select 2779 as the port.
+pktcap: Local CID 2.
+pktcap: Listen on port 2779.
+pktcap: Main thread: 898375236480.
+pktcap: Dump Thread: 898375771904.
+reading from file -, link-type EN10MB (Ethernet)
+pktcap: Recv Thread: 898376300288.
+pktcap: Accept...
+pktcap: Vsock connection from port 1027 cid 2.
+11:20:56.690632 00:50:56:b6:ea:a7 > 00:00:0c:9f:f4:0a, ethertype IPv4 (0x0800), length 74: 10.202.34.30 > 10.202.32.13: ICMP echo request, id 56, seq 37082, length 40
+11:20:56.690663 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 74: 10.202.34.30 > 10.202.32.13: ICMP echo request, id 56, seq 37082, length 40
+11:21:01.691082 00:50:56:b6:ea:a7 > 00:00:0c:9f:f4:0a, ethertype IPv4 (0x0800), length 74: 10.202.34.30 > 10.202.32.13: ICMP echo request, id 56, seq 37088, length 40
+11:21:01.691112 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 74: 10.202.34.30 > 10.202.32.13: ICMP echo request, id 56, seq 37088, length 40
+11:21:04.013687 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 60: 10.203.32.97 > 10.202.32.13: ICMP echo reply, id 5, seq 52949, length 24
+11:21:06.691263 00:50:56:b6:ea:a7 > 00:00:0c:9f:f4:0a, ethertype IPv4 (0x0800), length 74: 10.202.34.30 > 10.202.32.13: ICMP echo request, id 56, seq 37094, length 40
+11:21:06.691296 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 74: 10.202.34.30 > 10.202.32.13: ICMP echo request, id 56, seq 37094, length 40
+11:21:11.695878 00:50:56:b6:ea:a7 > 00:00:0c:9f:f4:0a, ethertype IPv4 (0x0800), length 74: 10.202.34.30 > 10.202.32.13: ICMP echo request, id 56, seq 37100, length 40
+11:21:11.695913 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 74: 10.202.34.30 > 10.202.32.13: ICMP echo request, id 56, seq 37100, length 40
+11:21:14.029924 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 60: 10.203.32.97 > 10.202.32.13: ICMP echo reply, id 5, seq 52952, length 24
+11:21:16.696654 00:50:56:b6:ea:a7 > 00:00:0c:9f:f4:0a, ethertype IPv4 (0x0800), length 74: 10.202.34.30 > 10.202.32.13: ICMP echo request, id 56, seq 37106, length 40
+11:21:16.696699 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 74: 10.202.34.30 > 10.202.32.13: ICMP echo request, id 56, seq 37106, length 40
+11:21:21.696851 00:50:56:b6:ea:a7 > 00:00:0c:9f:f4:0a, ethertype IPv4 (0x0800), length 74: 10.202.34.30 > 10.202.32.13: ICMP echo request, id 56, seq 37112, length 40
+11:21:21.696895 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 74: 10.202.34.30 > 10.202.32.13: ICMP echo request, id 56, seq 37112, length 40
+11:21:24.021960 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 60: 10.203.32.97 > 10.202.32.13: ICMP echo reply, id 5, seq 52955, length 24
+11:21:26.697059 00:50:56:b6:ea:a7 > 00:00:0c:9f:f4:0a, ethertype IPv4 (0x0800), length 74: 10.202.34.30 > 10.202.32.13: ICMP echo request, id 56, seq 37118, length 40
+11:21:26.697089 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 74: 10.202.34.30 > 10.202.32.13: ICMP echo request, id 56, seq 37118, length 40
+11:21:31.697269 00:50:56:b6:ea:a7 > 00:00:0c:9f:f4:0a, ethertype IPv4 (0x0800), length 74: 10.202.34.30 > 10.202.32.13: ICMP echo request, id 56, seq 37123, length 40
+11:21:31.697326 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 74: 10.202.34.30 > 10.202.32.13: ICMP echo request, id 56, seq 37123, length 40
+11:21:34.018710 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 60: 10.203.32.97 > 10.202.32.13: ICMP echo reply, id 5, seq 52958, length 24
+pktcap: Join with dump thread failed.
+tcpdump-uw: pcap_loop: error reading dump file: Interrupted system call
+pktcap: Destroying session 3.
+pktcap:
+pktcap: Dumped 20 packet to file -, dropped 0 packets.
+pktcap: Done.
+[root@SNG1ES0103:~] pktcap-uw --uplink vmnic5 --dir 2 --srcip 10.202.34.30 --proto 0x01 -o -|tcpdump-uw -ner -
+The name of the uplink is vmnic5.
+The session filter source IP address is 10.202.34.30.
+The session filter IP protocol is 0x01.
+pktcap: The output file is -.
+pktcap: No server port specifed, select 2835 as the port.
+pktcap: Local CID 2.
+pktcap: Listen on port 2835.
+pktcap: Main thread: 572601310080.
+pktcap: Dump Thread: 572601845504.
+reading from file -, link-type EN10MB (Ethernet)
+pktcap: Recv Thread: 572602373888.
+pktcap: Accept...
+pktcap: Vsock connection from port 1028 cid 2.
+11:23:03.187020 00:50:56:b6:ea:a7 > 00:00:0c:9f:f4:0a, ethertype IPv4 (0x0800), length 74: 10.202.34.30 > 10.202.32.3: ICMP echo request, id 56, seq 37232, length 40
+11:23:04.202758 00:50:56:b6:ea:a7 > 00:00:0c:9f:f4:0a, ethertype IPv4 (0x0800), length 74: 10.202.34.30 > 10.202.32.3: ICMP echo request, id 56, seq 37233, length 40
+11:23:05.218377 00:50:56:b6:ea:a7 > 00:00:0c:9f:f4:0a, ethertype IPv4 (0x0800), length 74: 10.202.34.30 > 10.202.32.3: ICMP echo request, id 56, seq 37234, length 40
+11:23:06.233924 00:50:56:b6:ea:a7 > 00:00:0c:9f:f4:0a, ethertype IPv4 (0x0800), length 74: 10.202.34.30 > 10.202.32.3: ICMP echo request, id 56, seq 37235, length 40
+11:23:06.703590 00:50:56:b6:ea:a7 > 00:00:0c:9f:f4:0a, ethertype IPv4 (0x0800), length 74: 10.202.34.30 > 10.202.32.13: ICMP echo request, id 56, seq 37236, length 40
+11:23:06.703621 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 74: 10.202.34.30 > 10.202.32.13: ICMP echo request, id 56, seq 37236, length 40
+11:23:07.250469 00:50:56:b6:ea:a7 > 00:00:0c:9f:f4:0a, ethertype IPv4 (0x0800), length 74: 10.202.34.30 > 10.202.32.3: ICMP echo request, id 56, seq 37237, length 40
+11:23:08.266185 00:50:56:b6:ea:a7 > 00:00:0c:9f:f4:0a, ethertype IPv4 (0x0800), length 74: 10.202.34.30 > 10.202.32.3: ICMP echo request, id 56, seq 37238, length 40
+11:23:09.281825 00:50:56:b6:ea:a7 > 00:00:0c:9f:f4:0a, ethertype IPv4 (0x0800), length 74: 10.202.34.30 > 10.202.32.3: ICMP echo request, id 56, seq 37239, length 40
+11:23:10.297492 00:50:56:b6:ea:a7 > 00:00:0c:9f:f4:0a, ethertype IPv4 (0x0800), length 74: 10.202.34.30 > 10.202.32.3: ICMP echo request, id 56, seq 37240, length 40
+11:23:11.313140 00:50:56:b6:ea:a7 > 00:00:0c:9f:f4:0a, ethertype IPv4 (0x0800), length 74: 10.202.34.30 > 10.202.32.3: ICMP echo request, id 56, seq 37241, length 40
+11:23:11.703785 00:50:56:b6:ea:a7 > 00:00:0c:9f:f4:0a, ethertype IPv4 (0x0800), length 74: 10.202.34.30 > 10.202.32.13: ICMP echo request, id 56, seq 37242, length 40
+11:23:11.703814 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 74: 10.202.34.30 > 10.202.32.13: ICMP echo request, id 56, seq 37242, length 40
+11:23:12.328783 00:50:56:b6:ea:a7 > 00:00:0c:9f:f4:0a, ethertype IPv4 (0x0800), length 74: 10.202.34.30 > 10.202.32.3: ICMP echo request, id 56, seq 37243, length 40
+11:23:13.344446 00:50:56:b6:ea:a7 > 00:00:0c:9f:f4:0a, ethertype IPv4 (0x0800), length 74: 10.202.34.30 > 10.202.32.3: ICMP echo request, id 56, seq 37244, length 40
+11:23:14.360140 00:50:56:b6:ea:a7 > 00:00:0c:9f:f4:0a, ethertype IPv4 (0x0800), length 74: 10.202.34.30 > 10.202.32.3: ICMP echo request, id 56, seq 37245, length 40
+11:23:15.375816 00:50:56:b6:ea:a7 > 00:00:0c:9f:f4:0a, ethertype IPv4 (0x0800), length 74: 10.202.34.30 > 10.202.32.3: ICMP echo request, id 56, seq 37246, length 40
+11:23:16.391725 00:50:56:b6:ea:a7 > 00:00:0c:9f:f4:0a, ethertype IPv4 (0x0800), length 74: 10.202.34.30 > 10.202.32.3: ICMP echo request, id 56, seq 37247, length 40
+11:23:16.703925 00:50:56:b6:ea:a7 > 00:00:0c:9f:f4:0a, ethertype IPv4 (0x0800), length 74: 10.202.34.30 > 10.202.32.13: ICMP echo request, id 56, seq 37248, length 40
+11:23:16.703955 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 74: 10.202.34.30 > 10.202.32.13: ICMP echo request, id 56, seq 37248, length 40
+11:23:17.407068 00:50:56:b6:ea:a7 > 00:00:0c:9f:f4:0a, ethertype IPv4 (0x0800), length 74: 10.202.34.30 > 10.202.32.3: ICMP echo request, id 56, seq 37249, length 40
+11:23:18.422735 00:50:56:b6:ea:a7 > 00:00:0c:9f:f4:0a, ethertype IPv4 (0x0800), length 74: 10.202.34.30 > 10.202.32.3: ICMP echo request, id 56, seq 37250, length 40
+11:23:19.438373 00:50:56:b6:ea:a7 > 00:00:0c:9f:f4:0a, ethertype IPv4 (0x0800), length 74: 10.202.34.30 > 10.202.32.3: ICMP echo request, id 56, seq 37251, length 40
+11:23:20.454073 00:50:56:b6:ea:a7 > 00:00:0c:9f:f4:0a, ethertype IPv4 (0x0800), length 74: 10.202.34.30 > 10.202.32.3: ICMP echo request, id 56, seq 37252, length 40
+11:23:21.469708 00:50:56:b6:ea:a7 > 00:00:0c:9f:f4:0a, ethertype IPv4 (0x0800), length 74: 10.202.34.30 > 10.202.32.3: ICMP echo request, id 56, seq 37253, length 40
+11:23:21.704070 00:50:56:b6:ea:a7 > 00:00:0c:9f:f4:0a, ethertype IPv4 (0x0800), length 74: 10.202.34.30 > 10.202.32.13: ICMP echo request, id 56, seq 37254, length 40
+11:23:21.704112 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 74: 10.202.34.30 > 10.202.32.13: ICMP echo request, id 56, seq 37254, length 40
+11:23:22.485352 00:50:56:b6:ea:a7 > 00:00:0c:9f:f4:0a, ethertype IPv4 (0x0800), length 74: 10.202.34.30 > 10.202.32.3: ICMP echo request, id 56, seq 37255, length 40
+11:23:23.501026 00:50:56:b6:ea:a7 > 00:00:0c:9f:f4:0a, ethertype IPv4 (0x0800), length 74: 10.202.34.30 > 10.202.32.3: ICMP echo request, id 56, seq 37256, length 40
+11:23:24.516757 00:50:56:b6:ea:a7 > 00:00:0c:9f:f4:0a, ethertype IPv4 (0x0800), length 74: 10.202.34.30 > 10.202.32.3: ICMP echo request, id 56, seq 37257, length 40
+11:23:25.535174 00:50:56:b6:ea:a7 > 00:00:0c:9f:f4:0a, ethertype IPv4 (0x0800), length 74: 10.202.34.30 > 10.202.32.3: ICMP echo request, id 56, seq 37258, length 40
+11:23:26.550834 00:50:56:b6:ea:a7 > 00:00:0c:9f:f4:0a, ethertype IPv4 (0x0800), length 74: 10.202.34.30 > 10.202.32.3: ICMP echo request, id 56, seq 37259, length 40
+11:23:26.707092 00:50:56:b6:ea:a7 > 00:00:0c:9f:f4:0a, ethertype IPv4 (0x0800), length 74: 10.202.34.30 > 10.202.32.13: ICMP echo request, id 56, seq 37260, length 40
+11:23:26.707125 00:de:fb:7a:dd:43 > 00:50:56:b6:dc:f6, ethertype IPv4 (0x0800), length 74: 10.202.34.30 > 10.202.32.13: ICMP echo request, id 56, seq 37260, length 40
+11:23:27.569346 00:50:56:b6:ea:a7 > 00:00:0c:9f:f4:0a, ethertype IPv4 (0x0800), length 74: 10.202.34.30 > 10.202.32.3: ICMP echo request, id 56, seq 37261, length 40
+11:23:28.585007 00:50:56:b6:ea:a7 > 00:00:0c:9f:f4:0a, ethertype IPv4 (0x0800), length 74: 10.202.34.30 > 10.202.32.3: ICMP echo request, id 56, seq 37262, length 40
+11:23:29.600743 00:50:56:b6:ea:a7 > 00:00:0c:9f:f4:0a, ethertype IPv4 (0x0800), length 74: 10.202.34.30 > 10.202.32.3: ICMP echo request, id 56, seq 37263, length 40
+11:23:30.616301 00:50:56:b6:ea:a7 > 00:00:0c:9f:f4:0a, ethertype IPv4 (0x0800), length 74: 10.202.34.30 > 10.202.32.3: ICMP echo request, id 56, seq 37264, length 40
+tcpdump-uw: pcap_loop: error reading dump file: Interrupted system call
+pktcap: Join with dump thread failed.
+pktcap: Destroying session 4.
+pktcap:
+pktcap: Dumped 38 packet to file -, dropped 0 packets.
+pktcap: Done.
+[root@SNG1ES0103:~]

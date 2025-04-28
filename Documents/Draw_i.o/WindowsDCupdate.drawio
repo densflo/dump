@@ -1,0 +1,45 @@
+<mxfile host="app.diagrams.net" modified="2024-01-29T06:34:11.842Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="0LH7JMQArNADIalO6XyS" version="23.0.2" type="onedrive">
+  <diagram name="Page-1" id="edf60f1a-56cd-e834-aa8a-f176f3a09ee4">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gKjip_9uRM6un2l5k87p-1" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="140" y="50" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gKjip_9uRM6un2l5k87p-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gKjip_9uRM6un2l5k87p-2" target="gKjip_9uRM6un2l5k87p-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gKjip_9uRM6un2l5k87p-2" value="Build Replacement Server" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="290" y="30" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="gKjip_9uRM6un2l5k87p-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gKjip_9uRM6un2l5k87p-3" target="gKjip_9uRM6un2l5k87p-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gKjip_9uRM6un2l5k87p-3" value="Decom Old Server" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="460" y="30" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="gKjip_9uRM6un2l5k87p-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gKjip_9uRM6un2l5k87p-4" target="gKjip_9uRM6un2l5k87p-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gKjip_9uRM6un2l5k87p-4" value="Re-ip and Rename newly built server" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="770" y="30" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="gKjip_9uRM6un2l5k87p-5" value="End" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="930" y="50" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gKjip_9uRM6un2l5k87p-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gKjip_9uRM6un2l5k87p-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gKjip_9uRM6un2l5k87p-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gKjip_9uRM6un2l5k87p-11" target="gKjip_9uRM6un2l5k87p-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gKjip_9uRM6un2l5k87p-11" value="Perform Metadata Clean up" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="610" y="30" width="100" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

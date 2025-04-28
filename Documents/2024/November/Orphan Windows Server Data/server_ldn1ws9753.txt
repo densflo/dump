@@ -1,0 +1,935 @@
+==================================================
+SERVER INFORMATION REPORT FOR ldn1ws9753
+==================================================
+
+SERVER DETAILS
+--------------
+Hostname:           LDN1WS9753
+Operating System:   Microsoft Windows Server 2016 Standard
+OS Version:         10.0.14393
+Manufacturer:       VMware, Inc.
+Model:              VMware Virtual Platform
+Serial Number:      VMware-56 4d 57 64 1d cb 35 9b-8f 2c 40 a7 0a 3d 1a 0a
+Domain:             corp.ad.tullib.com
+Total Memory:       40.00 GB
+
+==================================================
+LOCAL ADMINISTRATORS GROUP MEMBERS
+==================================================
+Name:          EMEALESA
+Type:          Local Account
+Path:          WinNT://CORP/LDN1WS9753/EMEALESA
+
+
+
+Name:          Domain Admins
+Type:          Domain Account
+Path:          WinNT://CORP/Domain Admins
+
+Group Members:
+              - srvcSGveeam (user)
+               - CORP DA 6 (user)
+               - CORP DA 2 (user)
+               - srvcCVLna (user)
+               - srvcTSS (user)
+               - CORP DA 1 (user)
+               - CORP DA 5 (user)
+               - SrvcTPICAP_Okta (user)
+               - CORP DA 4 (user)
+               - CORP DA 3 (user)
+               - CORP PMS (user)
+               - EMEADD42Srv (user)
+               - SpecOPs CORP DA (user)
+               - srvcOneCompute (user)
+               - srvcADManager (user)
+
+
+
+Name:          L LDN1WS9753
+Type:          Domain Account
+Path:          WinNT://CORP/L LDN1WS9753
+
+Group Members:
+              - Shahaj, Blerim (Admin) (user)
+               - Global SQL DBA (group)
+
+
+
+Name:          EMEALNTASK
+Type:          Local Account
+Path:          WinNT://CORP/LDN1WS9753/EMEALNTASK
+
+
+
+Name:          L Server Admin
+Type:          Domain Account
+Path:          WinNT://CORP/L Server Admin
+
+Group Members:
+              - Villanueva (Admin), Gerwin (user)
+               - Hyams (Admin), Daniel P. (user)
+               - srvc_svt (user)
+               - Wild (Admin), Nick (user)
+               - Teope (Admin), Rainier Erold (user)
+               - srvcCyberDefence (user)
+               - srvcSphere (user)
+               - Ghadache, Rashed (Admin) (user)
+               - Padmawar (Admin), Pooja (user)
+               - Estropigan (Admin), John Rich (user)
+               - Bindoy (Admin), Michael (user)
+               - Flores (Admin), Dennis Jeffrey (user)
+               - Cerdeno (Admin), Bienvenido Jr (user)
+               - Alueta (Admin), Randy (user)
+               - McHugh (Admin), Conchubhar (user)
+               - Costuna (Admin), Samuel (user)
+               - Abe (Admin), Patricia Anne (user)
+               - Alabre (Admin), Emmanuel (user)
+               - McAtamney (Admin), David (user)
+               - Laurilla (Admin), Jayvee (user)
+               - Stenhouse (Admin), Angus (user)
+               - Cruz (Admin), Jose Mari (user)
+               - Stradling (Admin), Chris (user)
+               - Morgan (Admin), Peter (user)
+               - Mattern (Admin), Douglas (user)
+               - Dela Cruz (Admin), Rodrigo (user)
+
+
+
+
+
+==================================================
+REMOTE DESKTOP USERS GROUP MEMBERS
+==================================================
+
+
+==================================================
+USER PROFILES
+==================================================
+Username:       .NET v2.0 Classic
+Profile Path:   C:\Users\.NET v2.0 Classic
+Last Used:      2024-11-16 01:39:47
+
+Username:       .NET v4.5 Classic
+Profile Path:   C:\Users\.NET v4.5 Classic
+Last Used:      2024-11-16 01:39:47
+
+Username:       .NET v2.0
+Profile Path:   C:\Users\.NET v2.0
+Last Used:      2024-11-16 01:39:47
+
+Username:       .NET v4.5
+Profile Path:   C:\Users\.NET v4.5
+Last Used:      2024-11-16 01:39:47
+
+Username:       Classic .NET AppPool
+Profile Path:   C:\Users\Classic .NET AppPool
+Last Used:      2024-11-16 01:39:47
+
+Username:       Administrator
+Profile Path:   C:\Users\Administrator
+Last Used:      2024-11-16 01:39:47
+
+Username:       CORP DA 7
+Profile Path:   C:\Users\CORP DA 7
+Last Used:      2024-11-16 01:39:47
+
+Username:       CORP DA 6
+Profile Path:   C:\Users\CORP DA 6
+Last Used:      2024-11-16 01:39:47
+
+Username:       corp da 1
+Profile Path:   C:\Users\corp da 1
+Last Used:      2024-11-16 01:39:47
+
+Username:       corp pms
+Profile Path:   C:\Users\corp pms
+Last Used:      2024-12-11 07:05:33
+
+Username:       reviray-a
+Profile Path:   C:\Users\reviray-a
+Last Used:      2024-11-16 01:39:47
+
+Username:       jabucay-a
+Profile Path:   C:\Users\jabucay-a
+Last Used:      2024-11-16 01:39:47
+
+Username:       jlaurilla-a
+Profile Path:   C:\Users\jlaurilla-a
+Last Used:      2024-11-16 01:39:47
+
+Username:       srvcinfps
+Profile Path:   C:\Users\srvcinfps
+Last Used:      2024-11-16 01:39:47
+
+Username:       rdelacruz-a
+Profile Path:   C:\Users\rdelacruz-a
+Last Used:      2024-11-16 01:39:47
+
+Username:       b_shahaj-a
+Profile Path:   C:\Users\b_shahaj-a
+Last Used:      2024-12-11 07:05:33
+
+Username:       INavarrete-a
+Profile Path:   C:\Users\INavarrete-a
+Last Used:      2024-11-16 01:39:47
+
+Username:       HKandola-A
+Profile Path:   C:\Users\HKandola-A
+Last Used:      2024-11-16 01:39:47
+
+Username:       NetworkService
+Profile Path:   C:\Windows\ServiceProfiles\NetworkService
+Last Used:      2024-12-11 07:05:33
+
+Username:       LocalService
+Profile Path:   C:\Windows\ServiceProfiles\LocalService
+Last Used:      2024-12-11 07:05:33
+
+Username:       systemprofile
+Profile Path:   C:\windows\system32\config\systemprofile
+Last Used:      2024-12-11 07:05:33
+
+
+
+==================================================
+INSTALLED APPLICATIONS
+==================================================
+Name:          AppDynamics .NET Agent
+Version:       21.12.1
+Vendor:        AppDynamics
+Install Date:  2022-02-27
+
+Name:          BLOX
+Version:       1.3.0.0
+Vendor:        TP ICAP Plc
+Install Date:  2019-04-30
+
+Name:          Check MK Agent 2.2
+Version:       2.2.0.50003
+Vendor:        Checkmk GmbH
+Install Date:  2023-11-04
+
+Name:          CrowdStrike Device Control
+Version:       7.10.18083.0
+Vendor:        CrowdStrike, Inc.
+Install Date:  2024-10-11
+
+Name:          CrowdStrike Firmware Analysis
+Version:       7.14.18456.0
+Vendor:        CrowdStrike, Inc.
+Install Date:  2024-10-11
+
+Name:          CrowdStrike Sensor Platform
+Version:       7.16.18609.0
+Vendor:        CrowdStrike, Inc.
+Install Date:  2024-10-11
+
+Name:          Microsoft Excel MUI (English) 2013
+Version:       15.0.4569.1506
+Vendor:        Microsoft Corporation
+Install Date:  2023-11-04
+
+Name:          Microsoft Groove MUI (English) 2013
+Version:       15.0.4569.1506
+Vendor:        Microsoft Corporation
+Install Date:  2022-03-05
+
+Name:          Microsoft Office 32-bit Components 2013
+Version:       15.0.4569.1506
+Vendor:        Microsoft Corporation
+Install Date:  2023-11-04
+
+Name:          Microsoft Office Excel MUI (English) 2010
+Version:       14.0.4763.1000
+Vendor:        Microsoft Corporation
+Install Date:  2021-05-21
+
+Name:          Microsoft Office Office 32-bit Components 2010
+Version:       14.0.4763.1000
+Vendor:        Microsoft Corporation
+Install Date:  2021-11-06
+
+Name:          Microsoft Office OneNote MUI (English) 2010
+Version:       14.0.4763.1000
+Vendor:        Microsoft Corporation
+Install Date:  2021-05-21
+
+Name:          Microsoft Office OSM MUI (English) 2013
+Version:       15.0.4569.1506
+Vendor:        Microsoft Corporation
+Install Date:  2022-03-05
+
+Name:          Microsoft Office OSM UX MUI (English) 2013
+Version:       15.0.4569.1506
+Vendor:        Microsoft Corporation
+Install Date:  2022-03-05
+
+Name:          Microsoft Office Outlook MUI (English) 2010
+Version:       14.0.4763.1000
+Vendor:        Microsoft Corporation
+Install Date:  2021-05-21
+
+Name:          Microsoft Office PowerPoint MUI (English) 2010
+Version:       14.0.4763.1000
+Vendor:        Microsoft Corporation
+Install Date:  2021-05-21
+
+Name:          Microsoft Office Proof (English) 2010
+Version:       14.0.4763.1000
+Vendor:        Microsoft Corporation
+Install Date:  2021-05-21
+
+Name:          Microsoft Office Proof (French) 2010
+Version:       14.0.4763.1000
+Vendor:        Microsoft Corporation
+Install Date:  2021-05-21
+
+Name:          Microsoft Office Proof (Spanish) 2010
+Version:       14.0.4763.1000
+Vendor:        Microsoft Corporation
+Install Date:  2021-05-21
+
+Name:          Microsoft Office Proofing (English) 2010
+Version:       14.0.4763.1000
+Vendor:        Microsoft Corporation
+Install Date:  2021-05-21
+
+Name:          Microsoft Office Proofing (English) 2013
+Version:       15.0.4569.1506
+Vendor:        Microsoft Corporation
+Install Date:  2022-03-05
+
+Name:          Microsoft Office Proofing Tools 2013 - English
+Version:       15.0.4569.1506
+Vendor:        Microsoft Corporation
+Install Date:  2022-03-05
+
+Name:          Microsoft Office Proofing Tools 2013 - Español
+Version:       15.0.4569.1506
+Vendor:        Microsoft Corporation
+Install Date:  2022-03-05
+
+Name:          Microsoft Office Publisher MUI (English) 2010
+Version:       14.0.4763.1000
+Vendor:        Microsoft Corporation
+Install Date:  2021-05-21
+
+Name:          Microsoft Office Shared 32-bit MUI (English) 2010
+Version:       14.0.4763.1000
+Vendor:        Microsoft Corporation
+Install Date:  2021-05-21
+
+Name:          Microsoft Office Shared 32-bit MUI (English) 2013
+Version:       15.0.4569.1506
+Vendor:        Microsoft Corporation
+Install Date:  2023-11-04
+
+Name:          Microsoft Office Shared MUI (English) 2010
+Version:       14.0.4763.1000
+Vendor:        Microsoft Corporation
+Install Date:  2021-05-21
+
+Name:          Microsoft Office Shared MUI (English) 2013
+Version:       15.0.4569.1506
+Vendor:        Microsoft Corporation
+Install Date:  2023-11-04
+
+Name:          Microsoft Office Shared Setup Metadata MUI (English) 2010
+Version:       14.0.4763.1000
+Vendor:        Microsoft Corporation
+Install Date:  2021-05-21
+
+Name:          Microsoft Office Shared Setup Metadata MUI (English) 2013
+Version:       15.0.4569.1506
+Vendor:        Microsoft Corporation
+Install Date:  2022-03-05
+
+Name:          Microsoft Office Standard 2013
+Version:       15.0.4569.1506
+Vendor:        Microsoft Corporation
+Install Date:  2023-11-04
+
+Name:          Microsoft Office Word MUI (English) 2010
+Version:       14.0.4763.1000
+Vendor:        Microsoft Corporation
+Install Date:  2021-05-21
+
+Name:          Microsoft OneNote MUI (English) 2013
+Version:       15.0.4569.1506
+Vendor:        Microsoft Corporation
+Install Date:  2023-11-04
+
+Name:          Microsoft Outlook MUI (English) 2013
+Version:       15.0.4569.1506
+Vendor:        Microsoft Corporation
+Install Date:  2023-11-04
+
+Name:          Microsoft PowerPoint MUI (English) 2013
+Version:       15.0.4569.1506
+Vendor:        Microsoft Corporation
+Install Date:  2023-11-04
+
+Name:          Microsoft Publisher MUI (English) 2013
+Version:       15.0.4569.1506
+Vendor:        Microsoft Corporation
+Install Date:  2023-11-04
+
+Name:          Microsoft Visual C++ 2010  x64 Redistributable - 10.0.40219
+Version:       10.0.40219
+Vendor:        Microsoft Corporation
+Install Date:  2023-11-04
+
+Name:          Microsoft Visual C++ 2010  x86 Redistributable - 10.0.40219
+Version:       10.0.40219
+Vendor:        Microsoft Corporation
+Install Date:  2023-11-04
+
+Name:          Microsoft Visual C++ 2022 X64 Additional Runtime - 14.40.33816
+Version:       14.40.33816
+Vendor:        Microsoft Corporation
+Install Date:  2024-11-16
+
+Name:          Microsoft Visual C++ 2022 X64 Minimum Runtime - 14.40.33816
+Version:       14.40.33816
+Vendor:        Microsoft Corporation
+Install Date:  2024-11-16
+
+Name:          Microsoft Visual C++ 2022 X86 Additional Runtime - 14.40.33816
+Version:       14.40.33816
+Vendor:        Microsoft Corporation
+Install Date:  2024-11-16
+
+Name:          Microsoft Visual C++ 2022 X86 Minimum Runtime - 14.40.33816
+Version:       14.40.33816
+Vendor:        Microsoft Corporation
+Install Date:  2024-11-16
+
+Name:          Microsoft Visual Studio 2010 Tools for Office Runtime (x64)
+Version:       10.0.60915
+Vendor:        Microsoft Corporation
+Install Date:  2023-11-04
+
+Name:          Microsoft Visual Studio 2017 Diagnostic Tools - amd64
+Version:       15.0.35320
+Vendor:        Microsoft Corporation
+Install Date:  2024-10-23
+
+Name:          Microsoft Visual Studio 2017 Performance Collection Tools
+Version:       15.0.35320
+Vendor:        Microsoft Corporation
+Install Date:  2024-10-23
+
+Name:          Microsoft Visual Studio 2017 Performance Collection Tools - ENU
+Version:       15.0.35320
+Vendor:        Microsoft Corporation
+Install Date:  2024-10-23
+
+Name:          Microsoft Visual Studio 2017 Remote Debugger
+Version:       15.0.35320
+Vendor:        Microsoft Corporation
+Install Date:  2024-10-23
+
+Name:          Microsoft Visual Studio 2017 Remote Debugger
+Version:       15.0.35320
+Vendor:        Microsoft Corporation
+Install Date:  2024-10-23
+
+Name:          Microsoft Visual Studio 2017 VsGraphics Remote Dependencies
+Version:       15.0.35320
+Vendor:        Microsoft Corporation
+Install Date:  2024-10-23
+
+Name:          Microsoft Visual Studio 2017 VsGraphics Remote Dependencies- ENU
+Version:       15.0.35320
+Vendor:        Microsoft Corporation
+Install Date:  2024-10-23
+
+Name:          Microsoft Visual Studio 2019 Diagnostic Tools - amd64
+Version:       16.0.35323
+Vendor:        Microsoft Corporation
+Install Date:  2024-10-23
+
+Name:          Microsoft Visual Studio 2019 Performance Collection Tools
+Version:       16.0.35323
+Vendor:        Microsoft Corporation
+Install Date:  2024-10-23
+
+Name:          Microsoft Visual Studio 2019 Performance Collection Tools - ENU
+Version:       16.0.35323
+Vendor:        Microsoft Corporation
+Install Date:  2024-10-23
+
+Name:          Microsoft Visual Studio 2019 Remote Debugger
+Version:       16.0.35323
+Vendor:        Microsoft Corporation
+Install Date:  2024-10-23
+
+Name:          Microsoft Visual Studio 2019 Remote Debugger
+Version:       16.0.35323
+Vendor:        Microsoft Corporation
+Install Date:  2024-10-23
+
+Name:          Microsoft Visual Studio 2019 VsGraphics Remote Dependencies
+Version:       16.0.35323
+Vendor:        Microsoft Corporation
+Install Date:  2024-10-23
+
+Name:          Microsoft Visual Studio 2019 VsGraphics Remote Dependencies- ENU
+Version:       16.0.35323
+Vendor:        Microsoft Corporation
+Install Date:  2024-10-23
+
+Name:          Microsoft Word MUI (English) 2013
+Version:       15.0.4569.1506
+Vendor:        Microsoft Corporation
+Install Date:  2023-11-04
+
+Name:          Outils de vérification linguistique 2013 de Microsoft Office - Français
+Version:       15.0.4569.1506
+Vendor:        Microsoft Corporation
+Install Date:  2022-03-05
+
+Name:          PDF24 Creator
+Version:       11.20.1
+Vendor:        geek software GmbH
+Install Date:  2024-11-16
+
+Name:          Qualys Cloud Security Agent
+Version:       5.6.0.20
+Vendor:        Qualys, Inc.
+Install Date:  2024-06-07
+
+Name:          Trend Micro Deep Security Agent
+Version:       20.0.6313
+Vendor:        Trend Micro Inc.
+Install Date:  2023-03-21
+
+Name:          Visual Studio Graphics Analyzer (x64)
+Version:       16.0.35323
+Vendor:        Microsoft Corporation
+Install Date:  2024-10-23
+
+Name:          Visual Studio Graphics Analyzer (x64)
+Version:       15.0.35319
+Vendor:        Microsoft Corporation
+Install Date:  2024-10-23
+
+Name:          VMware Tools
+Version:       12.5.0.24276846
+Vendor:        VMware, Inc.
+Install Date:  2024-11-16
+
+Name:          VS Immersive Activate Helper
+Version:       16.0.102.0
+Vendor:        Microsoft Corporation
+Install Date:  2024-10-23
+
+Name:          VS Script Debugging Common
+Version:       16.0.102.0
+Vendor:        Microsoft Corporation
+Install Date:  2024-10-23
+
+Name:          VS WCF Debugging
+Version:       16.0.102.0
+Vendor:        Microsoft Corporation
+Install Date:  2024-10-23
+
+Name:          Windows Software Development Kit DirectX x64 Remote
+Version:       8.100.25984
+Vendor:        Microsoft Corporation
+Install Date:  2021-05-23
+
+Name:          Windows Software Development Kit DirectX x86 Remote
+Version:       8.100.25984
+Vendor:        Microsoft Corporation
+Install Date:  2021-05-23
+
+Name:          Windows Software Development Kit for Windows Store Apps DirectX x64 Remote
+Version:       8.100.25984
+Vendor:        Microsoft Corporation
+Install Date:  2021-05-23
+
+Name:          Windows Software Development Kit for Windows Store Apps DirectX x86 Remote
+Version:       8.100.25984
+Vendor:        Microsoft Corporation
+Install Date:  2021-05-23
+
+
+
+==================================================
+INSTALLED ROLES
+==================================================
+Name:          FileAndStorage-Services
+Display Name:  File and Storage Services
+Description:   File and Storage Services includes services that are always installed, as well as functionality that you can install to help manage file servers and storage.
+
+Name:          File-Services
+Display Name:  File and iSCSI Services
+Description:   File and iSCSI Services provides technologies that help you manage file servers and storage, reduce disk space utilization, replicate and cache files to branch offices, move or fail over a file share to another cluster node, and share files by using the NFS protocol.
+
+Name:          FS-FileServer
+Display Name:  File Server
+Description:   File Server manages shared folders and enables users to access files on this computer from the network.
+
+Name:          Storage-Services
+Display Name:  Storage Services
+Description:   Storage Services provides storage management functionality that is always installed and cannot be removed.
+
+Name:          Web-Server
+Display Name:  Web Server (IIS)
+Description:   Web Server (IIS) provides a reliable, manageable, and scalable Web application infrastructure.
+
+Name:          Web-WebServer
+Display Name:  Web Server
+Description:   Web Server provides support for HTML Web sites and optional support for ASP.NET, ASP, and Web server extensions. You can use the Web Server to host an internal or external Web site or to provide an environment for developers to create Web-based applications.
+
+Name:          Web-Common-Http
+Display Name:  Common HTTP Features
+Description:   Common HTTP Features supports basic HTTP functionality, such as delivering standard file formats and configuring custom server properties. Use Common HTTP Features to create custom error messages, to configure how the server responds to requests that do not specify a document, or to automatically redirect some requests to a different location.
+
+Name:          Web-Default-Doc
+Display Name:  Default Document
+Description:   Default Document lets you configure a default file for the Web server to return when users do not specify a file in a request URL. Default documents make it easier and more convenient for users to reach your Web site.
+
+Name:          Web-Dir-Browsing
+Display Name:  Directory Browsing
+Description:   Directory Browsing lets users to see the contents of a directory on your Web server. Use Directory Browsing to enable an automatically generated list of all directories and files available in a directory when users do not specify a file in a request URL and default documents are either disabled or not configured.
+
+Name:          Web-Http-Errors
+Display Name:  HTTP Errors
+Description:   HTTP Errors allows you to customize the error messages returned to users' browsers when the Web server detects a fault condition. Use HTTP errors to provide users with a better user experience when they run up against an error message. Consider providing users with an e-mail address for staff who can help them resolve the error.
+
+Name:          Web-Static-Content
+Display Name:  Static Content
+Description:   Static Content allows the Web server to publish static Web file formats, such as HTML pages and image files. Use Static Content to publish files on your Web server that users can then view using a Web browser.
+
+Name:          Web-Http-Redirect
+Display Name:  HTTP Redirection
+Description:   HTTP Redirection provides support to redirect user requests to a specific destination. Use HTTP redirection whenever you want customers who might use one URL to actually end up at another URL. This is helpful in many situations, from simply renaming your Web site, to overcoming a domain name that is difficult to spell, or forcing clients to use a secure channel.
+
+Name:          Web-Health
+Display Name:  Health and Diagnostics
+Description:   Health and Diagnostics provides infrastructure to monitor, manage, and troubleshoot the health of Web servers, sites, and applications.
+
+Name:          Web-Http-Logging
+Display Name:  HTTP Logging
+Description:   HTTP Logging provides logging of Web site activity for this server. When a loggable event, usually an HTTP transaction, occurs, IIS calls the selected logging module, which then writes to one of the logs stored in the file system of the Web server. These logs are in addition to those provided by the operating system.
+
+Name:          Web-ODBC-Logging
+Display Name:  ODBC Logging
+Description:   ODBC Logging provides infrastructure that supports logging Web server activity to an ODBC-compliant database. With a logging database, you can programmatically display and manipulate data from the logging database on an HTML page. You might do this to search logs for specific events to call out user defined events that you want to monitor.
+
+Name:          Web-Performance
+Display Name:  Performance
+Description:   Performance provides infrastructure for output caching by integrating the dynamic output-caching capabilities of ASP.NET with the static output-caching capabilities that were present in IIS 6.0. IIS also lets you use bandwidth more effectively and efficiently by using common compression mechanisms such as Gzip and Deflate.
+
+Name:          Web-Stat-Compression
+Display Name:  Static Content Compression
+Description:   Static Content Compression provides infrastructure to configure HTTP compression of static content. This allows more efficient use of bandwidth. Unlike dynamic responses, compressed static responses can be cached without degrading CPU resources.
+
+Name:          Web-Security
+Display Name:  Security
+Description:   Security provides infrastructure for securing the Web server from users and requests. IIS supports multiple authentication methods. Pick an appropriate authentication scheme based upon the role of the server. Filter all incoming requests, rejecting without processing requests that match user defined values, or restrict requests based on originating address space.
+
+Name:          Web-Filtering
+Display Name:  Request Filtering
+Description:   Request Filtering screens all incoming requests to the server and filters these requests based on rules set by the administrator. Many malicious attacks share common characteristics, like extremely long requests, or requests for an unusual action. By filtering requests, you can attempt to mitigate the impact of these type attacks.
+
+Name:          Web-Basic-Auth
+Display Name:  Basic Authentication
+Description:   Basic authentication offers strong browser compatibility. Appropriate for small internal networks, this authentication method is rarely used on the public Internet. Its major disadvantage is that it transmits passwords across the network using an easily decrypted algorithm. If intercepted, these passwords are simple to decipher. Use SSL with Basic authentication.
+
+Name:          Web-IP-Security
+Display Name:  IP and Domain Restrictions
+Description:   IP and Domain Restrictions allow you to enable or deny content based upon the originating IP address or domain name of the request. Instead of using groups, roles, or NTFS file system permissions to control access to content, you can specific IP addresses or domain names.
+
+Name:          Web-Url-Auth
+Display Name:  URL Authorization
+Description:   URL Authorization allows you to create rules that restrict access to Web content. You can bind these rules to users, groups, or HTTP header verbs. By configuring URL authorization rules, you can prevent employees who are not members of certain groups from accessing content or interacting with Web pages.
+
+Name:          Web-Windows-Auth
+Display Name:  Windows Authentication
+Description:   Windows authentication is a low cost authentication solution for internal Web sites. This authentication scheme allows administrators in a Windows domain to take advantage of the domain infrastructure for authenticating users. Do not use Windows authentication if users who must be authenticated access your Web site from behind firewalls and proxy servers.
+
+Name:          Web-App-Dev
+Display Name:  Application Development
+Description:   Application Development provides infrastructure for developing and hosting Web applications. Use these features to create Web content or extend the functionality of IIS. These technologies typically provide a way to perform dynamic operations that result in the creation of HTML output, which IIS then sends to fulfill client requests.
+
+Name:          Web-Net-Ext
+Display Name:  .NET Extensibility 3.5
+Description:   .NET extensibility allows managed code developers to change, add and extend web server functionality in the entire request pipeline, the configuration, and the UI. Developers can use the familiar ASP.NET extensibility model and rich .NET APIs to build Web server features that are just as powerful as those written using the native C++ APIs.
+
+Name:          Web-Net-Ext45
+Display Name:  .NET Extensibility 4.6
+Description:   .NET extensibility allows managed code developers to change, add and extend web server functionality in the entire request pipeline, the configuration, and the UI. Developers can use the familiar ASP.NET extensibility model and rich .NET APIs to build Web server features that are just as powerful as those written using the native C++ APIs.
+
+Name:          Web-ASP
+Display Name:  ASP
+Description:   Active Server Pages (ASP) provides a server side scripting environment for building Web sites and Web applications. Offering improved performance over CGI scripts, ASP provides IIS with native support for both VBScript and JScript. Use ASP if you have existing applications that require ASP support. For new development, consider using ASP.NET.
+
+Name:          Web-Asp-Net
+Display Name:  ASP.NET 3.5
+Description:   ASP.NET provides a server side object oriented programming environment for building Web sites and Web applications using managed code. ASP.NET is not simply a new version of ASP. Having been entirely re-architected to provide a highly productive programming experience based on the .NET Framework, ASP.NET provides a robust infrastructure for building web applications.
+
+Name:          Web-Asp-Net45
+Display Name:  ASP.NET 4.6
+Description:   ASP.NET provides a server side object oriented programming environment for building Web sites and Web applications using managed code. ASP.NET 4.6 is not simply a new version of ASP. Having been entirely re-architected to provide a highly productive programming experience based on the .NET Framework, ASP.NET provides a robust infrastructure for building web applications.
+
+Name:          Web-CGI
+Display Name:  CGI
+Description:   CGI defines how a Web server passes information to an external program. Typical uses might include using a Web form to collect information and then passing that information to a CGI script to be emailed somewhere else. Because CGI is a standard, CGI scripts can be written using a variety of programming languages. The downside to using CGI is the performance overhead.
+
+Name:          Web-ISAPI-Ext
+Display Name:  ISAPI Extensions
+Description:   Internet Server Application Programming Interface (ISAPI) Extensions provides support for dynamic Web content developing using ISAPI extensions. An ISAPI extension runs when requested just like any other static HTML file or dynamic ASP file. Since ISAPI applications are compiled code, they are processed much faster than ASP files or files that call COM+ components.
+
+Name:          Web-ISAPI-Filter
+Display Name:  ISAPI Filters
+Description:   Internet Server Application Programming Interface (ISAPI) Filters provides support for Web applications that use ISAPI filters. ISAPI filters are files that can extend or change the functionality provided by IIS. An ISAPI filter reviews every request made to the Web server, until the filter finds one that it needs to process.
+
+Name:          Web-Mgmt-Tools
+Display Name:  Management Tools
+Description:   Management Tools provide infrastructure to manage a Web server that runs IIS 10. You can use the IIS user interface, command-line tools, and scripts to manage the Web server. You can also edit the configuration files directly.
+
+Name:          Web-Mgmt-Console
+Display Name:  IIS Management Console
+Description:   IIS Management Console provides infrastructure to manage IIS 10 by using a user interface. You can use the IIS management console to manage a local or remote Web server that runs IIS 10. To manage SMTP, you must install and use the IIS 6 Management Console.
+
+Name:          Web-Mgmt-Compat
+Display Name:  IIS 6 Management Compatibility
+Description:   IIS 6 Management Compatibility provides forward compatibility for your applications and scripts that use the two IIS APIs, Admin Base Object (ABO) and Active Directory Service Interface (ADSI). You can use existing IIS 6 scripts to manage the IIS 10 Web server.
+
+Name:          Web-Metabase
+Display Name:  IIS 6 Metabase Compatibility
+Description:   IIS 6 Metabase Compatibility provides infrastructure to query and configure the metabase so that you can run applications and scripts migrated from earlier versions of IIS that use Admin Base Object (ABO) or Active Directory Service Interface (ADSI) APIs.
+
+Name:          Web-Lgcy-Mgmt-Console
+Display Name:  IIS 6 Management Console
+Description:   IIS 6 Management Console provides infrastructure for administration of remote IIS 6.0 servers from this computer.
+
+Name:          Web-Scripting-Tools
+Display Name:  IIS Management Scripts and Tools
+Description:   IIS Management Scripts and Tools provide infrastructure to programmatically manage an IIS 10 Web server by using commands in a command window or by running scripts. You can use these tools when you want to automate commands in batch files or when you do not want to incur the overhead of managing IIS by using the user interface.
+
+Name:          Web-Mgmt-Service
+Display Name:  Management Service
+Description:   Management Service allows the Web server to be managed remotely from another computer using IIS Manager.
+
+Name:          NET-Framework-Features
+Display Name:  .NET Framework 3.5 Features
+Description:   .NET Framework 3.5 combines the power of the .NET Framework 2.0 APIs with new technologies for building applications that offer appealing user interfaces, protect your customers' personal identity information, enable seamless and secure communication, and provide the ability to model a range of business processes.
+
+Name:          NET-Framework-Core
+Display Name:  .NET Framework 3.5 (includes .NET 2.0 and 3.0)
+Description:   .NET Framework 3.5 combines the power of the .NET Framework 2.0 APIs with new technologies for building applications that offer appealing user interfaces, protect your customers' personal identity information, enable seamless and secure communication, and provide the ability to model a range of business processes.
+
+Name:          NET-HTTP-Activation
+Display Name:  HTTP Activation
+Description:   HTTP Activation supports process activation via HTTP. Applications that use HTTP Activation can start and stop dynamically in response to work items that arrive over the network via HTTP.
+
+Name:          NET-Framework-45-Features
+Display Name:  .NET Framework 4.6 Features
+Description:   .NET Framework 4.6 provides a comprehensive and consistent programming model for quickly and easily building and running applications that are built for various platforms including desktop PCs, Servers, smart phones and the public and private cloud.
+
+Name:          NET-Framework-45-Core
+Display Name:  .NET Framework 4.6
+Description:   .NET Framework 4.6 provides a comprehensive and consistent programming model for quickly and easily building and running applications that are built for various platforms including desktop PCs, Servers, smart phones and the public and private cloud.
+
+Name:          NET-Framework-45-ASPNET
+Display Name:  ASP.NET 4.6
+Description:   ASP.NET 4.6 provides core support for running ASP.NET 4.6 stand-alone applications as well as applications that are integrated with IIS.
+
+Name:          NET-WCF-Services45
+Display Name:  WCF Services
+Description:   Windows Communication Foundation (WCF) Activation uses Windows Process Activation Service to invoke applications remotely over the network by using protocols such as HTTP, Message Queuing, TCP, and named pipes. Consequently, applications can start and stop dynamically in response to incoming work items, resulting in application hosting that is more robust, manageable, and efficient.
+
+Name:          NET-WCF-HTTP-Activation45
+Display Name:  HTTP Activation
+Description:   HTTP Activation supports process activation via HTTP. Applications that use HTTP Activation can start and stop dynamically in response to work items that arrive over the network via HTTP.
+
+Name:          NET-WCF-TCP-Activation45
+Display Name:  TCP Activation
+Description:   TCP Activation supports process activation via TCP. Applications that use TCP Activation can start and stop dynamically in response to work items that arrive over the network via TCP.
+
+Name:          NET-WCF-TCP-PortSharing45
+Display Name:  TCP Port Sharing
+Description:   TCP Port Sharing allows multiple net.tcp applications to share a single TCP port. Consequently, these applications can coexist on the same physical computer in separate, isolated processes, while sharing the network infrastructure required to send and receive traffic over a TCP port, such as port 808.
+
+Name:          RSAT
+Display Name:  Remote Server Administration Tools
+Description:   Remote Server Administration Tools includes snap-ins and command-line tools for remotely managing roles and features.
+
+Name:          RSAT-Feature-Tools
+Display Name:  Feature Administration Tools
+Description:   Feature Administration Tools includes snap-ins and command-line tools for remotely managing features.
+
+Name:          RSAT-SNMP
+Display Name:  SNMP Tools
+Description:   Simple Network Management Protocol (SNMP) Tools includes tools for managing SNMP.
+
+Name:          RSAT-Role-Tools
+Display Name:  Role Administration Tools
+Description:   Role Administration Tools includes snap-ins and command-line tools for remotely managing roles.
+
+Name:          RSAT-AD-Tools
+Display Name:  AD DS and AD LDS Tools
+Description:   Active Directory Domain Services (AD DS) and Active Directory Lightweight Directory Services (AD LDS) Tools includes snap-ins and command-line tools for remotely managing AD DS and AD LDS.
+
+Name:          RSAT-AD-PowerShell
+Display Name:  Active Directory module for Windows PowerShell
+Description:   The Active Directory module for Windows PowerShel and the tools it provides can be used by Active Directory administrators to manage Active Directory Domain Services (AD DS) at the command line.
+
+Name:          SNMP-Service
+Display Name:  SNMP Service
+Description:   Simple Network Management Protocol (SNMP) Service includes agents that monitor the activity in network devices and report to the network console workstation.
+
+Name:          SNMP-WMI-Provider
+Display Name:  SNMP WMI Provider
+Description:   SNMP Windows Management Instrumentation (WMI) Provider enables WMI client scripts and applications to access SNMP information. Clients can use WMI C++ interfaces and scripting objects to communicate with network devices that use the SNMP protocol and can receive SNMP traps as WMI events.
+
+Name:          Telnet-Client
+Display Name:  Telnet Client
+Description:   Telnet Client uses the Telnet protocol to connect to a remote Telnet server and run applications on that server.
+
+Name:          Windows-Defender-Features
+Display Name:  Windows Defender Features
+Description:   Windows Defender helps protect your machine from malware.
+
+Name:          Windows-Defender
+Display Name:  Windows Defender
+Description:   Windows Defender helps protect your machine from malware.
+
+Name:          Windows-Defender-Gui
+Display Name:  GUI for Windows Defender
+Description:   GUI for Windows Defender.
+
+Name:          PowerShellRoot
+Display Name:  Windows PowerShell
+Description:   Windows PowerShell enables you to automate local and remote Windows administration. This task-based command-line shell and scripting language is built on the Microsoft .NET Framework. It includes hundreds of built-in commands and lets you write and distribute your own commands and scripts.
+
+Name:          PowerShell
+Display Name:  Windows PowerShell 5.1
+Description:   Windows PowerShell enables you to automate local and remote Windows administration. This task-based command-line shell and scripting language is built on the Microsoft .NET Framework. It includes hundreds of built-in commands and lets you write and distribute your own commands and scripts.
+
+Name:          PowerShell-V2
+Display Name:  Windows PowerShell 2.0 Engine
+Description:   Windows PowerShell 2.0 Engine includes the core components from Windows PowerShell 2.0 for backward compatibility with existing Windows PowerShell host applications.
+
+Name:          PowerShell-ISE
+Display Name:  Windows PowerShell ISE
+Description:   Windows PowerShell Integrated Scripting Environment (ISE) lets you compose, edit, and debug scripts and run multi-line interactive commands in a graphical environment. Features include IntelliSense, tab completion, snippets, color-coded syntax, line numbering, selective execution, graphical debugging, right-to-left language and Unicode support.
+
+Name:          WAS
+Display Name:  Windows Process Activation Service
+Description:   Windows Process Activation Service generalizes the IIS process model, removing the dependency on HTTP. All the features of IIS that were previously available only to HTTP applications are now available to applications hosting Windows Communication Foundation (WCF) services, using non-HTTP protocols. IIS 10.0 also uses Windows Process Activation Service for message-based activation over HTTP.
+
+Name:          WAS-Process-Model
+Display Name:  Process Model
+Description:   Process Model hosts Web and WCF services. Introduced with IIS 6.0, the process model is a new architecture that features rapid failure protection, health monitoring, and recycling. Windows Process Activation Service Process Model removes the dependency on HTTP.
+
+Name:          WAS-NET-Environment
+Display Name:  .NET Environment 3.5
+Description:   .NET Environment supports managed code activation in the process model.
+
+Name:          WAS-Config-APIs
+Display Name:  Configuration APIs
+Description:   Configuration APIs enable applications that are built using the .NET Framework to configure Windows Process Activation Model programmatically. This lets the application developer automatically configure Windows Process Activation Model settings when the application runs instead of requiring the administrator to manually configure these settings.
+
+Name:          WoW64-Support
+Display Name:  WoW64 Support
+Description:   Includes all of WoW64 to support running 32-bit applications on Server Core installations.  This feature is required for full Server installations. Uninstalling WoW64 Support will convert a full Server installation into a Server Core installation.
+
+
+
+==================================================
+LOCAL SHARES
+==================================================
+Name:          ADMIN$
+Path:          C:\windows
+Description:   Remote Admin
+
+Name:          C$
+Path:          C:\
+Description:   Default share
+
+Name:          D$
+Path:          D:\
+Description:   Default share
+
+Name:          IPC$
+Path:          
+Description:   Remote IPC
+
+Name:          ITDev
+Path:          D:\ITDev
+Description:   
+
+
+
+==================================================
+NETWORK SHARES
+==================================================
+Name:          ADMIN$
+Path:          C:\windows
+Description:   Remote Admin
+Share State:   1
+Share Type:    0
+
+Name:          C$
+Path:          C:\
+Description:   Default share
+Share State:   1
+Share Type:    0
+
+Name:          D$
+Path:          D:\
+Description:   Default share
+Share State:   1
+Share Type:    0
+
+Name:          IPC$
+Path:          
+Description:   Remote IPC
+Share State:   1
+Share Type:    3
+
+Name:          ITDev
+Path:          D:\ITDev
+Description:   
+Share State:   1
+Share Type:    0
+
+
+
+==================================================
+DISK INFORMATION
+==================================================
+Drive:         A:
+Volume Name:   
+File System:   
+Total Size:    0.00 GB
+Free Space:    0.00 GB
+Percent Free:  
+
+Drive:         C:
+Volume Name:   System
+File System:   NTFS
+Total Size:    500.00 GB
+Free Space:    440.07 GB
+Percent Free:  88.01%
+
+Drive:         D:
+Volume Name:   Data
+File System:   NTFS
+Total Size:    499.87 GB
+Free Space:    458.29 GB
+Percent Free:  91.68%
+
+Drive:         R:
+Volume Name:   
+File System:   
+Total Size:    0.00 GB
+Free Space:    0.00 GB
+Percent Free:  
+
+

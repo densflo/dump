@@ -1,0 +1,99 @@
+<mxfile host="app.diagrams.net" modified="2024-07-17T09:38:16.651Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" etag="wo11EX2rtdxhhoJVhdyr" version="24.4.7" type="onedrive">
+  <diagram name="Page-1" id="Xnk9cYybsR0FDUsR7Bh-">
+    <mxGraphModel grid="0" page="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="KeajmPphtiBuK7Baijim-1" value="Active Directory PowerShell Script&#xa;(send-mail)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="262" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KeajmPphtiBuK7Baijim-2" value="Email&#xa;(Consolidated Output)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="334" y="120" width="174" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KeajmPphtiBuK7Baijim-3" value="VCenter PowerShell Script&#xa;(send-mail)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="332" y="20" width="204" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KeajmPphtiBuK7Baijim-4" value="Exchange PowerShell Script&#xa;(send-mail)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="586" y="20" width="212" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KeajmPphtiBuK7Baijim-5" value="Power Automate&#xa;(Fetch Email, Web Scraping,&#xa;Orchestration &amp;amp; Workflow)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="299" y="220" width="243" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="KeajmPphtiBuK7Baijim-6" value="Checkmk&#xa;(Web Scraping)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="25" y="336" width="123" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KeajmPphtiBuK7Baijim-7" value="Veeam Backup Web Console&#xa;(Web Scraping)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="198" y="336" width="215" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KeajmPphtiBuK7Baijim-8" value="Okta Health Status&#xa;(Web Scraping)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="463" y="336" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KeajmPphtiBuK7Baijim-9" value="Amazon Bedrock&#xa;(AI Analysis)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="663" y="336" width="135" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KeajmPphtiBuK7Baijim-10" value="Email Summary&#xa;(Analysis, Errors, Alerts)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="637" y="436" width="188" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KeajmPphtiBuK7Baijim-11" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5001789122137404;exitY=1;entryX=-0.0008867636494252874;entryY=0.17740020989396726;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="KeajmPphtiBuK7Baijim-1" target="KeajmPphtiBuK7Baijim-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="151" y="95" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KeajmPphtiBuK7Baijim-12" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5001914828431373;exitY=1;entryX=0.5371823365660919;entryY=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="KeajmPphtiBuK7Baijim-3" target="KeajmPphtiBuK7Baijim-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="434" y="95" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KeajmPphtiBuK7Baijim-13" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5006817511792453;exitY=1;entryX=0.9997418283045977;entryY=0.17905412703327414;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="KeajmPphtiBuK7Baijim-4" target="KeajmPphtiBuK7Baijim-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="692" y="95" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KeajmPphtiBuK7Baijim-14" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.4994275323275862;exitY=1;entryX=0.5016476980452675;entryY=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="KeajmPphtiBuK7Baijim-2" target="KeajmPphtiBuK7Baijim-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KeajmPphtiBuK7Baijim-15" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.0008600180041152263;exitY=0.8195265937345433;entryX=0.49768165650406504;entryY=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="KeajmPphtiBuK7Baijim-5" target="KeajmPphtiBuK7Baijim-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="86" y="311" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KeajmPphtiBuK7Baijim-16" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.23080646573896688;exitY=1;entryX=0.4987281976744186;entryY=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="KeajmPphtiBuK7Baijim-5" target="KeajmPphtiBuK7Baijim-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="305" y="311" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KeajmPphtiBuK7Baijim-17" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.7757449701557401;exitY=1;entryX=0.499765625;entryY=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="KeajmPphtiBuK7Baijim-5" target="KeajmPphtiBuK7Baijim-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="538" y="311" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KeajmPphtiBuK7Baijim-18" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1.0024353780864197;exitY=0.8451947620731548;entryX=0.5014756944444444;entryY=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="KeajmPphtiBuK7Baijim-5" target="KeajmPphtiBuK7Baijim-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="731" y="311" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KeajmPphtiBuK7Baijim-19" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5014756944444444;exitY=1;entryX=0.49840009973404253;entryY=0;rounded=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="KeajmPphtiBuK7Baijim-9" target="KeajmPphtiBuK7Baijim-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,36 @@
+CHG0109437 - Update teams email integration to accept @liquidnet.com users to email teams channels (INC1604611) - 6:00 PM Saturday
+CTASK0042046 - undate teams email integration to include @liquidnet.com
+CHG0109168 - Install Elastic agent on Windows Servers Start at Sat.
+
+CHG0109838 - Windows Security Patching for NON-PROD environment 9:00 am Sunday
+CHG0109880 - Adding more resource to WIN Server LDN1WS017N01/LDN2WS017N02 (PRB0042241) 2:00 PM saturday
+CTASK0041668 - GCD Password Change - 2:00 PM saturday
+
+
+
+Not yet clear:
+provide evidence to ughar.
+CTASK0041990 - Active Directory Failover Test - 
+CTASK0041992 - DNS Changes for NFA, Sharc, tpEnergyTrade
+CTASK0041993 - Database Failover using Double Take for NFA and tpEnergyTrade
+
+reach out to Database team
+
+cloud strike
+CHG0109839 - CrowdStrike Identity Protection installation on domain controller(s) without reboot
+njcpufisql01
+
+tomorow
+temas Clearing out snow
+produce the excell tracker
+
+
+Open more than three months.
+December 12. three months old - red.
+two weeks old amber
+completed. 
+
+Setup a sprint call. two hours a day.
+Sprint.
+
+Shift. 

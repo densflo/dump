@@ -1,0 +1,91 @@
+"service_state""",(All),,
+host_tag_OS,(Multiple Items),,
+sitealias,(Multiple Items),,
+,,,
+Count of host,Column Labels,,
+Row Labels,DOWN,UP,Grand Total
+Check_MK,142,219,361
+Check_MK Agent,2,6,8
+Check_MK Discovery,141,215,356
+Citrix Serverload,,1,1
+CPU utilization,2,6,8
+Disk IO SUMMARY,2,6,8
+File,,1,1
+Filesystem C:/,2,16,18
+Filesystem D:/,2,29,31
+Filesystem E:/,3,8,11
+Filesystem F:/,,1,1
+Filesystem G:/,,2,2
+Filesystem H:/,,1,1
+Filesystem R:/,,1,1
+Filesystem S:/,,1,1
+Filesystem T:/,,1,1
+Filesystem X:/,,1,1
+Filesystem Z:/,,2,2
+Interface 1,2,7,9
+Interface 2,,3,3
+Interface 3,,3,3
+Interface 4,,2,2
+Interface 5,,1,1
+Interface 6,,1,1
+Interface 7,,1,1
+Interface 8,,1,1
+Log ADAM (MSExchange),,3,3
+Log AutoUpdater,,1,1
+Log BMFBOVESPA,,2,2
+Log Cisco Directory Connector,,1,1
+Log Citrix Delivery Services,,4,4
+Log Email Supervisor,,1,1
+Log EMC,,2,2
+Log Exclaimer,,1,1
+Log HardwareEvents,2,6,8
+Log LoggerAutoUpdater,,8,8
+Log MSExchange Management,1,12,13
+Log ODiag,,1,1
+Log Okta Single Sign On,,1,1
+Log Operations Manager,,6,6
+Log OSession,,1,1
+Log PMMonitor,,3,3
+Log Qualys,3,23,26
+Log S3 BrowserLog,,1,1
+Log SolarWinds.Net,,9,9
+Log SRD,,1,1
+Log Trayport,,4,4
+Log Varonis,,1,1
+Log Veeam Backup,,2,2
+Log WEM Agent Service,1,,1
+Log Xerox Discovery,,1,1
+Log Xerox DM (Device Management),,1,1
+Memory,2,100,102
+Name,,1,1
+Name:,,1,1
+PING,48,,48
+Process postgresql-x64-14,,1,1
+Processor Queue,2,7,9
+RDS Licenses Windows Server 2019,,1,1
+RedboxActiveAlarms,,1,1
+RedboxCallsBeingRecorded,,1,1
+RedboxManufacturer,,1,1
+RedboxUnarchivedData,,1,1
+Service QualysAgent,3,3,6
+Service Summary,2,6,8
+System Time,4,12,16
+Task \Ivanti\Security Controls\Deployments\LaunchSTDeployForPostBootActions (0cfdf5bc-8171-49da-8dbb-ec8a9286b2e9),,1,1
+Task \Ivanti\Security Controls\Deployments\LaunchSTDeployForPostBootActions (15f3be70-009e-4cfa-affd-59d93a81200a),,1,1
+Task \Ivanti\Security Controls\Deployments\LaunchSTDeployForPostBootActions (60acb430-d870-45ad-8b31-e298169a6c86),,1,1
+Task \Ivanti\Security Controls\Deployments\Scheduled Deployment {5c0d08c9-dc02-40f3-898a-81156deacd8c},,1,1
+Task \Ivanti\Security Controls\Deployments\Scheduled Deployment {d710e22c-4fe6-4d0e-9ca6-e2e5b3f8c516},,1,1
+Task \Ivanti\Security Controls\Deployments\Scheduled Deployment {dd18d57d-129b-4585-8558-acc2bd9d48d7},,1,1
+Task \Ivanti\Security Controls\Deployments\Scheduled Deployment {eed5508f-ac68-4644-9111-5606041c9f2a},,1,1
+Uptime,2,6,8
+VEEAM Job Agent-SNGFS,,1,1
+VEEAM Job HKG_Decom_Server_(Final_Backup),,1,1
+VEEAM Job KDH-DecommedServers,,1,1
+VEEAM Job Linux,,1,1
+VEEAM Job SG3-DomainControllers,,1,1
+VEEAM Job TOK-DecommedServers,,1,1
+Web Service Default Web Site,,4,4
+Web Service MAX,,1,1
+zCluster EventLog Microsoft-Windows-GroupPolicy ID 1130; 10/15/2024 03:25:16,,1,1
+zCluster GROUP NAME Available Storage,,89,89
+Grand Total,368,882,1250
