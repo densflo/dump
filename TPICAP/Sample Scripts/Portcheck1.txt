@@ -1,0 +1,27 @@
+function Test-Port {
+    [CmdletBinding()]
+    param(
+        [Parameter(Mandatory=$true)]
+        [string]$computerName,
+        [Parameter(Mandatory=$true)]
+        [string[]]$hosts,
+        [Parameter(Mandatory=$true)]
+        [int]$port
+    )
+
+    $scriptBlock = {
+        param($h, $port)
+        $socket = New-Object System.Net.Sockets.TcpClient
+        try {
+            $socket.Connect($h, $port)
+            $socket.Close()
+            return "open"
+        } catch {
+            return "closed"
+        }
+    }
+
+    $h = $hosts[0]
+    $result = Invoke-Command -ComputerName $computerName -ScriptBlock $scriptBlock -ArgumentList $h,$port
+    Write-Output "Port $port is $result on $h"
+}

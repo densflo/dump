@@ -1,0 +1,95 @@
+function Resolve-Domain {
+    [CmdletBinding()]
+    param(
+        [Parameter(Mandatory = $true)]
+        [string]$domain,
+
+        [Parameter(Mandatory = $true)]
+        [string]$computername,
+
+        [Parameter(Mandatory = $true)]
+        [System.Management.Automation.PSCredential]$credential
+    )
+
+    $session = New-CimSession -ComputerName $computername -Credential $credential -ErrorAction Continue
+    $result = Invoke-Command -Session $session -ScriptBlock {
+        param($domain)
+        if ([Environment]::OSVersion.Version.Major -ge 10) {
+            # Use Resolve-DnsName on Windows 10 or later
+            $result = Resolve-DnsName $domain | Where-Object {$_.Type -eq 'A' -or $_.Type -eq 'AAAA'} | Select-Object -ExpandProperty IPAddress
+        } else {
+            # Use nslookup on earlier versions of Windows
+            $result = @(nslookup $domain | Select-String 'Addresses:' | ForEach-Object { $_.ToString().Split(' ')[-1] })
+        }
+
+        return $result
+    } -ArgumentList $domain -ErrorAction Continue
+
+    Remove-CimSession $session -ErrorAction Continue
+
+    if ($result.Count -eq 0) {
+        Write-Host "Failed to resolve $domain"
+        return $null
+    } else {
+        Write-Host "IP address(es) of $domain:"
+        return $result
+    }
+}
+
+
+function Get-RemoteResolution {
+    param (
+        $Computername, $endpoint, [SecureString] $Credential
+    )
+    $session = New-CimSession - ComputerName $Computername -Credential $Credential
+    $remoteDNSresolution = Invoke-Command -Session $session -ScriptBlock {
+        param ($endpoint)
+        nslookup $endpoint
+    } -ArgumentList $endpoint
+    $result = $remoteDNSresolution| Select-String -Pattern "\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}"
+    if ($result){
+    $ipaddress = $result.Line.Split()[-1]
+    }
+    else {
+        $ipaddress = 'Not Resolvable'
+    }
+    return $ipaddress
+}
+
+function Resolve-Domain {
+    [CmdletBinding()]
+    param(
+        [Parameter(Mandatory = $true)]
+        [string]$domain,
+
+        [Parameter(Mandatory = $true)]
+        [string]$computername,
+
+        [Parameter(Mandatory = $true)]
+        [System.Management.Automation.PSCredential]$credential
+    )
+
+    $session = New-CimSession -ComputerName $computername -Credential $credential -ErrorAction Continue
+    $result = Invoke-Command -Session $session -ScriptBlock {
+        param($domain)
+        if ([Environment]::OSVersion.Version.Major -ge 10) {
+            # Use Resolve-DnsName on Windows 10 or later
+            $result = Resolve-DnsName $domain | Where-Object {$_.Type -eq 'A' -or $_.Type -eq 'AAAA'} | Select-Object -ExpandProperty IPAddress
+        } else {
+            # Use nslookup on earlier versions of Windows
+            $result = @(nslookup $domain | Select-String 'Addresses:' | ForEach-Object { $_.ToString().Split(' ')[-1] })
+        }
+
+        return $result
+    } -ArgumentList $domain -ErrorAction Continue
+
+    Remove-CimSession $session -ErrorAction Continue
+
+    if ($result.Count -eq 0) {
+        Write-Host "Failed to resolve $domain"
+        return $null
+    } else {
+        Write-Host "IP address(es) of $domain"
+        return $result
+    }
+}

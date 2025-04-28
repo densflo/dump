@@ -1,0 +1,13 @@
+$os = Get-WmiObject -Class Win32_OperatingSystem -ComputerName REMOTE_COMPUTER_NAME
+switch ($os.Version) {
+  "5.0.2195" { $os.Name = "Windows 2000"; break }
+  "5.1.2600" { $os.Name = "Windows XP"; break }
+  "5.2.3790" { $os.Name = "Windows Server 2003"; break }
+  "6.0.6000", "6.0.6001" { $os.Name = "Windows Vista"; break }
+  "6.1.7600", "6.1.7601" { $os.Name = "Windows 7"; break }
+  "6.2.9200", "6.3.9600" { $os.Name = "Windows 8/8.1"; break }
+  "10.0.10240", "10.0.10586", "10.0.14393", "10.0.15063", "10.0.16299", "10.0.17134", "10.0.17763", "10.0.18362", "10.0.19041", "10.0.19042" { $os.Name = "Windows 10"; break }
+  "10.0.14300" { $os.Name = "Windows Server 2016"; break }
+  "10.0.17763" { $os.Name = "Windows Server 2019"; break }
+}
+$os.Name

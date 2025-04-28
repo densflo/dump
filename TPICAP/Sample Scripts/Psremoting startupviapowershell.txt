@@ -1,0 +1,11 @@
+$winrmStatus = Get-Service winrm | Select-Object -ExpandProperty Status
+$winrmQuickConfigStatus = Get-Item WSMan:\localhost\Service\QuickConfig | Select-Object -ExpandProperty Value
+
+if ($winrmStatus -ne "Running" -or $winrmQuickConfigStatus -eq $false) {
+    Write-Output "WinRM is not enabled. Enabling WinRM..."
+    Enable-PSRemoting -Force
+    netsh advfirewall firewall add rule name="WinRM-HTTP" dir=in localport=5985 protocol=TCP action=allow
+    netsh advfirewall firewall add rule name="WinRM-HTTPS" dir=in localport=5986 protocol=TCP action=allow
+} else {
+    Write-Output "WinRM is already enabled."
+}

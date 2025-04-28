@@ -1,0 +1,23 @@
+function Resolve-DomainName {
+    param(
+        [string]$domainName,
+        [string]$computerName,
+        [System.Management.Automation.PSCredential]$credential
+    )
+
+    $ipArray = Invoke-Command -ComputerName $computerName -Credential $credential -ScriptBlock {
+        param($domainName)
+        $ips = (nslookup $domainName | Select-String 'Address:' | ForEach-Object { $_.ToString().Split(' ')[-1] }).Trim()
+        if ($ips.Count -eq 0) {
+            return $null
+        }
+        return $ips
+    } -ArgumentList $domainName
+
+    if ($ipArray -eq $null) {
+        Write-Error "Could not resolve domain name: $domainName"
+        return $null
+    }
+
+    return $ipArray
+}

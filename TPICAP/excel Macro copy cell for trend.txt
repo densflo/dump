@@ -1,0 +1,33 @@
+Sub CopyMatchingRows()
+    Dim tableA As Range
+    Dim tableB As Range
+    Dim lastRowA As Long
+    Dim lastRowB As Long
+    Dim rowA As Range
+    Dim rowB As Range
+    Dim matchValue As String
+    
+    ' Set the ranges for Table A and Table B
+    Set tableA = Range("TableA[#All]")
+    Set tableB = Range("TableB[#All]")
+    
+    ' Get the last row of Table A and Table B
+    lastRowA = tableA.Rows.Count
+    lastRowB = tableB.Rows.Count
+    
+    ' Loop through each row in Table A
+    For Each rowA In tableA.Rows
+        ' Get the value to match on
+        matchValue = rowA.Cells(1).Value
+        
+        ' Loop through each row in Table B
+        For Each rowB In tableB.Rows
+            ' If the value in column A of Table B matches, copy the row from Table A
+            If rowB.Cells(1).Value = matchValue Then
+                ' Copy the row from Table A to the next empty row in Table B
+                rowA.Copy Destination:=tableB.Rows(lastRowB + 1)
+                lastRowB = lastRowB + 1
+            End If
+        Next rowB
+    Next rowA
+End Sub

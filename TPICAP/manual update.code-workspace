@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"genieai.openai.model": "gpt-4",
+		"genieai.openai.maxTokens": 7000,
+		"genieai.openai.top_p": 1
+	}
+}

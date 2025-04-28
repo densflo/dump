@@ -1,0 +1,11 @@
+"ServerName","Connectivity","Advertising","FrsEvent","DFSREvent","SysVolCheck","KccEvent","KnowsOfRoleHolders","MachineAccount","NCSecDesc","NetLogons","ObjectsReplicated","Replications","RidManager","SystemLog","VerifyReferences","CheckSDRefDom"
+"LDNPINFDCG06.corp.ad.tullib.com","Passed","Passed","Passed","Failed","Failed","Failed","Passed","Passed","Passed","Failed","Passed","Failed","Passed","Failed","Passed","Passed"
+"LDNPINFDCG03.corp.ad.tullib.com","Passed","Passed","Passed","Failed","Failed","Failed","Passed","Passed","Passed","Failed","Passed","Failed","Passed","Failed","Passed","Passed"
+"LDNPINFDCG02.corp.ad.tullib.com","Passed","Passed","Passed","Failed","Failed","Failed","Passed","Passed","Passed","Failed","Passed","Failed","Passed","Failed","Passed","Passed"
+"LDNPINFDCG04.corp.ad.tullib.com","Passed","Passed","Passed","Failed","Failed","Failed","Passed","Passed","Passed","Failed","Passed","Failed","Passed","Failed","Passed","Passed"
+"LDNPINFDCG05.corp.ad.tullib.com","Passed","Passed","Passed","Failed","Failed","Failed","Passed","Passed","Passed","Failed","Passed","Failed","Passed","Failed","Passed","Passed"
+"LDNPINFDCG01.corp.ad.tullib.com","Passed","Passed","Passed","Failed","Failed","Failed","Passed","Passed","Passed","Failed","Passed","Failed","Passed","Failed","Passed","Passed"
+"LDN1WS0060.corp.ad.tullib.com","Passed","Passed","Passed","Failed","Failed","Failed","Passed","Passed","Passed","Failed","Passed","Failed","Passed","Failed","Passed","Passed"
+"LDN2WS0044.corp.ad.tullib.com","Passed","Passed","Passed","Failed","Failed","Failed","Passed","Passed","Passed","Failed","Passed","Failed","Passed","Failed","Passed","Passed"
+"LDN1WS0129.corp.ad.tullib.com",,,,,,,,,,,,,,,,
+"LDN2WS0090.corp.ad.tullib.com",,,,,,,,,,,,,,,,

@@ -1,0 +1,12 @@
+@echo off
+
+for /f "tokens=3 delims=: " %%H in ('sc query winrm ^| findstr "        STATE"') do (
+    if /i "%%H" NEQ "RUNNING" (
+        echo WinRM is not enabled. Enabling WinRM...
+        winrm quickconfig -q
+        netsh advfirewall firewall add rule name="WinRM-HTTP" dir=in localport=5985 protocol=TCP action=allow
+        netsh advfirewall firewall add rule name="WinRM-HTTPS" dir=in localport=5986 protocol=TCP action=allow
+    ) else (
+        echo WinRM is already enabled.
+    )
+)

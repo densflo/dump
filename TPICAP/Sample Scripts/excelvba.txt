@@ -1,0 +1,27 @@
+Sub MatchAndReplaceRows()
+    Dim wsA As Worksheet, wsB As Worksheet
+    Dim lastRowA As Long, lastRowB As Long
+    Dim matchRange As Range, cell As Range
+    
+    ' set the worksheets to compare
+    Set wsA = ThisWorkbook.Sheets("SheetA")
+    Set wsB = ThisWorkbook.Sheets("SheetB")
+    
+    ' get the last row number in each sheet
+    lastRowA = wsA.Cells(wsA.Rows.Count, 1).End(xlUp).Row
+    lastRowB = wsB.Cells(wsB.Rows.Count, 1).End(xlUp).Row
+    
+    ' set the range to look for matches
+    Set matchRange = wsB.Range("A1:A" & lastRowB)
+    
+    ' loop through each row in SheetA and compare to SheetB
+    For i = 1 To lastRowA
+        ' check if the cell value in column 1 of SheetA is in SheetB
+        Set cell = matchRange.Find(what:=wsA.Cells(i, 1).Value, LookIn:=xlValues)
+        
+        ' if there is a match, replace the entire row in SheetB with the row from SheetA
+        If Not cell Is Nothing Then
+            wsB.Rows(cell.Row).EntireRow.Value = wsA.Rows(i).EntireRow.Value
+        End If
+    Next i
+End Sub

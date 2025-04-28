@@ -1,0 +1,39 @@
+function Test-Port {
+    [CmdletBinding()]
+    param(
+        [Parameter(Mandatory=$true)]
+        [string]$computerName,
+        [Parameter(Mandatory=$true)]
+        [string[]]$hosts,
+        [Parameter(Mandatory=$true)]
+        [int]$port,
+        [Parameter(Mandatory=$false)]
+        [System.Management.Automation.PSCredential]$credential
+    )
+
+    $h = $hosts[0]
+    $socket = New-Object System.Net.Sockets.TcpClient
+    try {
+        if ($credential) {
+            $session = New-PSSession -ComputerName $computerName -Credential $credential
+            $result = Invoke-Command -Session $session -ScriptBlock {
+                param($h, $port)
+                $socket = New-Object System.Net.Sockets.TcpClient
+                try {
+                    $socket.Connect($h, $port)
+                    $socket.Close()
+                    return "open"
+                } catch {
+                    return "closed"
+                }
+            } -ArgumentList $h,$port
+            Remove-PSSession -Session $session
+        } else {
+            $socket.Connect($h, $port)
+            $socket.Close()
+            return "open"
+        }
+    } catch {
+        return "closed"
+    }
+}

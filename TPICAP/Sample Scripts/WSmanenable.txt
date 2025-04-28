@@ -1,0 +1,24 @@
+function Test-AndEnablePSRemoting {
+    param (
+        [Parameter(Mandatory=$true)]
+        [string]$computerName,
+        
+        [Parameter(Mandatory=$true)]
+        [string]$adminUser,
+        
+        [Parameter(Mandatory=$true)]
+        [string]$adminPassword
+    )
+    
+    # Test WSMan connectivity to the remote computer
+    $wsmanTest = Test-WSMan -ComputerName $computerName -ErrorAction SilentlyContinue
+    
+    if ($wsmanTest -eq $null) {
+        
+        .\Pstools\PsExec.exe "\\$computerName" -u "$adminUser" -p "$adminPassword" powershell.exe Enable-PSRemoting -Force
+        
+    } else {
+        # WSMan connectivity succeeded, output the results
+        Return 'Good'
+    }
+}

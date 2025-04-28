@@ -1,0 +1,51 @@
+function Test-PortStatus {
+    [CmdletBinding()]
+    param(
+        [Parameter(Mandatory = $true, Position = 0)]
+        [string]$ComputerName,
+
+        [Parameter(Mandatory = $true)]
+        [string]$HostName,
+
+        [Parameter(Mandatory = $true)]
+        [int]$Port,
+
+        [Parameter(Mandatory = $true)]
+        [System.Management.Automation.PSCredential]$Credential
+    )
+
+    $scriptBlock = {
+        param($HostName, $Port)
+
+        if ($PSVersionTable.PSVersion.Major -ge 4) {
+            # Use Test-NetConnection for PowerShell version 4 and later
+            Test-NetConnection -ComputerName $HostName -CommonTCPPort $Port -InformationLevel Quiet |
+                Select-Object -ExpandProperty TcpTestSucceeded
+        } else {
+            # Use System.Net.Sockets.TcpClient for older versions
+            $connection = New-Object System.Net.Sockets.TcpClient($HostName, $Port)
+			Start-Sleep -Milliseconds 500
+            if ($connection.Connected) {
+                $connection.Close()
+                $connection.Dispose()
+                0 # port is open
+            } else {
+                $connection.Close()
+                $connection.Dispose()
+                1 # port is closed
+            }
+        }
+    }
+
+    $sessionOption = New-PSSessionOption -SkipCACheck -SkipCNCheck -SkipRevocationCheck
+    $session = New-PSSession -ComputerName $ComputerName -Credential $Credential -SessionOption $sessionOption
+
+    $status = Invoke-Command -Session $session -ScriptBlock $scriptBlock -ArgumentList $HostName, $Port
+    Remove-PSSession -Session $session
+
+    if ($status -eq $true -or $status -eq 0) {
+        return "OPEN"
+    } else {
+        return "CLOSED"
+    }
+}

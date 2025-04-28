@@ -1,0 +1,74 @@
+function Get-RemoteComputerInfo {
+    [CmdletBinding()]
+    param (
+        [Parameter(Mandatory=$true)]
+        [string]$RemoteComputerName,
+        [Parameter(Mandatory=$true)]
+        [pscredential]$Credential
+    )
+
+    $websites = "google.com", "yahoo.com", "msn.com"
+
+    $sessionOption = New-PSSessionOption -OperationTimeoutSec 300 -SkipCACheck -SkipCNCheck -SkipRevocationCheck -IncludePortInSPN
+    $session = New-PSSession -ComputerName $remoteComputerName -SessionOption $sessionOption -Credential $Credential
+
+    try {
+        Invoke-Command -Session $session -ScriptBlock {
+            param($websites)
+
+            Set-ExecutionPolicy -ExecutionPolicy "Unrestricted" -Scope LocalMachine -Force
+
+            $results = New-Object -TypeName PSObject -Property @{
+                OS = (Get-CimInstance -ClassName Win32_OperatingSystem).Caption
+                IPAddress = (Get-CimInstance -ClassName Win32_NetworkAdapterConfiguration | Where-Object { $_.IPEnabled -eq $true }).IPAddress
+                Services = Get-Service -Name "Trend*" | Select-Object -Property Name, Status
+                InstalledApps = [ordered]@{}
+                TcppingResult = @{}
+            }
+
+            $uninstallKeys = @(
+                "HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*",
+                "HKLM:\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\*"
+            )
+
+            foreach ($key in $uninstallKeys) {
+                $apps = Get-ItemProperty $key |
+                    Where-Object { $_.Publisher -like "*Trend*" } |
+                    Select-Object -Property DisplayName, DisplayVersion, Publisher
+
+                foreach ($app in $apps) {
+                    if (-not $results.InstalledApps.ContainsKey($app.DisplayName)) {
+                        $results.InstalledApps[$app.DisplayName] = $app
+                    }
+                }
+            }
+
+            $results.InstalledApps = $results.InstalledApps.Values | Sort-Object -Property DisplayName
+
+            $tcppingPath = "C:\temp\Tcpping.exe"
+
+            if (-not (Test-Path $tcppingPath)) {
+                $tcpingSourcePath = "C:\temp\Tcpping.exe" # Replace with the local path of the tcping.exe file
+                $tcpingDestinationPath = "C:\temp\Tcpping.exe"
+                Copy-Item -Path $tcpingSourcePath -Destination $tcpingDestinationPath
+            }
+
+            foreach ($website in $websites) {
+                $result = & $tcppingPath $website 80 -t 1 -w 500
+                if ($result -match "Reply from") {
+                    $results.TcppingResult[$website] = "Open"
+                } else {
+                    $results.TcppingResult[$website] = "Closed"
+                }
+            }
+
+            $results
+        } -ArgumentList $websites
+    }
+    catch {
+        Write-Error $_.Exception.Message
+    }
+    finally {
+        Remove-PSSession -Session $session
+    }
+}

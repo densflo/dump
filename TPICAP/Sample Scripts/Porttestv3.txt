@@ -1,0 +1,50 @@
+function Test-Port {
+    param (
+        [string]$remoteComputerName,
+        [string]$remoteEndpoint,
+        [int]$port,
+        [System.Management.Automation.PSCredential]$credential
+    )
+    
+    $session = New-PSSession -ComputerName $remoteComputerName -Credential $credential
+
+    if ([System.Environment]::OSVersion.Version.Major -ge 6) {
+        # Use Test-NetConnection if PowerShell version is 4.0 or later
+        if ($PSVersionTable.PSVersion.Major -ge 4) {
+            $result = Invoke-Command -Session $session -ScriptBlock {Test-NetConnection -ComputerName $using:remoteEndpoint -Port $using:port}
+            if ($result.TcpTestSucceeded) {
+                return "OPEN"
+            } else {
+                return "CLOSE"
+            }
+        } else {
+            # Use .NET TcpClient class for older versions of PowerShell on Windows 7/Server 2008 R2 and later
+            $tcpClient = New-Object System.Net.Sockets.TcpClient
+            $connection = $tcpClient.BeginConnect($remoteEndpoint, $port, $null, $null)
+            
+            # Wait for the connection to complete or timeout after 5 seconds
+            $waitHandle = $connection.AsyncWaitHandle
+            $timeout = 5000
+            
+            if (!$waitHandle.WaitOne($timeout, $false) -or !$tcpClient.Connected) {
+                return "CLOSE"
+            } else {
+                return "OPEN"
+            }
+            
+            $tcpClient.Close()
+        }
+    } else {
+        # Use .NET TcpClient class for Windows XP/Server 2003 and earlier
+        $tcpClient = New-Object System.Net.Sockets.TcpClient
+        try {
+            Invoke-Command -Session $session -ScriptBlock {$tcpClient.Connect($using:remoteEndpoint, $using:port)}
+            return "OPEN"
+        } catch {
+            return "CLOSE"
+        }
+        $tcpClient.Close()
+    }
+
+    Remove-PSSession $session
+}

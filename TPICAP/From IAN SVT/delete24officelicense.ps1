@@ -1,0 +1,1 @@
+﻿Get-ChildItem –Path "D:\bulk\Office365" -Recurse | Where-Object {($_.LastWriteTime -lt (Get-Date).AddDays(-1))} | Remove-Item

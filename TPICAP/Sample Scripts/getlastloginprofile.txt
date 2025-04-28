@@ -1,0 +1,23 @@
+$computerName = "SERVER_NAME"
+$credential = Get-Credential
+$cimSession = New-CimSession -ComputerName $computerName -Credential $credential
+
+$userProfiles = Invoke-Command -Session $cimSession -ScriptBlock {
+    Get-ChildItem -Path C:\Users | Where-Object { $_.PSIsContainer } | Select-Object -Property Name, LastWriteTime
+}
+
+$installedApps = Invoke-Command -Session $cimSession -ScriptBlock {
+    Get-ItemProperty HKLM:\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\* | 
+    Select-Object DisplayName, DisplayVersion | 
+    Sort-Object DisplayName
+}
+
+Remove-CimSession -CimSession $cimSession
+
+$table = New-Object -TypeName PSObject -Property @{
+    "User Profiles" = $userProfiles.Name
+    "Last Write Time" = $userProfiles.LastWriteTime
+    "Installed Applications" = $installedApps
+}
+
+$table | Format-Table -AutoSize

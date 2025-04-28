@@ -1,0 +1,2 @@
+﻿Get-ChildItem –Path "D:\Ping\Monthly" -Recurse | Where-Object {($_.LastWriteTime -lt (Get-Date).AddDays(-30))} | Remove-Item
+Get-ChildItem –Path "D:\DCdiag" -Recurse | Where-Object {($_.LastWriteTime -lt (Get-Date).AddDays(-30))} | Remove-Item

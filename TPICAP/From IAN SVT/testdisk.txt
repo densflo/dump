@@ -1,0 +1,10 @@
+LDNPINFDCG06.corp.ad.tullib.com
+LDNPINFDCG03.corp.ad.tullib.com
+LDNPINFDCG02.corp.ad.tullib.com
+LDNPINFDCG04.corp.ad.tullib.com
+LDNPINFDCG05.corp.ad.tullib.com
+LDNPINFDCG01.corp.ad.tullib.com
+LDN1WS0060.corp.ad.tullib.com
+LDN2WS0044.corp.ad.tullib.com
+LDN1WS0129.corp.ad.tullib.com
+LDN2WS0090.corp.ad.tullib.com

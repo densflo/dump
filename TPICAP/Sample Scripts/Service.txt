@@ -1,0 +1,1 @@
+Get-WmiObject -Class Win32_Service -ComputerName REMOTE_COMPUTER_NAME | Where-Object {$_.DisplayName -like "Trend*"}

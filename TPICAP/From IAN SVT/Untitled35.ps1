@@ -1,0 +1,1 @@
+﻿Get-ADPrincipalGroupMembership z_hussain | select name

@@ -1,0 +1,49 @@
+function Test-RemotePort {
+    param(
+        [Parameter(Mandatory=$true)]
+        [string]$remoteComputer,
+        
+        [Parameter(Mandatory=$true)]
+        [int]$remotePort,
+        
+        [Parameter(Mandatory=$true)]
+        [string]$remoteEndpoint,
+        
+        [Parameter(Mandatory=$true)]
+        [System.Management.Automation.PSCredential]$credentials
+    )
+    
+    # Set paths for local and remote tcping.exe
+    $localTcpingPath = "C:\temp\tcping.exe"
+    $remoteTcpingPath = "C:\temp\tcping.exe"
+    
+    # Check if tcping.exe exists on remote computer, and copy if necessary
+    $session = New-PSSession -ComputerName $remoteComputer -Credential $credentials
+    $tcpingExists = Invoke-Command -Session $session -ScriptBlock { Test-Path "$using:remoteTcpingPath" }
+    if (-not $tcpingExists) {
+        Write-Verbose "Copying tcping.exe to $remoteComputer..."
+        Copy-Item -Path $localTcpingPath -Destination "\\$remoteComputer\c$\temp\tcping.exe" -ToSession $session
+    }
+    Remove-PSSession $session
+    
+    # Test the remote connection using tcping.exe
+    $session = New-PSSession -ComputerName $remoteComputer -Credential $credentials
+    $output = Invoke-Command -Session $session -ScriptBlock {
+        & "$using:remoteTcpingPath" $using:remoteEndpoint $using:remotePort -t -n 1 |
+        Select-String -Pattern "\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}" -AllMatches |
+        ForEach-Object { $_.Matches.Value }
+    }
+    Remove-PSSession $session
+    
+    # Check the output for success or failure
+    if ($output) {
+        $ip = $output
+        $status = "Open"
+    } else {
+        $ip = ""
+        $status = "Close"
+    }
+    
+    # Return the result as a string
+    return "{0} on port {1} is {2}." -f $remoteEndpoint, $remotePort, $status
+}
